@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{932ABEE7-B0C5-4AE0-98E1-E7B914AABC8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SG.SubClient.GameMenu.UI</RootNamespace>
+    <AssemblyName>SG.SubClient.GameMenu.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoUpdater.NET, Version=1.4.9.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autoupdater.NET.Official.1.4.9\lib\net452\AutoUpdater.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Release\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Serialization.Primitives.4.3.0\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesginCustom\hcbbookButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LaunchForm\FormMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm\FormMaster.Designer.cs">
+      <DependentUpon>FormMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaunchForm\HomeMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm\HomeMain.Designer.cs">
+      <DependentUpon>HomeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaunchForm\SettingGlobal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm\SettingGlobal.Designer.cs">
+      <DependentUpon>SettingGlobal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogicFeature\IService\FormCustom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogicFeature\IService\IFormOnLoad.cs" />
+    <Compile Include="LogicFeature\IService\IGameMenuService.cs" />
+    <Compile Include="LogicFeature\IService\IJsonService.cs" />
+    <Compile Include="LogicFeature\IService\ITcpClientConnection.cs" />
+    <Compile Include="LogicFeature\ServerInfo.cs" />
+    <Compile Include="LogicFeature\Service\GameMenuService.cs" />
+    <Compile Include="LogicFeature\Service\JsonService.cs" />
+    <Compile Include="LogicFeature\Service\TcpClientConnection.cs" />
+    <Compile Include="Models\ClauseTCP.cs" />
+    <Compile Include="Models\FileNameStore.cs" />
+    <Compile Include="Models\GameItem.cs" />
+    <Compile Include="Models\ResultBasic.cs" />
+    <Compile Include="Models\SettingGlobalModel.cs" />
+    <Compile Include="PartialForm\IconGameDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PartialForm\IconGameDisplay.Designer.cs">
+      <DependentUpon>IconGameDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartialForm\IconGameDisplaySpace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PartialForm\IconGameDisplaySpace.Designer.cs">
+      <DependentUpon>IconGameDisplaySpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resources.Designer.cs" />
+    <EmbeddedResource Include="DesginCustom\hcbbookbutton.resx">
+      <DependentUpon>hcbbookButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm\FormMaster.resx">
+      <DependentUpon>FormMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm\HomeMain.resx">
+      <DependentUpon>HomeMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm\SettingGlobal.resx">
+      <DependentUpon>SettingGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartialForm\IconGameDisplay.resx">
+      <DependentUpon>IconGameDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartialForm\IconGameDisplaySpace.resx">
+      <DependentUpon>IconGameDisplaySpace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Data\DataGame.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\2.rar" />
+    <None Include="Resources\2\#2_zielsko.com.psd" />
+    <None Include="Resources\af89d5794935b7b01bc54471f495376c.webp" />
+    <None Include="Resources\button.psd" />
+    <None Include="Resources\fames.psd" />
+    <None Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq.rar" />
+    <None Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\More Files, Click here.url" />
+    <None Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\#9_Ghots_Navigation_zielsko.com.psd" />
+    <None Include="Resources\nature_button___free_psd_by_mrzielsko-d7lhxti.psd" />
+    <None Include="Resources\poup.psd" />
+    <None Include="Resources\simple space GUI.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\1.jpg" />
+    <Content Include="Resources\1file_1920x1080.jpg" />
+    <Content Include="Resources\2\#21_zielsko.com.png" />
+    <Content Include="Resources\2\#2_zielsko.com.png" />
+    <Content Include="Resources\2\preview.png" />
+    <Content Include="Resources\2\README.txt" />
+    <Content Include="Resources\animation_by_aarupphotography-d7gle75.gif" />
+    <Content Include="Resources\backgroundnone.png" />
+    <Content Include="Resources\bg_Scan.gif" />
+    <Content Include="Resources\btnanimation.gif" />
+    <Content Include="Resources\btngame.jpg" />
+    <Content Include="Resources\btngame1.jpg" />
+    <Content Include="Resources\btngame2.jpg" />
+    <Content Include="Resources\btngame3.jpg" />
+    <Content Include="Resources\btnScanGlow.gif" />
+    <Content Include="Resources\btntaitho.png" />
+    <Content Include="Resources\btntaitho1.png" />
+    <Content Include="Resources\btn_scan.gif" />
+    <Content Include="Resources\Button-Play-icon.png" />
+    <Content Include="Resources\button.png" />
+    <Content Include="Resources\button_play.png" />
+    <Content Include="Resources\credit-blizzard.jpg" />
+    <None Include="Resources\ding.wav" />
+    <Content Include="Resources\frames.png" />
+    <Content Include="Resources\frames2.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\Preview.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\#1Ghots_Navigation_zielsko.com.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\backgroung_Ghots_Navigation_zielsko.com.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\Ghots_Navigation_zielsko.com.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\menuGhots_Navigation_zielsko.com.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\PSD Project\menu_Ghots_Navigation_zielsko.com.png" />
+    <Content Include="Resources\ghost_navigation___free_psd_by_mrzielsko-d890xjq\README.txt" />
+    <Content Include="Resources\giphy.gif" />
+    <Content Include="Resources\glowmatix-small.gif" />
+    <Content Include="Resources\icon-game-ca-lon-nuot-ca-be.jpg" />
+    <Content Include="Resources\icongame-cotuong.png" />
+    <Content Include="Resources\iconGame.gif" />
+    <Content Include="Resources\icongame.png" />
+    <Content Include="Resources\icons8_Control_Panel_96px.png" />
+    <Content Include="Resources\icons8_Driver_License_96px.png" />
+    <Content Include="Resources\icons8_Export_96px.png" />
+    <Content Include="Resources\icons8_Flow_Chart_96px.png" />
+    <Content Include="Resources\icons8_Game_Controller_96px.png" />
+    <Content Include="Resources\icons8_Geography_96px.png" />
+    <Content Include="Resources\icons8_ID_Card_96px.png" />
+    <Content Include="Resources\icons8_Information_96px.png" />
+    <Content Include="Resources\icons8_Iris_Scan_32px.png" />
+    <Content Include="Resources\icons8_List_25px.png" />
+    <Content Include="Resources\icons8_Login_96px.png" />
+    <Content Include="Resources\icons8_Male_User_25px.png" />
+    <Content Include="Resources\icons8_Menu_25px.png" />
+    <Content Include="Resources\icons8_Menu_2_25px.png" />
+    <Content Include="Resources\icons8_Menu_2_96px.png" />
+    <Content Include="Resources\icons8_Menu_64px.png" />
+    <Content Include="Resources\icons8_Minimize_Window_25px.png" />
+    <Content Include="Resources\icons8_Minimize_Window_25px_1.png" />
+    <Content Include="Resources\icons8_More_25px.png" />
+    <Content Include="Resources\icons8_Phone_96px.png" />
+    <Content Include="Resources\icons8_Question_Mark_32px_2.png" />
+    <Content Include="Resources\icons8_Search_25px.png" />
+    <Content Include="Resources\icons8_Settings_25px.png" />
+    <Content Include="Resources\icons8_Settings_96px.png" />
+    <Content Include="Resources\icons8_Shutdown_25px.png" />
+    <Content Include="Resources\icons8_Synchronize_25px.png" />
+    <Content Include="Resources\icons8_User_25px.png" />
+    <Content Include="Resources\icons8_User_96px.png" />
+    <Content Include="Resources\icons8_Xbox_Menu_25px.png" />
+    <Content Include="Resources\Khung 2.jpg" />
+    <Content Include="Resources\khung_game.jpg" />
+    <Content Include="Resources\logo_game_on.png" />
+    <Content Include="Resources\maxresdefault %281%29.jpg" />
+    <Content Include="Resources\maxresdefault.jpg" />
+    <Content Include="Resources\nature_button___free_psd_by_mrzielsko-d7lhxti.png" />
+    <Content Include="Resources\poup.png" />
+    <Content Include="Resources\Preview.png" />
+    <Content Include="Resources\read me.txt" />
+    <Content Include="Resources\Runes of Magic - Priest_1.ico" />
+    <Content Include="Resources\SGP03215.png" />
+    <Content Include="Resources\simple space GUI.jpg" />
+    <Content Include="Resources\simple space GUI.png" />
+    <Content Include="Resources\Staatkundig_Gereformeerde_Partij_logo.svg.png" />
+    <Content Include="Resources\szeduletes_playbutton_.gif" />
+    <Content Include="Resources\userLogo.png" />
+    <Content Include="Resources\userpoup.png" />
+    <Content Include="Resources\video-game-background-blue_451fb1bpx__F0000.png" />
+    <Content Include="Resources\yasua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\New folder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
