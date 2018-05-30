@@ -1,0 +1,67 @@
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.exe.config
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\haarcascade_eye.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\haarcascade_frontalface_default.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x64\cvextern.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x64\msvcp140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x64\opencv_ffmpeg310_64.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x64\vcruntime140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x86\cvextern.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x86\msvcp140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x86\opencv_ffmpeg310.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\x86\vcruntime140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.exe
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.pdb
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\AlphaBlendTextBox.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.GL.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.World.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\ZedGraph.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.GL.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.World.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\ZedGraph.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Release\zh-CN\ZedGraph.resources.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Camara.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.CamaraBox.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Comandline.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.MenuForm.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Properties.Resources.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.RecognitionParameters.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.StartProgram.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.csproj.GenerateResource.Cache
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.exe
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.pdb
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\haarcascade_eye.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\haarcascade_frontalface_default.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x64\cvextern.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x64\msvcp140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x64\opencv_ffmpeg310_64.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x64\vcruntime140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x86\cvextern.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x86\msvcp140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x86\opencv_ffmpeg310.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\x86\vcruntime140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.exe.config
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.exe
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\FaceRecognition.pdb
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\AlphaBlendTextBox.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.GL.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.World.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\ZedGraph.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.UI.GL.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\Emgu.CV.World.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\ZedGraph.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Release\zh-CN\ZedGraph.resources.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Addface.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Camara.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.CamaraBox.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Comandline.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.MenuForm.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.Properties.Resources.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.RecognitionParameters.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.StartProgram.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.csproj.GenerateResource.Cache
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.exe
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Release\FaceRecognition.pdb

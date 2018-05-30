@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGP.Game.Menu.Server.UI", "SGP.Game.Menu.Server.UI\SGP.Game.Menu.Server.UI.csproj", "{11DFE6A8-6B5B-46E7-AEDA-1CC5975BD45A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DFE6A8-6B5B-46E7-AEDA-1CC5975BD45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DFE6A8-6B5B-46E7-AEDA-1CC5975BD45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DFE6A8-6B5B-46E7-AEDA-1CC5975BD45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DFE6A8-6B5B-46E7-AEDA-1CC5975BD45A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {819AE730-6371-4B0C-865C-3AA28FADB7BC}
+	EndGlobalSection
+EndGlobal

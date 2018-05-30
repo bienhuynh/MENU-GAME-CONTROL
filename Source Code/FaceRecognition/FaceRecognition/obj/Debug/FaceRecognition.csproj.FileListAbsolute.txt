@@ -1,0 +1,180 @@
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_eye.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_frontalface_default.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x64\cvextern.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x64\msvcp140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x64\opencv_ffmpeg310_64.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x64\vcruntime140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x86\cvextern.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x86\msvcp140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x86\opencv_ffmpeg310.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\x86\vcruntime140.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe.config
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.pdb
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\AlphaBlendTextBox.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.xml
+E:\Projects\New folder\FaceRecognition\FaceRecognition\bin\Debug\zh-CN\ZedGraph.resources.dll
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Camara.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.CamaraBox.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Comandline.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.MenuForm.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Properties.Resources.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.RecognitionParameters.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.StartProgram.resources
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.GenerateResource.Cache
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.exe
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.pdb
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csprojResolveAssemblyReference.cache
+E:\Projects\New folder\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Addface.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_eye.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_frontalface_default.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x64\cvextern.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x64\msvcp140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x64\opencv_ffmpeg310_64.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x64\vcruntime140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x86\cvextern.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x86\msvcp140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x86\opencv_ffmpeg310.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\x86\vcruntime140.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe.config
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.pdb
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\uk\FaceRecognition.resources.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\AlphaBlendTextBox.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Design.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Fonts.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\TranspControl.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.xml
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\zh-CN\ZedGraph.resources.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Addface.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Camara.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.CamaraBox.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Comandline.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FrmFindFace.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.MenuForm.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Properties.Resources.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.RecognitionParameters.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.StartProgram.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ToolsCamara.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.uk.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.GenerateResource.Cache
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\uk\FaceRecognition.resources.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.exe
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.pdb
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csprojResolveAssemblyReference.cache
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ChoseFormClose.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\bin\Debug\Bunifu_UI_v1.52.dll
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Login.resources
+E:\Projects\hcbbook\HCBBOOK.COM\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_eye.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_frontalface_default.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\cvextern.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\msvcp140.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\opencv_ffmpeg310_64.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\vcruntime140.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\cvextern.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\msvcp140.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\opencv_ffmpeg310.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\vcruntime140.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe.config
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.pdb
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\uk\FaceRecognition.resources.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\AlphaBlendTextBox.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\TranspControl.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.xml
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Addface.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Camara.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.CamaraBox.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ChoseFormClose.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Comandline.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FrmFindFace.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Login.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.MenuForm.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Properties.Resources.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.RecognitionParameters.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.StartProgram.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ToolsCamara.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.uk.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\uk\FaceRecognition.resources.dll
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.CopyComplete
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.exe
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.pdb
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Game.Menu.Main.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_eye.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\haarcascade_frontalface_default.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\cvextern.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\msvcp140.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\opencv_ffmpeg310_64.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x64\vcruntime140.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\cvextern.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\msvcp140.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\opencv_ffmpeg310.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\x86\vcruntime140.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe.config
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.exe
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\FaceRecognition.pdb
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\uk\FaceRecognition.resources.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\AlphaBlendTextBox.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\TranspControl.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\Emgu.CV.World.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\ZedGraph.xml
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Addface.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Camara.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.CamaraBox.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ChoseFormClose.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Comandline.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FrmFindFace.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Game.Menu.Main.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Login.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.MenuForm.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.Properties.Resources.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.RecognitionParameters.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.StartProgram.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.ToolsCamara.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.FormMaster.uk.resources
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\uk\FaceRecognition.resources.dll
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.csproj.CopyComplete
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.exe
+C:\Users\Administrator\Desktop\MENU-GAME-CONTROL\Source Code\FaceRecognition\FaceRecognition\obj\Debug\FaceRecognition.pdb
