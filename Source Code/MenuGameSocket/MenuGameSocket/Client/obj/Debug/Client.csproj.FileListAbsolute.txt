@@ -1,0 +1,25 @@
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\Client.exe.config
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\Client.exe
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\Client.pdb
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\mscorlib.dll
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\normidna.nlp
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\normnfc.nlp
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\normnfd.nlp
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\normnfkc.nlp
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\bin\Debug\normnfkd.nlp
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.rbMenuGame.resources
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.exe
+C:\Users\BQDUOC\Desktop\MenuGameSocket\Client\obj\Debug\Client.pdb
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\bin\Debug\Client.exe.config
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\bin\Debug\Client.exe
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\bin\Debug\Client.pdb
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.rbMenuGame.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.exe
+C:\Users\Administrator\Desktop\sgp-game-menu-control\MENU-GAME-CONTROL\Source Code\MenuGameSocket\MenuGameSocket\Client\obj\Debug\Client.pdb
