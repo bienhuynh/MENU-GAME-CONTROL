@@ -1,0 +1,1234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="GAME_MENU_CONTROLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetRoles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaims">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogins">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AspNetUserRoles">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Date" Type="date" />
+        </EntityType>
+        <EntityType Name="AspNetUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="nvarchar(max)" />
+          <Property Name="SecurityStamp" Type="nvarchar(max)" />
+          <Property Name="PhoneNumber" Type="nvarchar(max)" />
+          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="datetime" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ComputerMasterClient">
+          <Key>
+            <PropertyRef Name="MAC" />
+          </Key>
+          <Property Name="MAC" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" />
+          <Property Name="NameComputer" Type="nvarchar" MaxLength="128" />
+          <Property Name="IP" Type="nvarchar" MaxLength="20" />
+          <Property Name="IsDelete" Type="bit" />
+          <Property Name="IsDisable" Type="bit" />
+          <Property Name="DateJoin" Type="date" />
+          <Property Name="SystemOperator" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="ComputerSubClient">
+          <Key>
+            <PropertyRef Name="MAC" />
+          </Key>
+          <Property Name="MAC" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="MacIdMaster" Type="nvarchar" MaxLength="50" />
+          <Property Name="NameComputer" Type="nvarchar" MaxLength="128" />
+          <Property Name="IP" Type="nvarchar" MaxLength="128" />
+          <Property Name="DateJoin" Type="date" />
+          <Property Name="IsDelete" Type="bit" />
+          <Property Name="IsDisable" Type="bit" />
+        </EntityType>
+        <EntityType Name="HistoryLoginSession">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TimeStartLogin" Type="datetime" />
+          <Property Name="IPAddress" Type="nvarchar" MaxLength="128" />
+          <Property Name="MacAddress" Type="nvarchar" MaxLength="128" />
+          <Property Name="NameMachine" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <EntityType Name="Licence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="LicenceKey" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="NumberDevicesLiveActive" Type="int" Nullable="false" />
+          <Property Name="MaxNumberDevices" Type="int" Nullable="false" />
+          <Property Name="Price" Type="money" Nullable="false" />
+          <Property Name="DateCreate" Type="date" />
+          <Property Name="UserIdCreate" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <EntityType Name="List_Game_Disk">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="NameGame" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="URLExecute" Type="nvarchar" MaxLength="556" />
+          <Property Name="IconUrL" Type="nvarchar" MaxLength="256" />
+          <Property Name="IcoUrl" Type="nvarchar" MaxLength="256" />
+          <Property Name="IconImage" Type="image" />
+          <Property Name="DateScan" Type="date" />
+          <Property Name="Size" Type="float" />
+          <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Version" Type="nchar" MaxLength="10" />
+          <Property Name="IsDelete" Type="bit" />
+          <Property Name="IsGameOnline" Type="bit" />
+          <Property Name="IsGameChienThuat" Type="bit" />
+        </EntityType>
+        <EntityType Name="Menu_Type">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="User_Control_Menu">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="GameId" />
+            <PropertyRef Name="MenuId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="GameId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="MenuId" Type="int" Nullable="false" />
+          <Property Name="IsHidden" Type="bit" />
+        </EntityType>
+        <EntityType Name="User_Game_Owner">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="GameId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="GameId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="IsShowOnMenu" Type="bit" Nullable="false" />
+          <Property Name="IsRemoveOnDisk" Type="bit" Nullable="false" />
+          <Property Name="IsGameHot" Type="bit" />
+          <Property Name="URLDiskGame" Type="nvarchar" MaxLength="256" />
+          <Property Name="IconUrlCustom" Type="nvarchar" MaxLength="256" />
+          <Property Name="IcoUrlCustom" Type="nvarchar" MaxLength="256" />
+          <Property Name="SumNumberPlay" Type="int" />
+          <Property Name="NumberPlayInDay" Type="int" />
+        </EntityType>
+        <EntityType Name="User_Licence">
+          <Key>
+            <PropertyRef Name="Userid" />
+            <PropertyRef Name="LicenceId" />
+          </Key>
+          <Property Name="Userid" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="LicenceId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="DateStart" Type="date" Nullable="false" />
+          <Property Name="DateEnd" Type="date" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="IsLive" Type="bit" />
+          <Property Name="DateInput" Type="date" />
+          <Property Name="MACMasterId" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="128" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="128" />
+          <Property Name="NetName" Type="nvarchar" MaxLength="128" />
+          <Property Name="Address" Type="nvarchar" MaxLength="228" />
+          <Property Name="NumberPhone" Type="nvarchar" MaxLength="20" />
+          <Property Name="DateCreate" Type="date" />
+          <Property Name="IsDelete" Type="bit" />
+          <Property Name="IsDisable" Type="bit" />
+          <Property Name="LogoUrl" Type="nvarchar" MaxLength="228" />
+        </EntityType>
+        <EntityType Name="VersionHistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Version" Type="nvarchar" MaxLength="10" />
+          <Property Name="IsUpdateAvailable" Type="bit" />
+          <Property Name="Mandatory" Type="bit" />
+          <Property Name="InstallerArgs" Type="nvarchar" MaxLength="50" />
+          <Property Name="Checksum" Type="nvarchar" MaxLength="500" />
+          <Property Name="HashingAlgorithm" Type="nvarchar" MaxLength="10" />
+          <Property Name="SoftName" Type="nvarchar" MaxLength="20" />
+          <Property Name="DateChange" Type="date" />
+          <Property Name="ChangeLog" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <Association Name="FK_ComputerMasterClient_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+          <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ComputerMasterClient">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ComputerSubClient_ComputerMasterClient">
+          <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="0..1" />
+          <End Role="ComputerSubClient" Type="Self.ComputerSubClient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ComputerMasterClient">
+              <PropertyRef Name="MAC" />
+            </Principal>
+            <Dependent Role="ComputerSubClient">
+              <PropertyRef Name="MacIdMaster" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+          <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+          <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HistoryLoginSession_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+          <End Role="HistoryLoginSession" Type="Self.HistoryLoginSession" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="HistoryLoginSession">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+          <End Role="Licence" Type="Self.Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="UserIdCreate" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Control_Menu_Menu_Type">
+          <End Role="Menu_Type" Type="Self.Menu_Type" Multiplicity="1" />
+          <End Role="User_Control_Menu" Type="Self.User_Control_Menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu_Type">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Control_Menu">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Game_Owner_List_Game_Disk">
+          <End Role="List_Game_Disk" Type="Self.List_Game_Disk" Multiplicity="1" />
+          <End Role="User_Game_Owner" Type="Self.User_Game_Owner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="List_Game_Disk">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Game_Owner">
+              <PropertyRef Name="GameId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Game_Owner_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+          <End Role="User_Game_Owner" Type="Self.User_Game_Owner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="User_Game_Owner">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_ComputerMasterClient">
+          <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="0..1" />
+          <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ComputerMasterClient">
+              <PropertyRef Name="MAC" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="MACMasterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_Licence">
+          <End Role="Licence" Type="Self.Licence" Multiplicity="1" />
+          <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Licence">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="LicenceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+          <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="Userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GAME_MENU_CONTROLModelStoreContainer">
+          <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComputerMasterClient" EntityType="Self.ComputerMasterClient" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComputerSubClient" EntityType="Self.ComputerSubClient" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HistoryLoginSession" EntityType="Self.HistoryLoginSession" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Licence" EntityType="Self.Licence" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="List_Game_Disk" EntityType="Self.List_Game_Disk" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Menu_Type" EntityType="Self.Menu_Type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User_Control_Menu" EntityType="Self.User_Control_Menu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User_Game_Owner" EntityType="Self.User_Game_Owner" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User_Licence" EntityType="Self.User_Licence" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VersionHistory" EntityType="Self.VersionHistory" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ComputerMasterClient_UserProfile" Association="Self.FK_ComputerMasterClient_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ComputerSubClient_ComputerMasterClient" Association="Self.FK_ComputerSubClient_ComputerMasterClient">
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+            <End Role="ComputerSubClient" EntitySet="ComputerSubClient" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HistoryLoginSession_UserProfile" Association="Self.FK_HistoryLoginSession_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="HistoryLoginSession" EntitySet="HistoryLoginSession" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_UserProfile" Association="Self.FK_Licence_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Control_Menu_Menu_Type" Association="Self.FK_User_Control_Menu_Menu_Type">
+            <End Role="Menu_Type" EntitySet="Menu_Type" />
+            <End Role="User_Control_Menu" EntitySet="User_Control_Menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Game_Owner_List_Game_Disk" Association="Self.FK_User_Game_Owner_List_Game_Disk">
+            <End Role="List_Game_Disk" EntitySet="List_Game_Disk" />
+            <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Game_Owner_UserProfile" Association="Self.FK_User_Game_Owner_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_ComputerMasterClient" Association="Self.FK_User_Licence_ComputerMasterClient">
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_Licence" Association="Self.FK_User_Licence_Licence">
+            <End Role="Licence" EntitySet="Licence" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_UserProfile" Association="Self.FK_User_Licence_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GAME_MENU_CONTROLModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SGPCloudEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__MigrationHistory" EntityType="GAME_MENU_CONTROLModel.C__MigrationHistory" />
+          <EntitySet Name="AspNetRoles" EntityType="GAME_MENU_CONTROLModel.AspNetRoles" />
+          <EntitySet Name="AspNetUserClaims" EntityType="GAME_MENU_CONTROLModel.AspNetUserClaims" />
+          <EntitySet Name="AspNetUserLogins" EntityType="GAME_MENU_CONTROLModel.AspNetUserLogins" />
+          <EntitySet Name="AspNetUserRoles" EntityType="GAME_MENU_CONTROLModel.AspNetUserRoles" />
+          <EntitySet Name="AspNetUsers" EntityType="GAME_MENU_CONTROLModel.AspNetUsers" />
+          <EntitySet Name="ComputerMasterClient" EntityType="GAME_MENU_CONTROLModel.ComputerMasterClient" />
+          <EntitySet Name="ComputerSubClient" EntityType="GAME_MENU_CONTROLModel.ComputerSubClient" />
+          <EntitySet Name="HistoryLoginSession" EntityType="GAME_MENU_CONTROLModel.HistoryLoginSession" />
+          <EntitySet Name="Licence" EntityType="GAME_MENU_CONTROLModel.Licence" />
+          <EntitySet Name="List_Game_Disk" EntityType="GAME_MENU_CONTROLModel.List_Game_Disk" />
+          <EntitySet Name="Menu_Type" EntityType="GAME_MENU_CONTROLModel.Menu_Type" />
+          <EntitySet Name="sysdiagrams" EntityType="GAME_MENU_CONTROLModel.sysdiagrams" />
+          <EntitySet Name="User_Control_Menu" EntityType="GAME_MENU_CONTROLModel.User_Control_Menu" />
+          <EntitySet Name="User_Game_Owner" EntityType="GAME_MENU_CONTROLModel.User_Game_Owner" />
+          <EntitySet Name="User_Licence" EntityType="GAME_MENU_CONTROLModel.User_Licence" />
+          <EntitySet Name="UserProfile" EntityType="GAME_MENU_CONTROLModel.UserProfile" />
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+            <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ComputerMasterClient_UserProfile" Association="GAME_MENU_CONTROLModel.FK_ComputerMasterClient_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ComputerSubClient_ComputerMasterClient" Association="GAME_MENU_CONTROLModel.FK_ComputerSubClient_ComputerMasterClient">
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+            <End Role="ComputerSubClient" EntitySet="ComputerSubClient" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_ComputerMasterClient" Association="GAME_MENU_CONTROLModel.FK_User_Licence_ComputerMasterClient">
+            <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HistoryLoginSession_UserProfile" Association="GAME_MENU_CONTROLModel.FK_HistoryLoginSession_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="HistoryLoginSession" EntitySet="HistoryLoginSession" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Licence_UserProfile" Association="GAME_MENU_CONTROLModel.FK_Licence_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="Licence" EntitySet="Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_Licence" Association="GAME_MENU_CONTROLModel.FK_User_Licence_Licence">
+            <End Role="Licence" EntitySet="Licence" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Game_Owner_List_Game_Disk" Association="GAME_MENU_CONTROLModel.FK_User_Game_Owner_List_Game_Disk">
+            <End Role="List_Game_Disk" EntitySet="List_Game_Disk" />
+            <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Control_Menu_Menu_Type" Association="GAME_MENU_CONTROLModel.FK_User_Control_Menu_Menu_Type">
+            <End Role="Menu_Type" EntitySet="Menu_Type" />
+            <End Role="User_Control_Menu" EntitySet="User_Control_Menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Game_Owner_UserProfile" Association="GAME_MENU_CONTROLModel.FK_User_Game_Owner_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Licence_UserProfile" Association="GAME_MENU_CONTROLModel.FK_User_Licence_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="User_Licence" EntitySet="User_Licence" />
+          </AssociationSet>
+          <EntitySet Name="VersionHistory" EntityType="GAME_MENU_CONTROLModel.VersionHistory" />
+        </EntityContainer>
+        <EntityType Name="C__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="ContextKey" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="Model" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="ProductVersion" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="AspNetRoles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUserRoles" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" FromRole="AspNetRoles" ToRole="AspNetUserRoles" />
+        </EntityType>
+        <EntityType Name="AspNetUserClaims">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUsers" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserLogins">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="ProviderKey" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUsers" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUserRoles">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="RoleId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="AspNetRoles" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" FromRole="AspNetUserRoles" ToRole="AspNetRoles" />
+          <NavigationProperty Name="AspNetUsers" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" FromRole="AspNetUserRoles" ToRole="AspNetUsers" />
+        </EntityType>
+        <EntityType Name="AspNetUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AspNetUserClaims" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+          <NavigationProperty Name="AspNetUserLogins" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+          <NavigationProperty Name="AspNetUserRoles" Relationship="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserRoles" />
+        </EntityType>
+        <EntityType Name="ComputerMasterClient">
+          <Key>
+            <PropertyRef Name="MAC" />
+          </Key>
+          <Property Name="MAC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="NameComputer" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="IP" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="IsDisable" Type="Boolean" />
+          <Property Name="DateJoin" Type="DateTime" Precision="0" />
+          <Property Name="SystemOperator" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="UserProfile" Relationship="GAME_MENU_CONTROLModel.FK_ComputerMasterClient_UserProfile" FromRole="ComputerMasterClient" ToRole="UserProfile" />
+          <NavigationProperty Name="ComputerSubClient" Relationship="GAME_MENU_CONTROLModel.FK_ComputerSubClient_ComputerMasterClient" FromRole="ComputerMasterClient" ToRole="ComputerSubClient" />
+          <NavigationProperty Name="User_Licence" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_ComputerMasterClient" FromRole="ComputerMasterClient" ToRole="User_Licence" />
+        </EntityType>
+        <EntityType Name="ComputerSubClient">
+          <Key>
+            <PropertyRef Name="MAC" />
+          </Key>
+          <Property Name="MAC" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="MacIdMaster" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NameComputer" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="IP" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="DateJoin" Type="DateTime" Precision="0" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="IsDisable" Type="Boolean" />
+          <NavigationProperty Name="ComputerMasterClient" Relationship="GAME_MENU_CONTROLModel.FK_ComputerSubClient_ComputerMasterClient" FromRole="ComputerSubClient" ToRole="ComputerMasterClient" />
+        </EntityType>
+        <EntityType Name="HistoryLoginSession">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TimeStartLogin" Type="DateTime" Precision="3" />
+          <Property Name="IPAddress" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="MacAddress" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="NameMachine" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="UserProfile" Relationship="GAME_MENU_CONTROLModel.FK_HistoryLoginSession_UserProfile" FromRole="HistoryLoginSession" ToRole="UserProfile" />
+        </EntityType>
+        <EntityType Name="Licence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="LicenceKey" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="NumberDevicesLiveActive" Type="Int32" Nullable="false" />
+          <Property Name="MaxNumberDevices" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="DateCreate" Type="DateTime" Precision="0" />
+          <Property Name="UserIdCreate" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="UserProfile" Relationship="GAME_MENU_CONTROLModel.FK_Licence_UserProfile" FromRole="Licence" ToRole="UserProfile" />
+          <NavigationProperty Name="User_Licence" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_Licence" FromRole="Licence" ToRole="User_Licence" />
+        </EntityType>
+        <EntityType Name="List_Game_Disk">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="NameGame" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="URLExecute" Type="String" MaxLength="556" FixedLength="false" Unicode="true" />
+          <Property Name="IconUrL" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="IcoUrl" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="IconImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="DateScan" Type="DateTime" Precision="0" />
+          <Property Name="Size" Type="Double" />
+          <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Version" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="IsGameOnline" Type="Boolean" />
+          <Property Name="IsGameChienThuat" Type="Boolean" />
+          <NavigationProperty Name="User_Game_Owner" Relationship="GAME_MENU_CONTROLModel.FK_User_Game_Owner_List_Game_Disk" FromRole="List_Game_Disk" ToRole="User_Game_Owner" />
+        </EntityType>
+        <EntityType Name="Menu_Type">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="User_Control_Menu" Relationship="GAME_MENU_CONTROLModel.FK_User_Control_Menu_Menu_Type" FromRole="Menu_Type" ToRole="User_Control_Menu" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="User_Control_Menu">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="GameId" />
+            <PropertyRef Name="MenuId" />
+          </Key>
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="GameId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="MenuId" Type="Int32" Nullable="false" />
+          <Property Name="IsHidden" Type="Boolean" />
+          <NavigationProperty Name="Menu_Type" Relationship="GAME_MENU_CONTROLModel.FK_User_Control_Menu_Menu_Type" FromRole="User_Control_Menu" ToRole="Menu_Type" />
+        </EntityType>
+        <EntityType Name="User_Game_Owner">
+          <Key>
+            <PropertyRef Name="UserId" />
+            <PropertyRef Name="GameId" />
+          </Key>
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="GameId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="IsShowOnMenu" Type="Boolean" Nullable="false" />
+          <Property Name="IsRemoveOnDisk" Type="Boolean" Nullable="false" />
+          <Property Name="IsGameHot" Type="Boolean" />
+          <Property Name="URLDiskGame" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="IconUrlCustom" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="IcoUrlCustom" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="SumNumberPlay" Type="Int32" />
+          <Property Name="NumberPlayInDay" Type="Int32" />
+          <NavigationProperty Name="List_Game_Disk" Relationship="GAME_MENU_CONTROLModel.FK_User_Game_Owner_List_Game_Disk" FromRole="User_Game_Owner" ToRole="List_Game_Disk" />
+          <NavigationProperty Name="UserProfile" Relationship="GAME_MENU_CONTROLModel.FK_User_Game_Owner_UserProfile" FromRole="User_Game_Owner" ToRole="UserProfile" />
+        </EntityType>
+        <EntityType Name="User_Licence">
+          <Key>
+            <PropertyRef Name="Userid" />
+            <PropertyRef Name="LicenceId" />
+          </Key>
+          <Property Name="Userid" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="LicenceId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="DateStart" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="DateEnd" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="IsLive" Type="Boolean" />
+          <Property Name="DateInput" Type="DateTime" Precision="0" />
+          <Property Name="MACMasterId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ComputerMasterClient" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_ComputerMasterClient" FromRole="User_Licence" ToRole="ComputerMasterClient" />
+          <NavigationProperty Name="Licence" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_Licence" FromRole="User_Licence" ToRole="Licence" />
+          <NavigationProperty Name="UserProfile" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_UserProfile" FromRole="User_Licence" ToRole="UserProfile" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="FirstName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="NetName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+          <Property Name="NumberPhone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="DateCreate" Type="DateTime" Precision="0" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="IsDisable" Type="Boolean" />
+          <Property Name="LogoUrl" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ComputerMasterClient" Relationship="GAME_MENU_CONTROLModel.FK_ComputerMasterClient_UserProfile" FromRole="UserProfile" ToRole="ComputerMasterClient" />
+          <NavigationProperty Name="HistoryLoginSession" Relationship="GAME_MENU_CONTROLModel.FK_HistoryLoginSession_UserProfile" FromRole="UserProfile" ToRole="HistoryLoginSession" />
+          <NavigationProperty Name="Licence" Relationship="GAME_MENU_CONTROLModel.FK_Licence_UserProfile" FromRole="UserProfile" ToRole="Licence" />
+          <NavigationProperty Name="User_Game_Owner" Relationship="GAME_MENU_CONTROLModel.FK_User_Game_Owner_UserProfile" FromRole="UserProfile" ToRole="User_Game_Owner" />
+          <NavigationProperty Name="User_Licence" Relationship="GAME_MENU_CONTROLModel.FK_User_Licence_UserProfile" FromRole="UserProfile" ToRole="User_Licence" />
+        </EntityType>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+          <End Type="GAME_MENU_CONTROLModel.AspNetRoles" Role="AspNetRoles" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="GAME_MENU_CONTROLModel.AspNetUserRoles" Role="AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetRoles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+          <End Type="GAME_MENU_CONTROLModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="GAME_MENU_CONTROLModel.AspNetUserClaims" Role="AspNetUserClaims" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserClaims">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+          <End Type="GAME_MENU_CONTROLModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="GAME_MENU_CONTROLModel.AspNetUserLogins" Role="AspNetUserLogins" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserLogins">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+          <End Type="GAME_MENU_CONTROLModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="GAME_MENU_CONTROLModel.AspNetUserRoles" Role="AspNetUserRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="AspNetUserRoles">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ComputerMasterClient_UserProfile">
+          <End Type="GAME_MENU_CONTROLModel.UserProfile" Role="UserProfile" Multiplicity="0..1" />
+          <End Type="GAME_MENU_CONTROLModel.ComputerMasterClient" Role="ComputerMasterClient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ComputerMasterClient">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ComputerSubClient_ComputerMasterClient">
+          <End Type="GAME_MENU_CONTROLModel.ComputerMasterClient" Role="ComputerMasterClient" Multiplicity="0..1" />
+          <End Type="GAME_MENU_CONTROLModel.ComputerSubClient" Role="ComputerSubClient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ComputerMasterClient">
+              <PropertyRef Name="MAC" />
+            </Principal>
+            <Dependent Role="ComputerSubClient">
+              <PropertyRef Name="MacIdMaster" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_ComputerMasterClient">
+          <End Type="GAME_MENU_CONTROLModel.ComputerMasterClient" Role="ComputerMasterClient" Multiplicity="0..1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Licence" Role="User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ComputerMasterClient">
+              <PropertyRef Name="MAC" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="MACMasterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HistoryLoginSession_UserProfile">
+          <End Type="GAME_MENU_CONTROLModel.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.HistoryLoginSession" Role="HistoryLoginSession" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="HistoryLoginSession">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Licence_UserProfile">
+          <End Type="GAME_MENU_CONTROLModel.UserProfile" Role="UserProfile" Multiplicity="0..1" />
+          <End Type="GAME_MENU_CONTROLModel.Licence" Role="Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Licence">
+              <PropertyRef Name="UserIdCreate" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_Licence">
+          <End Type="GAME_MENU_CONTROLModel.Licence" Role="Licence" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Licence" Role="User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Licence">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="LicenceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Game_Owner_List_Game_Disk">
+          <End Type="GAME_MENU_CONTROLModel.List_Game_Disk" Role="List_Game_Disk" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Game_Owner" Role="User_Game_Owner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="List_Game_Disk">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Game_Owner">
+              <PropertyRef Name="GameId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Control_Menu_Menu_Type">
+          <End Type="GAME_MENU_CONTROLModel.Menu_Type" Role="Menu_Type" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Control_Menu" Role="User_Control_Menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu_Type">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="User_Control_Menu">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Game_Owner_UserProfile">
+          <End Type="GAME_MENU_CONTROLModel.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Game_Owner" Role="User_Game_Owner" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="User_Game_Owner">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Licence_UserProfile">
+          <End Type="GAME_MENU_CONTROLModel.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="GAME_MENU_CONTROLModel.User_Licence" Role="User_Licence" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="User_Licence">
+              <PropertyRef Name="Userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="VersionHistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Version" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="IsUpdateAvailable" Type="Boolean" />
+          <Property Name="Mandatory" Type="Boolean" />
+          <Property Name="InstallerArgs" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Checksum" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="HashingAlgorithm" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="SoftName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="DateChange" Type="DateTime" Precision="0" />
+          <Property Name="ChangeLog" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GAME_MENU_CONTROLModelStoreContainer" CdmEntityContainer="SGPCloudEntities">
+          <EntitySetMapping Name="C__MigrationHistory">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.C__MigrationHistory">
+              <MappingFragment StoreEntitySet="__MigrationHistory">
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetRoles">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.AspNetRoles">
+              <MappingFragment StoreEntitySet="AspNetRoles">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserClaims">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.AspNetUserClaims">
+              <MappingFragment StoreEntitySet="AspNetUserClaims">
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserLogins">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.AspNetUserLogins">
+              <MappingFragment StoreEntitySet="AspNetUserLogins">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUserRoles">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.AspNetUserRoles">
+              <MappingFragment StoreEntitySet="AspNetUserRoles">
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AspNetUsers">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.AspNetUsers">
+              <MappingFragment StoreEntitySet="AspNetUsers">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ComputerMasterClient">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.ComputerMasterClient">
+              <MappingFragment StoreEntitySet="ComputerMasterClient">
+                <ScalarProperty Name="SystemOperator" ColumnName="SystemOperator" />
+                <ScalarProperty Name="DateJoin" ColumnName="DateJoin" />
+                <ScalarProperty Name="IsDisable" ColumnName="IsDisable" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="NameComputer" ColumnName="NameComputer" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="MAC" ColumnName="MAC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ComputerSubClient">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.ComputerSubClient">
+              <MappingFragment StoreEntitySet="ComputerSubClient">
+                <ScalarProperty Name="IsDisable" ColumnName="IsDisable" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="DateJoin" ColumnName="DateJoin" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="NameComputer" ColumnName="NameComputer" />
+                <ScalarProperty Name="MacIdMaster" ColumnName="MacIdMaster" />
+                <ScalarProperty Name="MAC" ColumnName="MAC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HistoryLoginSession">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.HistoryLoginSession">
+              <MappingFragment StoreEntitySet="HistoryLoginSession">
+                <ScalarProperty Name="NameMachine" ColumnName="NameMachine" />
+                <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+                <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+                <ScalarProperty Name="TimeStartLogin" ColumnName="TimeStartLogin" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Licence">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.Licence">
+              <MappingFragment StoreEntitySet="Licence">
+                <ScalarProperty Name="UserIdCreate" ColumnName="UserIdCreate" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="MaxNumberDevices" ColumnName="MaxNumberDevices" />
+                <ScalarProperty Name="NumberDevicesLiveActive" ColumnName="NumberDevicesLiveActive" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="LicenceKey" ColumnName="LicenceKey" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="List_Game_Disk">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.List_Game_Disk">
+              <MappingFragment StoreEntitySet="List_Game_Disk">
+                <ScalarProperty Name="IsGameChienThuat" ColumnName="IsGameChienThuat" />
+                <ScalarProperty Name="IsGameOnline" ColumnName="IsGameOnline" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="Version" ColumnName="Version" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+                <ScalarProperty Name="DateScan" ColumnName="DateScan" />
+                <ScalarProperty Name="IconImage" ColumnName="IconImage" />
+                <ScalarProperty Name="IcoUrl" ColumnName="IcoUrl" />
+                <ScalarProperty Name="IconUrL" ColumnName="IconUrL" />
+                <ScalarProperty Name="URLExecute" ColumnName="URLExecute" />
+                <ScalarProperty Name="NameGame" ColumnName="NameGame" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Menu_Type">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.Menu_Type">
+              <MappingFragment StoreEntitySet="Menu_Type">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="definition" ColumnName="definition" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User_Control_Menu">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.User_Control_Menu">
+              <MappingFragment StoreEntitySet="User_Control_Menu">
+                <ScalarProperty Name="IsHidden" ColumnName="IsHidden" />
+                <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+                <ScalarProperty Name="GameId" ColumnName="GameId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User_Game_Owner">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.User_Game_Owner">
+              <MappingFragment StoreEntitySet="User_Game_Owner">
+                <ScalarProperty Name="NumberPlayInDay" ColumnName="NumberPlayInDay" />
+                <ScalarProperty Name="SumNumberPlay" ColumnName="SumNumberPlay" />
+                <ScalarProperty Name="IcoUrlCustom" ColumnName="IcoUrlCustom" />
+                <ScalarProperty Name="IconUrlCustom" ColumnName="IconUrlCustom" />
+                <ScalarProperty Name="URLDiskGame" ColumnName="URLDiskGame" />
+                <ScalarProperty Name="IsGameHot" ColumnName="IsGameHot" />
+                <ScalarProperty Name="IsRemoveOnDisk" ColumnName="IsRemoveOnDisk" />
+                <ScalarProperty Name="IsShowOnMenu" ColumnName="IsShowOnMenu" />
+                <ScalarProperty Name="GameId" ColumnName="GameId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User_Licence">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.User_Licence">
+              <MappingFragment StoreEntitySet="User_Licence">
+                <ScalarProperty Name="MACMasterId" ColumnName="MACMasterId" />
+                <ScalarProperty Name="DateInput" ColumnName="DateInput" />
+                <ScalarProperty Name="IsLive" ColumnName="IsLive" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="DateEnd" ColumnName="DateEnd" />
+                <ScalarProperty Name="DateStart" ColumnName="DateStart" />
+                <ScalarProperty Name="LicenceId" ColumnName="LicenceId" />
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserProfile">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.UserProfile">
+              <MappingFragment StoreEntitySet="UserProfile">
+                <ScalarProperty Name="LogoUrl" ColumnName="LogoUrl" />
+                <ScalarProperty Name="IsDisable" ColumnName="IsDisable" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+                <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="NetName" ColumnName="NetName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VersionHistory">
+            <EntityTypeMapping TypeName="GAME_MENU_CONTROLModel.VersionHistory">
+              <MappingFragment StoreEntitySet="VersionHistory">
+                <ScalarProperty Name="ChangeLog" ColumnName="ChangeLog" />
+                <ScalarProperty Name="DateChange" ColumnName="DateChange" />
+                <ScalarProperty Name="SoftName" ColumnName="SoftName" />
+                <ScalarProperty Name="HashingAlgorithm" ColumnName="HashingAlgorithm" />
+                <ScalarProperty Name="Checksum" ColumnName="Checksum" />
+                <ScalarProperty Name="InstallerArgs" ColumnName="InstallerArgs" />
+                <ScalarProperty Name="Mandatory" ColumnName="Mandatory" />
+                <ScalarProperty Name="IsUpdateAvailable" ColumnName="IsUpdateAvailable" />
+                <ScalarProperty Name="Version" ColumnName="Version" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

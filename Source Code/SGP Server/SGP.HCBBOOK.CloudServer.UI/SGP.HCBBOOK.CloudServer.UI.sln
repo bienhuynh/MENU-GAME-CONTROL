@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGP.HCBBOOK.CloudServer.UI", "SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CloudServer.UI.csproj", "{39DE7CEE-7322-4B3C-B0F6-32EFA45AF32E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGP.HCBBOOK.CORE", "SGP.HCBBOOK.CORE\SGP.HCBBOOK.CORE.csproj", "{A7D092C3-D367-4D38-B9A4-3DBE9661D9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39DE7CEE-7322-4B3C-B0F6-32EFA45AF32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DE7CEE-7322-4B3C-B0F6-32EFA45AF32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DE7CEE-7322-4B3C-B0F6-32EFA45AF32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DE7CEE-7322-4B3C-B0F6-32EFA45AF32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D092C3-D367-4D38-B9A4-3DBE9661D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D092C3-D367-4D38-B9A4-3DBE9661D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D092C3-D367-4D38-B9A4-3DBE9661D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D092C3-D367-4D38-B9A4-3DBE9661D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBE2665B-12B9-4389-9C69-273F30B43181}
+	EndGlobalSection
+EndGlobal

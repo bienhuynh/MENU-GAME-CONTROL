@@ -1,0 +1,100 @@
+﻿@model SGP.HCBBOOK.CORE.Busssiness.Models.ComputerMACClientModel
+@using SGP.HCBBOOK.CORE.Busssiness.IService
+@using SGP.HCBBOOK.CORE.Busssiness.Service
+@using SGP.HCBBOOK.CORE.Busssiness.Models
+@{
+    IUserService userService = new UserService();
+}
+
+<!-- Exportable Table -->
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Danh sách Key Bản quyền
+                </h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);">Action</a></li>
+                            <li><a href="javascript:void(0);">Another action</a></li>
+                            <li><a href="javascript:void(0);">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover dataTable js-exportable">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>KEY</th>
+                                <th>Ngày tạo</th>
+                                <th>Người tạo</th>
+                                <th>Người sở hữu</th>
+                                <th>Ngày dùng cuối</th>
+                                <th>Giá trị</th>
+                                <th>Trạng thái</th>
+                                <td>Cho phép đăng nhập</td>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>STT</th>
+                                <th>KEY</th>
+                                <th>Ngày tạo</th>
+                                <th>Người tạo</th>
+                                <th>Người sở hữu</th>
+                                <th>Ngày dùng cuối</th>
+                                <th>Giá trị</th>
+                                <th>Trạng thái</th>
+                                <td>Cho phép đăng nhập</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @{int stt = 0; }
+                            @foreach (var item in Model.licenceLives)
+                            {
+                            <tr>
+                                <td>@(++stt)</td>
+                                <td><a href="@Url.Action("Detail", "LicenceManage",new {id = item.LicenceId})">@(String.Format("{0}", item.LicenceKey))</a></td>
+                                <td>@Model.MAC</td>
+                                <td>@Model.NameComputer</td>
+                                <td>@Model.SystemOperator</td>
+                                @if (item.IsActive == false)
+    {
+                            <td class="bg-amber">Chưa kích hoạt</td>
+}
+else if (item.IsActive == false)
+{
+                            <td class="bg-pink">Bị vô hiệu hóa</td>
+}
+else
+{
+                            <td class="bg-green">Đã kích hoạt</td>
+}
+
+                                @if (item.IsLive == true)
+    {
+                            <td class="bg-pink">Đang sử dụng</td>
+}
+else
+{
+                            <td class="bg-green">Không được kích hoạt bởi máy nào</td>
+}
+                            </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Exportable Table -->

@@ -1,0 +1,20 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Có lỗi xảy ra!";
+}
+
+<div class="four-zero-four-container">
+    <div class="error-code">404</div>
+    <div class="error-message">Có một lỗi xẩy ra trong quá trình xử lý, trang của bạn không được tìm thấy.</div>
+    <div class="button-place">
+        <a href="@Url.Action("index","Home")" class="btn btn-default btn-lg waves-effect">Trở lại giao diện chính</a>
+        
+        <a href="#" onclick="goBack()" class="btn btn-default btn-lg waves-effect">Trở lại giao diện chính</a>
+    </div>
+</div>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>

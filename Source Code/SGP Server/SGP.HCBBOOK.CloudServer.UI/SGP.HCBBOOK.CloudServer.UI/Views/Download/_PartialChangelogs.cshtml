@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SGP.HCBBOOK.CORE.Busssiness.Models.CheckVersionInfoModel>
+<!-- Changelogs -->
+<div class="block-header">
+    <h2>CHANGELOGS</h2>
+</div>
+@if (Model.Count() > 0)
+{
+    foreach (var item in Model)
+    {
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>
+                            @item.Version
+                            <small>@item.DateChange</small>
+                        </h2>
+                    </div>
+                    <div class="body">
+                        @Html.Raw(item.ChangeLogs)
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+

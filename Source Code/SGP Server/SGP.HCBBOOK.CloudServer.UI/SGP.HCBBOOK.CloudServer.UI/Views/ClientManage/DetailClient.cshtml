@@ -1,0 +1,7 @@
+﻿@model SGP.HCBBOOK.CloudServer.UI.Models.DetailClientViewModel
+@{
+    ViewBag.Title = "DetailClient";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("~/Views/ClientManage/_PartialListLicenceActived.cshtml", Model.computerMACClientModel)

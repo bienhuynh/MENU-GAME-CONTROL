@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ccd35b2bd12642a9a4c4530751c10c97" Name="Diagram1">
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.AspNetRoles" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.AspNetUserClaims" Width="1.5" PointX="11" PointY="3.25" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.AspNetUserLogins" Width="1.5" PointX="11" PointY="8.75" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.AspNetUserRoles" Width="1.5" PointX="14" PointY="4.5" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.AspNetUsers" Width="1.5" PointX="8.75" PointY="3.625" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.ComputerMasterClient" Width="1.5" PointX="3" PointY="13.25" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.ComputerSubClient" Width="1.5" PointX="5.25" PointY="17.5" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.HistoryLoginSession" Width="1.5" PointX="3" PointY="6.125" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.Licence" Width="1.5" PointX="3" PointY="17.25" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.List_Game_Disk" Width="1.5" PointX="3.75" PointY="1.25" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.Menu_Type" Width="1.5" PointX="10.75" PointY="11.875" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.5" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.User_Control_Menu" Width="1.5" PointX="13" PointY="11.625" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.User_Game_Owner" Width="1.5" PointX="6" PointY="9.375" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.User_Licence" Width="1.5" PointX="8.25" PointY="13.125" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.UserProfile" Width="1.5" PointX="0.75" PointY="9.125" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_ComputerMasterClient_UserProfile" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_ComputerSubClient_ComputerMasterClient" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Licence_ComputerMasterClient" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_HistoryLoginSession_UserProfile" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_Licence_UserProfile" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Licence_Licence" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Game_Owner_List_Game_Disk" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Control_Menu_Menu_Type" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Game_Owner_UserProfile" />
+        <AssociationConnector Association="GAME_MENU_CONTROLModel.FK_User_Licence_UserProfile" />
+        <EntityTypeShape EntityType="GAME_MENU_CONTROLModel.VersionHistory" Width="1.5" PointX="5.375" PointY="13.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

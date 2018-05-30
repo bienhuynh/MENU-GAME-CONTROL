@@ -1,0 +1,98 @@
+﻿@model IEnumerable<SGP.HCBBOOK.CORE.Busssiness.Models.LicenceDetailModel>
+@using SGP.HCBBOOK.CORE.Busssiness.IService
+@using SGP.HCBBOOK.CORE.Busssiness.Service
+@using SGP.HCBBOOK.CORE.Busssiness.Models
+@{
+    IUserService userService = new UserService();
+}
+
+<!-- Exportable Table -->
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Danh sách Key Bản quyền
+                </h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);">Action</a></li>
+                            <li><a href="javascript:void(0);">Another action</a></li>
+                            <li><a href="javascript:void(0);">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover dataTable js-exportable">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>KEY</th>
+                                <th>Ngày tạo</th>
+                                <th>Người tạo</th>
+                                <th>Người sở hữu</th>
+                                <th>Ngày dùng cuối</th>
+                                <th>Số máy tối đa</th>
+                                <th>Đăng kích hoạt</th>
+                                <th>Giá trị</th>
+                                <th>Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>STT</th>
+                                <th>KEY</th>
+                                <th>Ngày tạo</th>
+                                <th>Người tạo</th>
+                                <th>Người sở hữu</th>
+                                <th>Ngày dùng cuối</th>
+                                <th>Số máy tối đa</th>
+                                <th>Đăng kích hoạt</th>
+                                <th>Giá trị</th>
+                                <th>Trạng thái</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @{int stt = 0; }
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@(++stt)</td>
+                                    <td><a href="@Url.Action("Detail", "LicenceManage",new {id = item.LicenceId})">@(String.Format("{0}", item.LicenceKey))</a></td>
+                                    <td>@item.DateCreate</td>
+                                    <td>@userService.GetNameByUserId(item.UserIdCreate)</td>
+                                    <td>@userService.GetNameByUserId(item.Userid)</td>
+                                    <td>@(item.Userid != null ? item.DateEnd : null)</td>
+                                    <td>@item.MaxNumberDevices</td>
+                                    <td>@item.NumberDevicesLiveActive</td>
+                                    <td>@item.Price</td>
+                                    @if (item.IsActive == false && item.Userid == null)
+                                    {
+                                        <td class="bg-amber">Chưa kích hoạt</td>
+                                    }
+                                    else if (item.IsActive == false && item.Userid != null)
+                                    {
+                                        <td class="bg-pink">Bị vô hiệu hóa</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="bg-green">Đã kích hoạt</td>
+                                    }
+
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Exportable Table -->

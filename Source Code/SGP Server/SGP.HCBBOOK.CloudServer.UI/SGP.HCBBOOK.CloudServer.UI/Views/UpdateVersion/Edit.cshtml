@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@model SGP.HCBBOOK.CORE.Busssiness.Models.CheckVersionInfoModel
+<div class="container-fluid">
+    @using (Html.BeginForm("Edit", "UpdateVersion", FormMethod.Post, new { @id = "wizard_with_validation" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>
+                            Chỉnh Sửa cập nhật @Model.Version
+                        </h2>
+                        <ul class="header-dropdown m-r--5">
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">more_vert</i>
+                                </a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li><a href="javascript:void(0);">Action</a></li>
+                                    <li><a href="javascript:void(0);">Another action</a></li>
+                                    <li><a href="javascript:void(0);">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="body">
+                        <div class="row clearfix">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>Version(X.X.X.X)</label>
+                                    <div class="form-line">
+                                        @Html.EditorFor(model => model.Version, new { htmlAttributes = new { @class = "form-control", @type = "text", @name = "name1", @required = "" } })
+                                        @Html.ValidationMessageFor(model => model.Version, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Checksum</label>
+                                    <div class="form-line">
+                                        @Html.EditorFor(model => model.Checksum, new { htmlAttributes = new { @class = "form-control", @type = "text", @name = "name1" } })
+                                        @Html.ValidationMessageFor(model => model.Checksum, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>HashingAlgorithm</label>
+                                    <div class="form-line">
+                                        @Html.EditorFor(model => model.HashingAlgorithm, new { htmlAttributes = new { @class = "form-control", @type = "text", @name = "name1" } })
+                                        @Html.ValidationMessageFor(model => model.HashingAlgorithm, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Mandatory(1/0)</label>
+                                    <div class="form-line">
+                                        @Html.CheckBoxFor(model => model.Mandatory, new { @class = "form-control", @type = "checkbox", @name = "name1" })
+                                        @Html.ValidationMessageFor(model => model.Mandatory, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>InstallerArgs</label>
+                                    <div class="form-line">
+                                        @Html.EditorFor(model => model.InstallerArgs, new { htmlAttributes = new { @class = "form-control", @type = "text", @name = "name1" } })
+                                        @Html.ValidationMessageFor(model => model.InstallerArgs, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Softname</label>
+                                    <div class="form-line">
+                                        @Html.EditorFor(model => model.Softname, new { htmlAttributes = new { @class = "form-control", @type = "text", @name = "name1", @required = "" } })
+                                        @Html.ValidationMessageFor(model => model.Softname, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <label>ChangeLogs</label>
+                        @Html.TextAreaFor(m => m.ChangeLogs, new { @id = "ckeditor" })
+                        <br />
+                        <button type="submit" class="btn btn-block btn-lg btn-success waves-effect">SAVE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+<!-- #END# CKEditor -->
+<!-- Jquery Core Js -->
+<script src="~/asset/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core Js -->
+<script src="~/asset/plugins/bootstrap/js/bootstrap.js"></script>
+<!-- Select Plugin Js -->
+<script src="~/asset/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+<!-- Slimscroll Plugin Js -->
+<script src="~/asset/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- Waves Effect Plugin Js -->
+<script src="~/asset/plugins/node-waves/waves.js"></script>
+<!-- Ckeditor -->
+<script src="~/asset/plugins/ckeditor/ckeditor.js"></script>
+<!-- TinyMCE -->
+<script src="~/asset/plugins/tinymce/tinymce.js"></script>
+<!-- Custom Js -->
+<script src="~/asset/js/admin.js"></script>
+<script src="~/asset/js/pages/forms/editors.js"></script>
+<script src="../../js/pages/forms/basic-form-elements.js"></script>
+<!-- Demo Js -->
+<script src="~/asset/js/demo.js"></script>
