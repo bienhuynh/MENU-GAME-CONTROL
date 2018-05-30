@@ -1,0 +1,10 @@
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Release\RedCell.Diagnostics.Update.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Release\RedCell.Diagnostics.Update.pdb
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Release\Ionic.Zip.Reduced.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Release\RedCell.Net.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Release\RedCell.Net.pdb
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Release\RedCell.Diagnostics.Update.csprojResolveAssemblyReference.cache
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Release\RedCell.Diagnostics.Update.csproj.CoreCompileInputs.cache
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Release\RedCell.Diagnostics.Update.csproj.CopyComplete
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Release\RedCell.Diagnostics.Update.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Release\RedCell.Diagnostics.Update.pdb

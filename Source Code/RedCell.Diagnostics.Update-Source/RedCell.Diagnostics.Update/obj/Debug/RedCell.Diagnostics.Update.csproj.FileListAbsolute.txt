@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\RedCell.Diagnostics.Update.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\RedCell.Diagnostics.Update.pdb
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\Ionic.Zip.Reduced.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\RedCell.Net.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\bin\RedCell.Net.pdb
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Debug\RedCell.Diagnostics.Update.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Debug\RedCell.Diagnostics.Update.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Debug\RedCell.Diagnostics.Update.csproj.CopyComplete
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Debug\RedCell.Diagnostics.Update.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Diagnostics.Update\obj\Debug\RedCell.Diagnostics.Update.pdb

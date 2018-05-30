@@ -1,0 +1,6 @@
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\bin\Debug\RedCell.Net.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\bin\Debug\RedCell.Net.pdb
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Debug\RedCell.Net.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Debug\RedCell.Net.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Debug\RedCell.Net.dll
+C:\Users\Administrator\Downloads\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Debug\RedCell.Net.pdb

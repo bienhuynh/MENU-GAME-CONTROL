@@ -1,0 +1,5 @@
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Net\bin\Release\RedCell.Net.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Net\bin\Release\RedCell.Net.pdb
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Release\RedCell.Net.csproj.CoreCompileInputs.cache
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Release\RedCell.Net.dll
+C:\MENU-GAME-CONTROL\Source Code\RedCell.Diagnostics.Update-Source\RedCell.Net\obj\Release\RedCell.Net.pdb
