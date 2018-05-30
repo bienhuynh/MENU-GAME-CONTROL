@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<item>
+  <version>1.1.1.1</version>
+  <url>http://124.158.13.36/Download/SGPMGCNewVersion/SGPMGCv1.0.zip</url>
+  <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
+  <mandatory>false</mandatory>
+</item>
