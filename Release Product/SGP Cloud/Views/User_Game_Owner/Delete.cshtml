@@ -1,0 +1,57 @@
+﻿@model SGP.HCBBOOK.CORE.Database.User_Game_Owner
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>User_Game_Owner</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IsShowOnMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsShowOnMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsRemoveOnDisk)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsRemoveOnDisk)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.List_Game_Disk.NameGame)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.List_Game_Disk.NameGame)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserProfile.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserProfile.FirstName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

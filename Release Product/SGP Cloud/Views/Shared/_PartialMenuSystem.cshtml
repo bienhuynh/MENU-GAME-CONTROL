@@ -1,0 +1,93 @@
+﻿@using SGP.HCBBOOK.CORE.Busssiness.IService
+@using SGP.HCBBOOK.CORE.Busssiness.Service
+@using SGP.HCBBOOK.CORE.Busssiness.Models
+@{
+    IUserService userService = new UserService();
+}
+<div class="menu">
+    <ul class="list">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="active">
+            <a href="/">
+                <i class="material-icons">home</i>
+                <span>Home</span>
+            </a>
+        </li>
+        @*@Html.Partial("~/Views/Shared/_PartialRoleManage.cshtml")*@
+        @*<li>
+                <a href="javascript:void(0);" name="@item.codePosition" class="menu-toggle">
+                    <i class="material-icons">widgets</i>
+                    <span id="@item.codeDepartment">@item.nameDepartment</span>
+                </a>
+                <ul class="ml-menu">
+                    <li><a href="@Url.Action(item.codeDepartment,"Department",new {posId = item.codePosition})">Quản lý Account</a></li>
+                </ul>
+                }
+            </li>*@
+        <!-- Trợ giúp -->
+        <li>
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">widgets</i>
+                <span>Quản lý tài khoản</span>
+            </a>
+            <ul class="ml-menu">
+                <li><a href="@Url.Action("index", "Manage")">Thông tin cá nhân</a></li>
+                <li><a href="@Url.Action("ChangePassword","Manage")">Đổi mật khẩu</a></li>
+                <li><a href="@Url.Action("UpdateMyLogo","Manage")">Cập nhật logo</a></li>
+            </ul>
+        </li>
+
+        @if (userService.CheckAdminSysRole(userService.GetUserId(User.Identity.Name)))
+        {
+            <li>
+                <a href="@Url.Action("index","Accountting")" class="menu-toggle">
+                    <i class="material-icons">widgets</i>
+                    <span>Quản lý người dùng</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("index","LicenceManage")" class="menu-toggle">
+                    <i class="material-icons">widgets</i>
+                    <span>Quản lý key Bản quyền</span>
+                </a>
+            </li>
+        }
+        <li>
+            <a href="@Url.Action("index","GameManage")" class="menu-toggle">
+                <i class="material-icons">widgets</i>
+                <span>Quản lý Game</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="javascript:void(0);" class="menu-toggle">
+                <i class="material-icons">widgets</i>
+                <span>Quản lý máy Client</span>
+            </a>
+            <ul class="ml-menu">
+                <li><a href="@Url.Action("index", "ClientManage")">Tổng quan</a></li>
+                <li><a href="@Url.Action("GetAllListClient", "ClientManage")">Danh sách máy Client</a></li>
+                <li><a href="@Url.Action("Subclient","ClientManage")">Quản lý Máy trạm</a></li>
+                <li><a href="@Url.Action("ControlMenu","ClientManage")">Control Menu</a></li>
+            </ul>
+        </li>
+
+        @*@if (!userService.CheckAdminSysRole(User.Identity.Name))
+            {
+
+            }*@
+
+        <li>
+            <a href="@Url.Action("index","Help")" class="menu-toggle">
+                <i class="material-icons">widgets</i>
+                <span>Trợ giúp</span>
+            </a>
+        </li>
+        <li>
+            <a href="@Url.Action("logoff","Account")" class="menu-toggle">
+                <i class="material-icons">widgets</i>
+                <span>Đăng xuất</span>
+            </a>
+        </li>
+    </ul>
+</div>

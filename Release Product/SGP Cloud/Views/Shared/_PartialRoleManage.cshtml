@@ -1,0 +1,23 @@
+﻿@using SGP.HCBBOOK.CORE.Busssiness.IService
+@using SGP.HCBBOOK.CORE.Busssiness.Service
+@{
+    bool checkRoleSys = true;
+}
+
+@if (checkRoleSys)
+{
+    <li>
+        <a href="@Url.Action("Index","RolesManage")" class="menu-toggle">
+            <i class="material-icons">widgets</i>
+            <span>Quản lý quyền</span>
+        </a>
+    </li>
+
+    <li>
+        <a href="@Url.Action("CreateUser","UserManage")" class="menu-toggle">
+            <i class="material-icons">widgets</i>
+            <span>Tạo Người dùng</span>
+        </a>
+    </li>
+
+}

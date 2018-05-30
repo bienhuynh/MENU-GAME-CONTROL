@@ -1,0 +1,97 @@
+﻿@model SGP.HCBBOOK.CloudServer.UI.Models.ManageLoginsViewModel
+@using Microsoft.Owin.Security
+@{
+    ViewBag.Title = "Manage your external logins";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    if (loginProviders.Count() == 0)
+    {
+        <div>
+            <p>
+                There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkId=313242">this article</a>
+                for details on setting up this ASP.NET application to support logging in via external services.
+            </p>
+        </div>
+    }
+    else
+    {
+        if (Model.CurrentLogins.Count > 0)
+        {
+            <h4>Registered Logins</h4>
+            <table class="table">
+                <tbody>
+                    @foreach (var account in Model.CurrentLogins)
+                    {
+                        <tr>
+                            <td>@account.LoginProvider</td>
+                            <td>
+                                @if (ViewBag.ShowRemoveButton)
+                                {
+                                    using (Html.BeginForm("RemoveLogin", "Manage"))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        <div>
+                                            @Html.Hidden("loginProvider", account.LoginProvider)
+                                            @Html.Hidden("providerKey", account.ProviderKey)
+                                            <input type="submit" class="btn btn-default" value="Remove" title="Remove this @account.LoginProvider login from your account" />
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    @: &nbsp;
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        if (Model.OtherLogins.Count > 0)
+        {
+            using (Html.BeginForm("LinkLogin", "Manage"))
+            {
+                @Html.AntiForgeryToken()
+                <div id="socialLoginList">
+                    <p>
+                        @foreach (AuthenticationDescription p in Model.OtherLogins)
+                        {
+                            <button type="submit" class="btn btn-default" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
+                        }
+                    </p>
+                </div>
+            }
+        }
+    }
+}
+
+<!-- Jquery Core Js -->
+<script src="~/asset/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core Js -->
+<script src="~/asset/plugins/bootstrap/js/bootstrap.js"></script>
+<!-- Select Plugin Js -->
+<script src="~/asset/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+<!-- Slimscroll Plugin Js -->
+<script src="~/asset/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- Waves Effect Plugin Js -->
+<script src="~/asset/plugins/node-waves/waves.js"></script>
+<!-- Jquery DataTable Plugin Js -->
+<script src="~/asset/plugins/jquery-datatable/jquery.dataTables.js"></script>
+<script src="~/asset/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+<script src="~/asset/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+<!-- Custom Js -->
+<script src="~/asset/js/admin.js"></script>
+<script src="~/asset/js/pages/tables/jquery-datatable.js"></script>
+<!-- Demo Js -->
+<script src="~/asset/js/demo.js"></script>

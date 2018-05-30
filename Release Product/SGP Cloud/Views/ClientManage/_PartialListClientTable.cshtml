@@ -1,0 +1,87 @@
+﻿@model IEnumerable<SGP.HCBBOOK.CORE.Busssiness.Models.ComputerMACClientModel>
+@using SGP.HCBBOOK.CORE.Busssiness.IService
+@using SGP.HCBBOOK.CORE.Busssiness.Service
+@using SGP.HCBBOOK.CORE.Busssiness.Models
+@{
+    IUserService userService = new UserService();
+}
+
+<!-- Exportable Table -->
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Danh sách Key Bản quyền
+                </h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);">Action</a></li>
+                            <li><a href="javascript:void(0);">Another action</a></li>
+                            <li><a href="javascript:void(0);">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover dataTable js-exportable">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>MAC Address</th>
+                                <th>IP Address</th>
+                                <th>Tên máy tính</th>
+                                <th>Hệ điều hành</th>
+                                <th>Thuộc sở hữu</th>
+                                <th>Trạng thái</th>
+                                <th>Ngày tham gia</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>STT</th>
+                                <th>MAC Address</th>
+                                <th>IP Address</th>
+                                <th>Tên máy tính</th>
+                                <th>Hệ điều hành</th>
+                                <th>Thuộc sở hữu</th>
+                                <th>Trạng thái</th>
+                                <th>Ngày tham gia</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @{int stt = 0; }
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@(++stt)</td>
+                                    <td><a href="@Url.Action("Detail", "LicenceManage",new {id = item.MAC})">@(String.Format("{0}", item.MAC))</a></td>
+                                    <td>@item.IP</td>
+                                    <td>@item.NameComputer</td>
+                                    <td>@item.SystemOperator</td>
+                                    <td>@userService.GetNameCompanyByUserId(item.UserId)</td>
+                                    @if ((bool)!item.IsDisable)
+                                    {
+                                        <td class="bg-green">Hoạt động</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="bg-pink">Bị vô hiệu hóa</td>
+                                    }
+                                    <td>@item.DateJoin</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Exportable Table -->
