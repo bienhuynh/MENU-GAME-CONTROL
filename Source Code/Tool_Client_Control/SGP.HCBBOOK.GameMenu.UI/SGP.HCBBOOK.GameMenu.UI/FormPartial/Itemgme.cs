@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Setting;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
 

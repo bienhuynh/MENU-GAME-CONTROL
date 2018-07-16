@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TsudaKageyu;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 
 namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
 {
@@ -38,7 +38,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
             progressBar1.Value = 10;
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                GameItem gameItem = null;
+                Logic.Models.GameItem gameItem = null;
                 progressBar1.Value = 20;
                 try
                 {
@@ -85,7 +85,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                          idGame = await gameMenuService.JRandomIdGameAync();
                     }
                     progressBar1.Value = 70;
-                    gameItem = new GameItem
+                    gameItem = new Logic.Models.GameItem
                     {
                         DateScan = DateTime.Now,
                         Description = "",
@@ -99,7 +99,8 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                         IcoUrL = urlIcon,
                         IsGameChienThuat = false,
                         IsGameHot = true,
-                        IsGameOnline = false
+                        IsGameOnline = false,
+                        IsApplication = false
                     };
 
                     progressBar1.Value = 90;

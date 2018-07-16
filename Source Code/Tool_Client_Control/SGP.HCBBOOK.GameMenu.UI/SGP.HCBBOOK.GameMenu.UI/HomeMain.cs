@@ -1,7 +1,7 @@
 ﻿using SGP.HCBBOOK.GameMenu.UI.FormPartial;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Service;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,12 +31,11 @@ namespace SGP.HCBBOOK.GameMenu.UI
 
         private async Task<bool> GetListGame()
         {
-            IList<GameItem> listGame = await gameMenuService.GetListGameOnServer();
+            IList<Logic.Models.GameItem> listGame = await gameMenuService.GetListGameOnServer();
             gameItems = listGame; 
             return true;
         }
-
-
+        
         private void btn_closeapp_Click(object sender, EventArgs e)
         {
             Application.Exit();

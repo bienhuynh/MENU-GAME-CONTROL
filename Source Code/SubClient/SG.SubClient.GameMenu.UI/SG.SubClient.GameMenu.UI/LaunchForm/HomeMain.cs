@@ -43,8 +43,8 @@ namespace SG.SubClient.GameMenu.UI.LaunchForm
 
         public void locationTitleForm()
         {
-            lblTitle.BringToFront();
-            lblTitle.Location = new Point((this.Width - this.lblTitle.Width) / 2, (this.border_top.Height- this.lblTitle.Height) / 2);
+            //lblTitle.BringToFront();
+            //lblTitle.Location = new Point((this.Width - this.lblTitle.Width) / 2, (this.border_top.Height - this.lblTitle.Height) / 2);
             btn_exit.Left = this.Width - 40;
             btn_maxisize.Left = this.Width - 90;
         }
@@ -374,6 +374,11 @@ namespace SG.SubClient.GameMenu.UI.LaunchForm
         private void btn_MenuExit_MouseHover(object sender, EventArgs e)
         {
             audio.PlaySync();
+        }
+
+        private void btn_maxisize_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

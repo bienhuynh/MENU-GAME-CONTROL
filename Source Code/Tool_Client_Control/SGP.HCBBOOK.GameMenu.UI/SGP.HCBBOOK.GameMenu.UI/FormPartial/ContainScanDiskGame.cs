@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Text.RegularExpressions;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using TsudaKageyu;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Service;
 using System.Media;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Setting;
+using SGP.HCBBOOK.GameMenu.UI.Models;
 
 namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
 {
@@ -55,7 +56,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
             DisplayGame(iconGameDisplays);
         }
 
-        private void SetDataForControlGameItem(IList<GameItem> gameList)
+        private void SetDataForControlGameItem(IList<Logic.Models.GameItem> gameList)
         {
             if (gameList != null)
             {
@@ -125,7 +126,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                     btn_Scan.Enabled = false;
                     List<string> search = Directory.GetFiles(folderBrowserDialog1.SelectedPath, "*_sgp.exe", SearchOption.AllDirectories).ToList();
                     progressBar1.Maximum = search.Count;
-                    IList<GameItem> gameItems = new List<GameItem>();
+                    IList<Logic.Models.GameItem> gameItems = new List<Logic.Models.GameItem>();
 
                     foreach (string item in search)
                     {
@@ -174,7 +175,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                                 m_iconExtractor.Save(0, fs);
                             }
                             string idGame = await gameMenuService.JRandomIdGameAync();
-                            gameItems.Add(new GameItem
+                            gameItems.Add(new Logic.Models.GameItem
                             {
                                 DateScan = DateTime.Now,
                                 Description = "",
@@ -188,7 +189,8 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                                 IcoUrL = urlIcon,
                                 IsGameChienThuat = false,
                                 IsGameHot = true,
-                                IsGameOnline = false
+                                IsGameOnline = false,
+                                IsApplication = false
                             });
 
                             progressBar1.Increment(1);

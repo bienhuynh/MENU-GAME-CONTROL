@@ -26,7 +26,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             this._tcpListener = new TcpListener(IPAddress.Any, 3100);
             gameMenuService = new GameMenuService(_callAPIService);
             jsonService = new JsonService();
-            this._maxSize = 4;
+            this._maxSize = 1024 * 1024 * 5;
         }
         //public delegate void OnMessageReceived(object sender, MessageEventArgs e);
         //public event OnMessageReceived MessageReceived;
@@ -69,38 +69,41 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
         {
             TcpClient tcpClient = (TcpClient)client;
             NetworkStream clientStream = tcpClient.GetStream();
-            byte[] message = new byte[1024 * _maxSize];
+            byte[] message = new byte[_maxSize];
             int bytesRead;
-
-            while (true)
+            try
             {
-                bytesRead = 0;
-
-                try
+                while (true)
                 {
-                    //blocks until a client sends a message
-                    bytesRead = clientStream.Read(message, 0, 4096);
-                }
-                catch
-                {
-                    //a socket error has occured
-                    break;
-                }
+                    bytesRead = 0;
 
-                if (bytesRead == 0)
-                {
-                    //the client has disconnected from the server
-                    break;
+                    try
+                    {
+                        //blocks until a client sends a message
+                        bytesRead = clientStream.Read(message, 0, _maxSize);
+                    }
+                    catch (Exception ex)
+                    {
+                        //a socket error has occured
+                        break;
+                    }
+
+                    if (bytesRead == 0)
+                    {
+                        //the client has disconnected from the server
+                        break;
+                    }
+
+                    this._lastCommunicatedClient = tcpClient;
+
+                    //message has successfully been received
+                    ASCIIEncoding encoder = new ASCIIEncoding();
+                    string text = encoder.GetString(message, 0, bytesRead);
+
+                    HandleRequest(tcpClient, text);
                 }
-
-                this._lastCommunicatedClient = tcpClient;
-                
-                //message has successfully been received
-                ASCIIEncoding encoder = new ASCIIEncoding();
-                string text = encoder.GetString(message, 0, bytesRead);
-
-                HandleRequest(tcpClient, text);
             }
+            catch(Exception ex) { }
 
             tcpClient.Close();
         }

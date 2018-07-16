@@ -25,7 +25,7 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
         {
             this._tcpClient = new TcpClient();
             this._serverEndpoint = new IPEndPoint(IPAddress.Parse(serverAddress), port);
-            this._maxsize = 4;
+            this._maxsize = 1024 * 1024 *5;
             result = "";
             this._form = null;
         }
@@ -42,15 +42,22 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
 
         public void SendData(string message)
         {
-            NetworkStream clientStream = this._tcpClient.GetStream();
+            try
+            {
+                NetworkStream clientStream = this._tcpClient.GetStream();
 
-            ASCIIEncoding encoder = new ASCIIEncoding();
-            byte[] buffer = encoder.GetBytes(message);
+                ASCIIEncoding encoder = new ASCIIEncoding();
+                byte[] buffer = encoder.GetBytes(message);
 
-            clientStream.Write(buffer, 0, buffer.Length);
-            clientStream.Flush();
-            //byte[] result = new byte[1024*_maxsize];
-            ReceiveResponseFromServerAsync();
+                clientStream.Write(buffer, 0, buffer.Length);
+                clientStream.Flush();
+                //byte[] result = new byte[1024*_maxsize];
+                ReceiveResponseFromServerAsync();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Không thể liên lạc với máy chủ");
+            }
         }
 
         public void ReceiveResponseFromServerAsync()
@@ -63,7 +70,7 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
                     try
                     {
                         NetworkStream networkStream = _tcpClient.GetStream();
-                        byte[] bufferToRead = new byte[1024*_maxsize];
+                        byte[] bufferToRead = new byte[_maxsize];
                         int len = networkStream.Read(bufferToRead, 0, bufferToRead.Length);
                         if (len > 0)
                         {

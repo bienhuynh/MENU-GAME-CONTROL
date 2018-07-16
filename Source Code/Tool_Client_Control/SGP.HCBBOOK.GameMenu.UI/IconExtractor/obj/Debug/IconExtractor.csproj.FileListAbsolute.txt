@@ -16,3 +16,9 @@ C:\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\Ico
 C:\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.csproj.CoreCompileInputs.cache
 C:\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.dll
 C:\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.pdb
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\bin\Debug\IconExtractor.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\bin\Debug\IconExtractor.pdb
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.pdb
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\Tool_Client_Control\SGP.HCBBOOK.GameMenu.UI\IconExtractor\obj\Debug\IconExtractor.csprojAssemblyReference.cache

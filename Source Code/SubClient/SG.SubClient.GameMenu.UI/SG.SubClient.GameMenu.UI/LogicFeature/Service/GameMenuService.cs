@@ -42,7 +42,7 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
             {
 
             }
-            
+            tcpClientConnection.ResetResult();
             return null;
         }
 
@@ -60,7 +60,7 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
             {
 
             }
-
+            tcpClientConnection.ResetResult();
             return null;
         }
 
@@ -101,7 +101,17 @@ namespace SG.SubClient.GameMenu.UI.LogicFeature.Service
 
         public Task<ResultBasic> RunGameAync(GameItem gameItem)
         {
-            throw new NotImplementedException();
+            try
+            {
+                System.Diagnostics.Process.Start("CMD.exe", String.Format("/C \"{0}\"", gameItem.URLExecute));
+                return Task.FromResult(new ResultBasic { IsSuccess = true, Message = "Chương trình Run thành công!" });
+            }
+            catch
+            {
+
+            }
+
+            return Task.FromResult(new ResultBasic { IsSuccess = false, Message = "Chương trình không tồn tại" });
         }
     }
 }

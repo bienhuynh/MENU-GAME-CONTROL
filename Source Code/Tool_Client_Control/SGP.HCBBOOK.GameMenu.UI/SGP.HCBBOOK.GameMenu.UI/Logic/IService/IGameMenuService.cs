@@ -1,6 +1,6 @@
 ﻿using SGP.HCBBOOK.GameMenu.UI.FormPartial;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Result;
-using SGP.HCBBOOK.GameMenu.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,4 +1,5 @@
-﻿using SGP.HCBBOOK.GameMenu.UI.Models;
+﻿
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

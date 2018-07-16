@@ -60,7 +60,6 @@
             this.btn_MenuGameOnLine = new SG.SubClient.GameMenu.UI.DesginCustom.hcbbookButton();
             this.btn_Allgame = new SG.SubClient.GameMenu.UI.DesginCustom.hcbbookButton();
             this.btn_MenuGameHot = new SG.SubClient.GameMenu.UI.DesginCustom.hcbbookButton();
-            this.lblTitle = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btn_exit = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_maxisize = new Bunifu.Framework.UI.BunifuImageButton();
             bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -94,7 +93,7 @@
             this.border_top.Dock = System.Windows.Forms.DockStyle.Top;
             this.border_top.Location = new System.Drawing.Point(0, 0);
             this.border_top.Name = "border_top";
-            this.border_top.Size = new System.Drawing.Size(1024, 60);
+            this.border_top.Size = new System.Drawing.Size(1024, 23);
             this.border_top.TabIndex = 12;
             this.border_top.TabStop = false;
             this.border_top.Resize += new System.EventHandler(this.border_top_Resize);
@@ -106,9 +105,9 @@
             this.panel_Body.Controls.Add(this.panel23);
             this.panel_Body.Controls.Add(this.pnl_Siderbar);
             this.panel_Body.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_Body.Location = new System.Drawing.Point(0, 60);
+            this.panel_Body.Location = new System.Drawing.Point(0, 23);
             this.panel_Body.Name = "panel_Body";
-            this.panel_Body.Size = new System.Drawing.Size(1024, 708);
+            this.panel_Body.Size = new System.Drawing.Size(1024, 745);
             this.panel_Body.TabIndex = 13;
             // 
             // panel23
@@ -121,7 +120,7 @@
             this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel23.Location = new System.Drawing.Point(250, 0);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(774, 708);
+            this.panel23.Size = new System.Drawing.Size(774, 745);
             this.panel23.TabIndex = 4;
             // 
             // pnl_Gamebody
@@ -135,7 +134,7 @@
             this.pnl_Gamebody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_Gamebody.Location = new System.Drawing.Point(0, 100);
             this.pnl_Gamebody.Name = "pnl_Gamebody";
-            this.pnl_Gamebody.Size = new System.Drawing.Size(574, 508);
+            this.pnl_Gamebody.Size = new System.Drawing.Size(574, 545);
             this.pnl_Gamebody.TabIndex = 5;
             // 
             // pnl_containGame
@@ -144,7 +143,7 @@
             this.pnl_containGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_containGame.Location = new System.Drawing.Point(0, 48);
             this.pnl_containGame.Name = "pnl_containGame";
-            this.pnl_containGame.Size = new System.Drawing.Size(570, 456);
+            this.pnl_containGame.Size = new System.Drawing.Size(570, 493);
             this.pnl_containGame.TabIndex = 1;
             // 
             // pnl_BodyGame_header
@@ -164,12 +163,14 @@
             this.btn_TimGame.BackColor = System.Drawing.Color.Black;
             this.btn_TimGame.BackgroundImage = global::SG.SubClient.GameMenu.UI.Properties.Resources.btngame2;
             this.btn_TimGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_TimGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TimGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_TimGame.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_TimGame.Location = new System.Drawing.Point(365, 2);
             this.btn_TimGame.Name = "btn_TimGame";
             this.btn_TimGame.Size = new System.Drawing.Size(86, 37);
             this.btn_TimGame.TabIndex = 1;
+            this.btn_TimGame.TabStop = false;
             this.btn_TimGame.Text = "Tìm";
             this.btn_TimGame.UseVisualStyleBackColor = false;
             this.btn_TimGame.Click += new System.EventHandler(this.btn_TimGame_Click_1);
@@ -205,7 +206,7 @@
             this.pnl_Ads.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnl_Ads.Location = new System.Drawing.Point(574, 100);
             this.pnl_Ads.Name = "pnl_Ads";
-            this.pnl_Ads.Size = new System.Drawing.Size(200, 508);
+            this.pnl_Ads.Size = new System.Drawing.Size(200, 545);
             this.pnl_Ads.TabIndex = 4;
             this.pnl_Ads.Click += new System.EventHandler(this.pnl_Ads_Click);
             this.pnl_Ads.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Ads_Paint);
@@ -217,7 +218,7 @@
             this.panel27.Controls.Add(this.bunifuImageButton2);
             this.panel27.Controls.Add(this.bunifuImageButton1);
             this.panel27.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel27.Location = new System.Drawing.Point(0, 608);
+            this.panel27.Location = new System.Drawing.Point(0, 645);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(774, 100);
             this.panel27.TabIndex = 3;
@@ -339,7 +340,7 @@
             this.pnl_Siderbar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_Siderbar.Location = new System.Drawing.Point(0, 0);
             this.pnl_Siderbar.Name = "pnl_Siderbar";
-            this.pnl_Siderbar.Size = new System.Drawing.Size(250, 708);
+            this.pnl_Siderbar.Size = new System.Drawing.Size(250, 745);
             this.pnl_Siderbar.TabIndex = 3;
             // 
             // panel25
@@ -361,7 +362,7 @@
             this.label81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(248)))));
             this.label81.Location = new System.Drawing.Point(25, 227);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(289, 31);
+            this.label81.Size = new System.Drawing.Size(143, 16);
             this.label81.TabIndex = 2;
             this.label81.Text = "sieugiaiphap@gmail.com";
             // 
@@ -372,7 +373,7 @@
             this.label82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(152)))), ((int)(((byte)(248)))));
             this.label82.Location = new System.Drawing.Point(23, 202);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(141, 39);
+            this.label82.Size = new System.Drawing.Size(78, 22);
             this.label82.TabIndex = 1;
             this.label82.Text = "BQNET";
             // 
@@ -392,12 +393,14 @@
             this.btn_MenuExit.BackColor = System.Drawing.Color.Transparent;
             this.btn_MenuExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MenuExit.BackgroundImage")));
             this.btn_MenuExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_MenuExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MenuExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_MenuExit.Location = new System.Drawing.Point(32, 706);
             this.btn_MenuExit.Name = "btn_MenuExit";
             this.btn_MenuExit.Size = new System.Drawing.Size(179, 58);
             this.btn_MenuExit.TabIndex = 3;
+            this.btn_MenuExit.TabStop = false;
             this.btn_MenuExit.Text = "Ẩn Menu";
             this.btn_MenuExit.UseVisualStyleBackColor = false;
             this.btn_MenuExit.Click += new System.EventHandler(this.hcbbookButton5_Click);
@@ -409,12 +412,14 @@
             this.btn_MenuGameChienThuat.BackColor = System.Drawing.Color.Transparent;
             this.btn_MenuGameChienThuat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MenuGameChienThuat.BackgroundImage")));
             this.btn_MenuGameChienThuat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_MenuGameChienThuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuGameChienThuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MenuGameChienThuat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_MenuGameChienThuat.Location = new System.Drawing.Point(32, 632);
             this.btn_MenuGameChienThuat.Name = "btn_MenuGameChienThuat";
             this.btn_MenuGameChienThuat.Size = new System.Drawing.Size(179, 58);
             this.btn_MenuGameChienThuat.TabIndex = 3;
+            this.btn_MenuGameChienThuat.TabStop = false;
             this.btn_MenuGameChienThuat.Text = "Game Chiến thuật";
             this.btn_MenuGameChienThuat.UseVisualStyleBackColor = false;
             this.btn_MenuGameChienThuat.Click += new System.EventHandler(this.btn_MenuGameChienThuat_Click);
@@ -426,12 +431,14 @@
             this.btn_MenuGameOffLine.BackColor = System.Drawing.Color.Transparent;
             this.btn_MenuGameOffLine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MenuGameOffLine.BackgroundImage")));
             this.btn_MenuGameOffLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_MenuGameOffLine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuGameOffLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MenuGameOffLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_MenuGameOffLine.Location = new System.Drawing.Point(32, 558);
             this.btn_MenuGameOffLine.Name = "btn_MenuGameOffLine";
             this.btn_MenuGameOffLine.Size = new System.Drawing.Size(179, 58);
             this.btn_MenuGameOffLine.TabIndex = 3;
+            this.btn_MenuGameOffLine.TabStop = false;
             this.btn_MenuGameOffLine.Text = "Game Offline";
             this.btn_MenuGameOffLine.UseVisualStyleBackColor = false;
             this.btn_MenuGameOffLine.Click += new System.EventHandler(this.btn_MenuGameOffLine_Click);
@@ -443,12 +450,14 @@
             this.btn_MenuGameOnLine.BackColor = System.Drawing.Color.Transparent;
             this.btn_MenuGameOnLine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MenuGameOnLine.BackgroundImage")));
             this.btn_MenuGameOnLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_MenuGameOnLine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuGameOnLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MenuGameOnLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_MenuGameOnLine.Location = new System.Drawing.Point(32, 483);
             this.btn_MenuGameOnLine.Name = "btn_MenuGameOnLine";
             this.btn_MenuGameOnLine.Size = new System.Drawing.Size(179, 58);
             this.btn_MenuGameOnLine.TabIndex = 3;
+            this.btn_MenuGameOnLine.TabStop = false;
             this.btn_MenuGameOnLine.Text = "Game Online";
             this.btn_MenuGameOnLine.UseVisualStyleBackColor = false;
             this.btn_MenuGameOnLine.Click += new System.EventHandler(this.btn_MenuGameOnLine_Click);
@@ -460,12 +469,14 @@
             this.btn_Allgame.BackColor = System.Drawing.Color.Lime;
             this.btn_Allgame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Allgame.BackgroundImage")));
             this.btn_Allgame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Allgame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Allgame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_Allgame.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_Allgame.Location = new System.Drawing.Point(33, 326);
             this.btn_Allgame.Name = "btn_Allgame";
             this.btn_Allgame.Size = new System.Drawing.Size(179, 58);
             this.btn_Allgame.TabIndex = 3;
+            this.btn_Allgame.TabStop = false;
             this.btn_Allgame.Text = "Tất cả game";
             this.btn_Allgame.UseVisualStyleBackColor = false;
             this.btn_Allgame.Click += new System.EventHandler(this.btn_Allgame_Click);
@@ -477,30 +488,19 @@
             this.btn_MenuGameHot.BackColor = System.Drawing.Color.Transparent;
             this.btn_MenuGameHot.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_MenuGameHot.BackgroundImage")));
             this.btn_MenuGameHot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_MenuGameHot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MenuGameHot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MenuGameHot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(77)))), ((int)(((byte)(125)))));
             this.btn_MenuGameHot.Location = new System.Drawing.Point(32, 405);
             this.btn_MenuGameHot.Name = "btn_MenuGameHot";
             this.btn_MenuGameHot.Size = new System.Drawing.Size(179, 58);
             this.btn_MenuGameHot.TabIndex = 3;
+            this.btn_MenuGameHot.TabStop = false;
             this.btn_MenuGameHot.Text = "Game Hot";
             this.btn_MenuGameHot.UseVisualStyleBackColor = false;
             this.btn_MenuGameHot.Click += new System.EventHandler(this.btn_MenuGameHot_Click);
             this.btn_MenuGameHot.MouseLeave += new System.EventHandler(this.btn_MenuGameHot_MouseLeave);
             this.btn_MenuGameHot.MouseHover += new System.EventHandler(this.btn_MenuGameHot_MouseHover);
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTitle.Location = new System.Drawing.Point(395, 11);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(395, 39);
-            this.lblTitle.TabIndex = 2;
-            this.lblTitle.Text = "SGP CONTROL MENU";
-            this.lblTitle.Resize += new System.EventHandler(this.lblTitle_Resize);
             // 
             // btn_exit
             // 
@@ -528,19 +528,21 @@
             this.btn_maxisize.TabIndex = 1;
             this.btn_maxisize.TabStop = false;
             this.btn_maxisize.Zoom = 10;
+            this.btn_maxisize.Click += new System.EventHandler(this.btn_maxisize_Click);
             // 
             // HomeMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(44)))), ((int)(((byte)(62)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 768);
             this.Controls.Add(this.btn_maxisize);
             this.Controls.Add(this.btn_exit);
-            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.panel_Body);
             this.Controls.Add(this.border_top);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(44)))), ((int)(((byte)(62)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -564,7 +566,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_maxisize)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -591,7 +592,6 @@
         private DesginCustom.hcbbookButton btn_MenuGameOffLine;
         private DesginCustom.hcbbookButton btn_MenuGameOnLine;
         private DesginCustom.hcbbookButton btn_MenuGameHot;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblTitle;
         private System.Windows.Forms.Panel pnl_BodyGame_header;
         private DesginCustom.hcbbookButton3 btn_TimGame;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_TimGame;

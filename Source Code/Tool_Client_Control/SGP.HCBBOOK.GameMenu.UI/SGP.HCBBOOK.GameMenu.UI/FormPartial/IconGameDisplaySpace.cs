@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 
 namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
 {

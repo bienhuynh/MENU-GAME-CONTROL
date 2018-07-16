@@ -9,6 +9,7 @@
 
 namespace SGP.HCBBOOK.GameMenu.UI.Models
 {
+    using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
     using System;
     using System.Collections.Generic;
     
@@ -27,5 +28,6 @@ namespace SGP.HCBBOOK.GameMenu.UI.Models
         public bool IsGameOnline { get; set; }
         public bool IsGameHot { get; set; }
         public bool IsGameChienThuat { get; set; }
+        public IList<CategoryGame> CategoryGames { get; set; }
     }
 }

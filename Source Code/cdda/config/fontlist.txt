@@ -1,0 +1,2748 @@
+Square Smallcaps
+data/font//Square-Smallcaps.ttf
+0
+FixedsysTTF Monospaced
+data/font//fixedsys.ttf
+0
+Square Modern
+data/font//square.ttf
+0
+Terminus
+data/font//terminus.fon
+0
+Unifont Medium
+data/font//unifont.ttf
+0
+Fixedsys
+C:\Windows\fonts/8514fix.fon
+0
+Fixedsys [8514fixe]
+C:\Windows\fonts/8514fixe.fon
+0
+Fixedsys [8514fixg]
+C:\Windows\fonts/8514fixg.fon
+0
+Fixedsys [8514fixr]
+C:\Windows\fonts/8514fixr.fon
+0
+Fixedsys [8514fixt]
+C:\Windows\fonts/8514fixt.fon
+0
+8514oem
+C:\Windows\fonts/8514oem.fon
+0
+Terminal
+C:\Windows\fonts/8514oeme.fon
+0
+Terminal Greek 737 (437G)
+C:\Windows\fonts/8514oemg.fon
+0
+Terminal [8514oemr]
+C:\Windows\fonts/8514oemr.fon
+0
+8514oem [8514oemt]
+C:\Windows\fonts/8514oemt.fon
+0
+System
+C:\Windows\fonts/8514sys.fon
+0
+System [8514syse]
+C:\Windows\fonts/8514syse.fon
+0
+System [8514sysg]
+C:\Windows\fonts/8514sysg.fon
+0
+System [8514sysr]
+C:\Windows\fonts/8514sysr.fon
+0
+System [8514syst]
+C:\Windows\fonts/8514syst.fon
+0
+Terminal [85775]
+C:\Windows\fonts/85775.fon
+0
+Terminal [85855]
+C:\Windows\fonts/85855.fon
+0
+Fixedsys [85f1255]
+C:\Windows\fonts/85f1255.fon
+0
+Fixedsys [85f1256]
+C:\Windows\fonts/85f1256.fon
+0
+Fixedsys [85f1257]
+C:\Windows\fonts/85f1257.fon
+0
+Fixedsys [85f874]
+C:\Windows\fonts/85f874.fon
+0
+System [85s1255]
+C:\Windows\fonts/85s1255.fon
+0
+System [85s1256]
+C:\Windows\fonts/85s1256.fon
+0
+System [85s1257]
+C:\Windows\fonts/85s1257.fon
+0
+System [85s874]
+C:\Windows\fonts/85s874.fon
+0
+Adobe Caslon Pro Bold
+C:\Windows\fonts/ACaslonPro-Bold.otf
+0
+Adobe Caslon Pro Bold Italic
+C:\Windows\fonts/ACaslonPro-BoldItalic.otf
+0
+Adobe Caslon Pro Italic
+C:\Windows\fonts/ACaslonPro-Italic.otf
+0
+Adobe Caslon Pro
+C:\Windows\fonts/ACaslonPro-Regular.otf
+0
+Adobe Caslon Pro Semibold
+C:\Windows\fonts/ACaslonPro-Semibold.otf
+0
+Adobe Caslon Pro Semibold Italic
+C:\Windows\fonts/ACaslonPro-SemiboldItalic.otf
+0
+Adobe Garamond Pro Bold
+C:\Windows\fonts/AGaramondPro-Bold.otf
+0
+Adobe Garamond Pro Bold Italic
+C:\Windows\fonts/AGaramondPro-BoldItalic.otf
+0
+Adobe Garamond Pro Italic
+C:\Windows\fonts/AGaramondPro-Italic.otf
+0
+Adobe Garamond Pro
+C:\Windows\fonts/AGaramondPro-Regular.otf
+0
+Adobe Arabic Bold
+C:\Windows\fonts/AdobeArabic-Bold.otf
+0
+Adobe Arabic Bold Italic
+C:\Windows\fonts/AdobeArabic-BoldItalic.otf
+0
+Adobe Arabic Italic
+C:\Windows\fonts/AdobeArabic-Italic.otf
+0
+Adobe Arabic
+C:\Windows\fonts/AdobeArabic-Regular.otf
+0
+Adobe Devanagari Bold
+C:\Windows\fonts/AdobeDevanagari-Bold.otf
+0
+Adobe Devanagari Bold Italic
+C:\Windows\fonts/AdobeDevanagari-BoldItalic.otf
+0
+Adobe Devanagari Italic
+C:\Windows\fonts/AdobeDevanagari-Italic.otf
+0
+Adobe Devanagari
+C:\Windows\fonts/AdobeDevanagari-Regular.otf
+0
+Adobe Fan Heiti Std B
+C:\Windows\fonts/AdobeFanHeitiStd-Bold.otf
+0
+Adobe Fangsong Std R
+C:\Windows\fonts/AdobeFangsongStd-Regular.otf
+0
+Adobe Gothic Std B
+C:\Windows\fonts/AdobeGothicStd-Bold.otf
+0
+Adobe Hebrew Bold
+C:\Windows\fonts/AdobeHebrew-Bold.otf
+0
+Adobe Hebrew Bold Italic
+C:\Windows\fonts/AdobeHebrew-BoldItalic.otf
+0
+Adobe Hebrew Italic
+C:\Windows\fonts/AdobeHebrew-Italic.otf
+0
+Adobe Hebrew
+C:\Windows\fonts/AdobeHebrew-Regular.otf
+0
+Adobe Heiti Std R
+C:\Windows\fonts/AdobeHeitiStd-Regular.otf
+0
+Adobe Kaiti Std R
+C:\Windows\fonts/AdobeKaitiStd-Regular.otf
+0
+Adobe Ming Std L
+C:\Windows\fonts/AdobeMingStd-Light.otf
+0
+Adobe Myungjo Std M
+C:\Windows\fonts/AdobeMyungjoStd-Medium.otf
+0
+Adobe Naskh Medium
+C:\Windows\fonts/AdobeNaskh-Medium.otf
+0
+Adobe Song Std L
+C:\Windows\fonts/AdobeSongStd-Light.otf
+0
+Birch Std
+C:\Windows\fonts/BirchStd.otf
+0
+Blackoak Std Black
+C:\Windows\fonts/BlackoakStd.otf
+0
+Brush Script Std Medium
+C:\Windows\fonts/BrushScriptStd.otf
+0
+Candara
+C:\Windows\fonts/Candara.ttf
+0
+Candara Bold
+C:\Windows\fonts/Candarab.ttf
+0
+Candara Italic
+C:\Windows\fonts/Candarai.ttf
+0
+Candara Bold Italic
+C:\Windows\fonts/Candaraz.ttf
+0
+Chaparral Pro Bold
+C:\Windows\fonts/ChaparralPro-Bold.otf
+0
+Chaparral Pro Bold Italic
+C:\Windows\fonts/ChaparralPro-BoldIt.otf
+0
+Chaparral Pro Italic
+C:\Windows\fonts/ChaparralPro-Italic.otf
+0
+Chaparral Pro Light Italic
+C:\Windows\fonts/ChaparralPro-LightIt.otf
+0
+Chaparral Pro
+C:\Windows\fonts/ChaparralPro-Regular.otf
+0
+Charlemagne Std Bold
+C:\Windows\fonts/CharlemagneStd-Bold.otf
+0
+Cooper Std Black Italic
+C:\Windows\fonts/CooperBlackStd-Italic.otf
+0
+Cooper Std Black
+C:\Windows\fonts/CooperBlackStd.otf
+0
+Gabriola
+C:\Windows\fonts/Gabriola.ttf
+0
+Game of Thrones
+C:\Windows\fonts/Game of Thrones.ttf
+0
+Giddyup Std
+C:\Windows\fonts/GiddyupStd.otf
+0
+Hobo Std Medium
+C:\Windows\fonts/HoboStd.otf
+0
+Kozuka Gothic Pr6N B
+C:\Windows\fonts/KozGoPr6N-Bold.otf
+0
+Kozuka Gothic Pr6N EL
+C:\Windows\fonts/KozGoPr6N-ExtraLight.otf
+0
+Kozuka Gothic Pr6N H
+C:\Windows\fonts/KozGoPr6N-Heavy.otf
+0
+Kozuka Gothic Pr6N L
+C:\Windows\fonts/KozGoPr6N-Light.otf
+0
+Kozuka Gothic Pr6N M
+C:\Windows\fonts/KozGoPr6N-Medium.otf
+0
+Kozuka Gothic Pr6N R
+C:\Windows\fonts/KozGoPr6N-Regular.otf
+0
+Kozuka Gothic Pro B
+C:\Windows\fonts/KozGoPro-Bold.otf
+0
+Kozuka Gothic Pro EL
+C:\Windows\fonts/KozGoPro-ExtraLight.otf
+0
+Kozuka Gothic Pro H
+C:\Windows\fonts/KozGoPro-Heavy.otf
+0
+Kozuka Gothic Pro L
+C:\Windows\fonts/KozGoPro-Light.otf
+0
+Kozuka Gothic Pro M
+C:\Windows\fonts/KozGoPro-Medium.otf
+0
+Kozuka Gothic Pro R
+C:\Windows\fonts/KozGoPro-Regular.otf
+0
+Kozuka Mincho Pr6N B
+C:\Windows\fonts/KozMinPr6N-Bold.otf
+0
+Kozuka Mincho Pr6N EL
+C:\Windows\fonts/KozMinPr6N-ExtraLight.otf
+0
+Kozuka Mincho Pr6N H
+C:\Windows\fonts/KozMinPr6N-Heavy.otf
+0
+Kozuka Mincho Pr6N L
+C:\Windows\fonts/KozMinPr6N-Light.otf
+0
+Kozuka Mincho Pr6N M
+C:\Windows\fonts/KozMinPr6N-Medium.otf
+0
+Kozuka Mincho Pr6N R
+C:\Windows\fonts/KozMinPr6N-Regular.otf
+0
+Kozuka Mincho Pro B
+C:\Windows\fonts/KozMinPro-Bold.otf
+0
+Kozuka Mincho Pro EL
+C:\Windows\fonts/KozMinPro-ExtraLight.otf
+0
+Kozuka Mincho Pro H
+C:\Windows\fonts/KozMinPro-Heavy.otf
+0
+Kozuka Mincho Pro L
+C:\Windows\fonts/KozMinPro-Light.otf
+0
+Kozuka Mincho Pro M
+C:\Windows\fonts/KozMinPro-Medium.otf
+0
+Kozuka Mincho Pro R
+C:\Windows\fonts/KozMinPro-Regular.otf
+0
+Leelawadee UI Semilight
+C:\Windows\fonts/LeelUIsl.ttf
+0
+Leelawadee UI Bold
+C:\Windows\fonts/LeelaUIb.ttf
+0
+Leelawadee UI
+C:\Windows\fonts/LeelawUI.ttf
+0
+Letter Gothic Std Bold
+C:\Windows\fonts/LetterGothicStd-Bold.otf
+0
+Letter Gothic Std Bold Italic
+C:\Windows\fonts/LetterGothicStd-BoldSlanted.otf
+0
+Letter Gothic Std Italic
+C:\Windows\fonts/LetterGothicStd-Slanted.otf
+0
+Letter Gothic Std
+C:\Windows\fonts/LetterGothicStd.otf
+0
+Lithos Pro 850
+C:\Windows\fonts/LithosPro-Black.otf
+0
+Lithos Pro
+C:\Windows\fonts/LithosPro-Regular.otf
+0
+Mesquite Std Medium
+C:\Windows\fonts/MesquiteStd.otf
+0
+Minion Pro Bold
+C:\Windows\fonts/MinionPro-Bold.otf
+0
+Minion Pro Bold Condensed
+C:\Windows\fonts/MinionPro-BoldCn.otf
+0
+Minion Pro Bold Condensed Italic
+C:\Windows\fonts/MinionPro-BoldCnIt.otf
+0
+Minion Pro Bold Italic
+C:\Windows\fonts/MinionPro-BoldIt.otf
+0
+Minion Pro Italic
+C:\Windows\fonts/MinionPro-It.otf
+0
+Minion Pro Medium
+C:\Windows\fonts/MinionPro-Medium.otf
+0
+Minion Pro Medium Italic
+C:\Windows\fonts/MinionPro-MediumIt.otf
+0
+Minion Pro
+C:\Windows\fonts/MinionPro-Regular.otf
+0
+Minion Pro Semibold
+C:\Windows\fonts/MinionPro-Semibold.otf
+0
+Minion Pro Semibold Italic
+C:\Windows\fonts/MinionPro-SemiboldIt.otf
+0
+Myriad Arabic Bold
+C:\Windows\fonts/MyriadArabic-Bold.otf
+0
+Myriad Arabic Bold Italic
+C:\Windows\fonts/MyriadArabic-BoldIt.otf
+0
+Myriad Arabic Italic
+C:\Windows\fonts/MyriadArabic-It.otf
+0
+Myriad Arabic
+C:\Windows\fonts/MyriadArabic-Regular.otf
+0
+Myriad Hebrew Bold
+C:\Windows\fonts/MyriadHebrew-Bold.otf
+0
+Myriad Hebrew Bold Italic
+C:\Windows\fonts/MyriadHebrew-BoldIt.otf
+0
+Myriad Hebrew Italic
+C:\Windows\fonts/MyriadHebrew-It.otf
+0
+Myriad Hebrew
+C:\Windows\fonts/MyriadHebrew-Regular.otf
+0
+Myriad Pro Bold
+C:\Windows\fonts/MyriadPro-Bold.otf
+0
+Myriad Pro Bold Condensed
+C:\Windows\fonts/MyriadPro-BoldCond.otf
+0
+Myriad Pro Bold Condensed Italic
+C:\Windows\fonts/MyriadPro-BoldCondIt.otf
+0
+Myriad Pro Bold Italic
+C:\Windows\fonts/MyriadPro-BoldIt.otf
+0
+Myriad Pro Condensed
+C:\Windows\fonts/MyriadPro-Cond.otf
+0
+Myriad Pro Condensed Italic
+C:\Windows\fonts/MyriadPro-CondIt.otf
+0
+Myriad Pro Italic
+C:\Windows\fonts/MyriadPro-It.otf
+0
+Myriad Pro
+C:\Windows\fonts/MyriadPro-Regular.otf
+0
+Myriad Pro Semibold
+C:\Windows\fonts/MyriadPro-Semibold.otf
+0
+Myriad Pro Semibold Italic
+C:\Windows\fonts/MyriadPro-SemiboldIt.otf
+0
+Nirmala UI
+C:\Windows\fonts/Nirmala.ttf
+0
+Nirmala UI Bold
+C:\Windows\fonts/NirmalaB.ttf
+0
+Nirmala UI Semilight
+C:\Windows\fonts/NirmalaS.ttf
+0
+Nueva Std Bold
+C:\Windows\fonts/NuevaStd-Bold.otf
+0
+Nueva Std Bold Condensed
+C:\Windows\fonts/NuevaStd-BoldCond.otf
+0
+Nueva Std Bold Condensed Italic
+C:\Windows\fonts/NuevaStd-BoldCondItalic.otf
+0
+Nueva Std Condensed
+C:\Windows\fonts/NuevaStd-Cond.otf
+0
+Nueva Std Condensed Italic
+C:\Windows\fonts/NuevaStd-CondItalic.otf
+0
+Nueva Std Italic
+C:\Windows\fonts/NuevaStd-Italic.otf
+0
+OCR A Std
+C:\Windows\fonts/OCRAStd.otf
+0
+Orator Std Italic
+C:\Windows\fonts/OratorStd-Slanted.otf
+0
+Orator Std
+C:\Windows\fonts/OratorStd.otf
+0
+Poplar Std Bold
+C:\Windows\fonts/PoplarStd.otf
+0
+Prestige Elite Std Bold
+C:\Windows\fonts/PrestigeEliteStd-Bd.otf
+0
+Rosewood Std Bold
+C:\Windows\fonts/RosewoodStd-Regular.otf
+0
+Sitka Small
+C:\Windows\fonts/Sitka.ttc
+0
+Sitka Text
+C:\Windows\fonts/Sitka.ttc
+1
+Sitka Subheading
+C:\Windows\fonts/Sitka.ttc
+2
+Sitka Heading
+C:\Windows\fonts/Sitka.ttc
+3
+Sitka Display
+C:\Windows\fonts/Sitka.ttc
+4
+Sitka Banner
+C:\Windows\fonts/Sitka.ttc
+5
+Sitka Small Bold
+C:\Windows\fonts/SitkaB.ttc
+0
+Sitka Text Bold
+C:\Windows\fonts/SitkaB.ttc
+1
+Sitka Subheading Bold
+C:\Windows\fonts/SitkaB.ttc
+2
+Sitka Heading Bold
+C:\Windows\fonts/SitkaB.ttc
+3
+Sitka Display Bold
+C:\Windows\fonts/SitkaB.ttc
+4
+Sitka Banner Bold
+C:\Windows\fonts/SitkaB.ttc
+5
+Sitka Small Italic
+C:\Windows\fonts/SitkaI.ttc
+0
+Sitka Text Italic
+C:\Windows\fonts/SitkaI.ttc
+1
+Sitka Subheading Italic
+C:\Windows\fonts/SitkaI.ttc
+2
+Sitka Heading Italic
+C:\Windows\fonts/SitkaI.ttc
+3
+Sitka Display Italic
+C:\Windows\fonts/SitkaI.ttc
+4
+Sitka Banner Italic
+C:\Windows\fonts/SitkaI.ttc
+5
+Sitka Small Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+0
+Sitka Text Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+1
+Sitka Subheading Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+2
+Sitka Heading Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+3
+Sitka Display Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+4
+Sitka Banner Bold Italic
+C:\Windows\fonts/SitkaZ.ttc
+5
+Stencil Std Bold
+C:\Windows\fonts/StencilStd.otf
+0
+Tekton Pro Bold
+C:\Windows\fonts/TektonPro-Bold.otf
+0
+Tekton Pro Bold Condensed
+C:\Windows\fonts/TektonPro-BoldCond.otf
+0
+Tekton Pro Bold Expanded
+C:\Windows\fonts/TektonPro-BoldExt.otf
+0
+Tekton Pro Bold Italic
+C:\Windows\fonts/TektonPro-BoldObl.otf
+0
+Trajan Pro Bold
+C:\Windows\fonts/TrajanPro-Bold.otf
+0
+Trajan Pro
+C:\Windows\fonts/TrajanPro-Regular.otf
+0
+VNI-Vari Bold
+C:\Windows\fonts/VAGRB.TTF
+0
+VNI-Allegie Normal
+C:\Windows\fonts/VALLERGO.TTF
+0
+VNI-Aptima Bold
+C:\Windows\fonts/VAPTIMB.TTF
+0
+VNI-Aptima Bold-Italic
+C:\Windows\fonts/VAPTIMBI.TTF
+0
+VNI-Aptima Italic
+C:\Windows\fonts/VAPTIMI.TTF
+0
+VNI-Aptima Normal
+C:\Windows\fonts/VAPTIMN.TTF
+0
+VNI-Ariston Heavy
+C:\Windows\fonts/VARISON.TTF
+0
+VNI-Auchon Bold
+C:\Windows\fonts/VAUCHON.TTF
+0
+VNI-Avo Bold
+C:\Windows\fonts/VAVOB.TTF
+0
+VNI-Avo Bold-Italic
+C:\Windows\fonts/VAVOBI.TTF
+0
+VNI-Avo Italic
+C:\Windows\fonts/VAVOI.TTF
+0
+VNI-Avo Normal
+C:\Windows\fonts/VAVON.TTF
+0
+VNI-Awchon Bold
+C:\Windows\fonts/VAWCHON.TTF
+0
+VNI-Aztek Bold
+C:\Windows\fonts/VAZTEK.TTF
+0
+VNI-Bandit Bold
+C:\Windows\fonts/VBANDIT.TTF
+0
+VNI-Bodon Normal
+C:\Windows\fonts/VBODON.TTF
+0
+VNI-Bodon Bold
+C:\Windows\fonts/VBODONB.TTF
+0
+VNI-Bodon Bold-Italic
+C:\Windows\fonts/VBODONBI.TTF
+0
+VNI-Bodon Italic
+C:\Windows\fonts/VBODONII.TTF
+0
+VNI-Bodon-Poster Extra Bold
+C:\Windows\fonts/VBODONP.TTF
+0
+VNI-Book Bold
+C:\Windows\fonts/VBOOKMB.TTF
+0
+VNI-Book Bold-Italic
+C:\Windows\fonts/VBOOKMBI.TTF
+0
+VNI-Book Italic
+C:\Windows\fonts/VBOOKMI.TTF
+0
+VNI-Book Normal
+C:\Windows\fonts/VBOOKMN.TTF
+0
+VNI-Broad Normal
+C:\Windows\fonts/VBROADW.TTF
+0
+VNI-Brush Italic
+C:\Windows\fonts/VBRUSH.TTF
+0
+VNI-Centur Bold
+C:\Windows\fonts/VCENTB.TTF
+0
+VNI-Centur Bold-Italic
+C:\Windows\fonts/VCENTBI.TTF
+0
+VNI-Centur Italic
+C:\Windows\fonts/VCENTI.TTF
+0
+VNI-Centur Normal
+C:\Windows\fonts/VCENTN.TTF
+0
+VNI-Commerce Bold-Italic
+C:\Windows\fonts/VCOMMERC.TTF
+0
+VNI-Cooper Heavy
+C:\Windows\fonts/VCOOPERB.TTF
+0
+VNI-Coronet Bold-Italic
+C:\Windows\fonts/VCORONET.TTF
+0
+VNI-Couri Normal
+C:\Windows\fonts/VCOURI.TTF
+0
+VNI-Couri Bold
+C:\Windows\fonts/VCOURIB.TTF
+0
+VNI-Couri Bold-Italic
+C:\Windows\fonts/VCOURIBI.TTF
+0
+VNI-Couri Italic
+C:\Windows\fonts/VCOURII.TTF
+0
+VNI-Dom Normal
+C:\Windows\fonts/VDOMCAS.TTF
+0
+VNI-Duff Normal
+C:\Windows\fonts/VDUFFY.TTF
+0
+VNI-Dur Bold
+C:\Windows\fonts/VDURHAM.TTF
+0
+VNI-Fato Bold
+C:\Windows\fonts/VFATSO.TTF
+0
+VNI-Franko Normal
+C:\Windows\fonts/VFRANKO.TTF
+0
+VNI-Free Normal
+C:\Windows\fonts/VFREE.TTF
+0
+VNI-Garam Bold
+C:\Windows\fonts/VGARAMB.TTF
+0
+VNI-Garam Bold Italic
+C:\Windows\fonts/VGARAMBI.TTF
+0
+VNI-Garam Italic
+C:\Windows\fonts/VGARAMI.TTF
+0
+VNI-Garam Normal
+C:\Windows\fonts/VGARAMN.TTF
+0
+VNI-Goudy Bold
+C:\Windows\fonts/VGOUDYB.TTF
+0
+VNI-Goudy Italic
+C:\Windows\fonts/VGOUDYI.TTF
+0
+VNI-Goudy Normal
+C:\Windows\fonts/VGOUDYN.TTF
+0
+.VnBook-AntiquaH
+C:\Windows\fonts/VHANTIQ.TTF
+0
+.VnBook-AntiquaH
+C:\Windows\fonts/VHANTIQ_0.TTF
+0
+.VnArabiaH
+C:\Windows\fonts/VHARABIA.TTF
+0
+.VnArabiaH
+C:\Windows\fonts/VHARABIA_0.TTF
+0
+.VnArialH Bold Italic
+C:\Windows\fonts/VHARIABI.TTF
+0
+.VnArialH Bold Italic
+C:\Windows\fonts/VHARIABI_0.TTF
+0
+.VnArialH
+C:\Windows\fonts/VHARIAL.TTF
+0
+.VnArialH Bold
+C:\Windows\fonts/VHARIALB.TTF
+0
+.VnArialH Bold
+C:\Windows\fonts/VHARIALB_0.TTF
+0
+.VnArialH Italic
+C:\Windows\fonts/VHARIALI.TTF
+0
+.VnArialH Italic
+C:\Windows\fonts/VHARIALI_0.TTF
+0
+.VnArial NarrowH
+C:\Windows\fonts/VHARIALN.TTF
+0
+.VnArial NarrowH
+C:\Windows\fonts/VHARIALN_0.TTF
+0
+.VnArialH
+C:\Windows\fonts/VHARIAL_0.TTF
+0
+.VnAristoteH Medium
+C:\Windows\fonts/VHARIS.TTF
+0
+.VnAristoteH Medium
+C:\Windows\fonts/VHARIS_0.TTF
+0
+.VnAvantH
+C:\Windows\fonts/VHAVAN.TTF
+0
+.VnAvantH Bold
+C:\Windows\fonts/VHAVANB.TTF
+0
+.VnAvantH Bold Italic
+C:\Windows\fonts/VHAVANBI.TTF
+0
+.VnAvantH Bold Italic
+C:\Windows\fonts/VHAVANBI_0.TTF
+0
+.VnAvantH Bold
+C:\Windows\fonts/VHAVANB_0.TTF
+0
+.VnAvantH Italic
+C:\Windows\fonts/VHAVANI.TTF
+0
+.VnAvantH Italic
+C:\Windows\fonts/VHAVANI_0.TTF
+0
+.VnAvantH
+C:\Windows\fonts/VHAVAN_0.TTF
+0
+.VnBahamasBH Bold
+C:\Windows\fonts/VHBAHAB.TTF
+0
+.VnBahamasBH Bold
+C:\Windows\fonts/VHBAHAB_0.TTF
+0
+.VnBlackH
+C:\Windows\fonts/VHBLACK.TTF
+0
+.VnBlackH
+C:\Windows\fonts/VHBLACK_0.TTF
+0
+.VnBodoniH
+C:\Windows\fonts/VHBODO.TTF
+0
+.VnBodoniH
+C:\Windows\fonts/VHBODO_0.TTF
+0
+.VnCentury SchoolbookH Bold
+C:\Windows\fonts/VHCENTB.TTF
+0
+.VnCentury SchoolbookH Bold Italic
+C:\Windows\fonts/VHCENTBI.TTF
+0
+.VnCentury SchoolbookH Bold Italic
+C:\Windows\fonts/VHCENTBI_0.TTF
+0
+.VnCentury SchoolbookH Bold
+C:\Windows\fonts/VHCENTB_0.TTF
+0
+.VnCentury SchoolbookH Italic
+C:\Windows\fonts/VHCENTI.TTF
+0
+.VnCentury SchoolbookH Italic
+C:\Windows\fonts/VHCENTI_0.TTF
+0
+.VnCentury SchoolbookH
+C:\Windows\fonts/VHCENTN.TTF
+0
+.VnCentury SchoolbookH
+C:\Windows\fonts/VHCENTN_0.TTF
+0
+.VnClarendonH Normal
+C:\Windows\fonts/VHCLARE.TTF
+0
+.VnClarendonH Normal
+C:\Windows\fonts/VHCLARE_0.TTF
+0
+.VnCommercial ScriptH Italic
+C:\Windows\fonts/VHCOMSCI.TTF
+0
+.VnCommercial ScriptH Italic
+C:\Windows\fonts/VHCOMSCI_0.TTF
+0
+.VnCooperH
+C:\Windows\fonts/VHCOOP.TTF
+0
+.VnCooperH
+C:\Windows\fonts/VHCOOP_0.TTF
+0
+.VnMonotype corsivaH Italic
+C:\Windows\fonts/VHCORVI.TTF
+0
+.VnMonotype corsivaH Italic
+C:\Windows\fonts/VHCORVI_0.TTF
+0
+.VnCourier NewH
+C:\Windows\fonts/VHCOUR.TTF
+0
+.VnCourier NewH Bold
+C:\Windows\fonts/VHCOURB.TTF
+0
+.VnCourier NewH Bold
+C:\Windows\fonts/VHCOURB_0.TTF
+0
+.VnCourier NewH
+C:\Windows\fonts/VHCOUR_0.TTF
+0
+VNI-Helve-Condense Bold
+C:\Windows\fonts/VHELVCB.TTF
+0
+VNI-Helve-Condense Bold-Italic
+C:\Windows\fonts/VHELVCBI.TTF
+0
+VNI-Helve-Condense Italic
+C:\Windows\fonts/VHELVCI.TTF
+0
+VNI-Helve-Condense Normal
+C:\Windows\fonts/VHELVCN.TTF
+0
+VNI-Helve Bold
+C:\Windows\fonts/VHELVEB.TTF
+0
+VNI-Helve Bold-Italic
+C:\Windows\fonts/VHELVEBI.TTF
+0
+VNI-Helve Italic
+C:\Windows\fonts/VHELVEI.TTF
+0
+VNI-Helve Normal
+C:\Windows\fonts/VHELVEN.TTF
+0
+.VnExoticH Normal
+C:\Windows\fonts/VHEXOTIC.TTF
+0
+.VnExoticH Normal
+C:\Windows\fonts/VHEXOTIC_0.TTF
+0
+.VnFreeH Medium
+C:\Windows\fonts/VHFREE.TTF
+0
+.VnFreeH Medium
+C:\Windows\fonts/VHFREE_0.TTF
+0
+.VnGothicH Normal
+C:\Windows\fonts/VHGOTH.TTF
+0
+.VnGothicH Normal
+C:\Windows\fonts/VHGOTH_0.TTF
+0
+.VnHelvetInsH Medium
+C:\Windows\fonts/VHHELS.TTF
+0
+.VnHelvetInsH Medium
+C:\Windows\fonts/VHHELS_0.TTF
+0
+.VnKoalaH
+C:\Windows\fonts/VHKOALA.TTF
+0
+.VnKoalaH
+C:\Windows\fonts/VHKOALA_0.TTF
+0
+.VnLincolnH
+C:\Windows\fonts/VHLINCOL.TTF
+0
+.VnLincolnH
+C:\Windows\fonts/VHLINCOL_0.TTF
+0
+.VnLinusH
+C:\Windows\fonts/VHLINUS.TTF
+0
+.VnLinusH
+C:\Windows\fonts/VHLINUS_0.TTF
+0
+.VnMemorandumH
+C:\Windows\fonts/VHMEMO.TTF
+0
+.VnMemorandumH
+C:\Windows\fonts/VHMEMO_0.TTF
+0
+.VnMysticalH
+C:\Windows\fonts/VHMUSTI.TTF
+0
+.VnMysticalH
+C:\Windows\fonts/VHMUSTI_0.TTF
+0
+VNI-Hobo Normal
+C:\Windows\fonts/VHOBO.TTF
+0
+.VnParkH Medium
+C:\Windows\fonts/VHPARK.TTF
+0
+.VnParkH Medium
+C:\Windows\fonts/VHPARK_0.TTF
+0
+.VnPresentH Medium
+C:\Windows\fonts/VHPRES.TTF
+0
+.VnPresentH Medium
+C:\Windows\fonts/VHPRES_0.TTF
+0
+.VnRevueH Medium
+C:\Windows\fonts/VHREVU.TTF
+0
+.VnRevueH Medium
+C:\Windows\fonts/VHREVU_0.TTF
+0
+.VnSouthernH
+C:\Windows\fonts/VHSOUTH.TTF
+0
+.VnSouthernH
+C:\Windows\fonts/VHSOUTH_0.TTF
+0
+.VnTeknicalH
+C:\Windows\fonts/VHTEKN.TTF
+0
+.VnTeknicalH
+C:\Windows\fonts/VHTEKN_0.TTF
+0
+.VnTifani HeavyH Normal
+C:\Windows\fonts/VHTIFH.TTF
+0
+.VnTifani HeavyH Normal
+C:\Windows\fonts/VHTIFH_0.TTF
+0
+.VnTimeH
+C:\Windows\fonts/VHTIME.TTF
+0
+.VnTimeH Bold
+C:\Windows\fonts/VHTIMEB.TTF
+0
+.VnTimeH Bold Italic
+C:\Windows\fonts/VHTIMEBI.TTF
+0
+.VnTimeH Bold Italic
+C:\Windows\fonts/VHTIMEBI_0.TTF
+0
+.VnTimeH Bold
+C:\Windows\fonts/VHTIMEB_0.TTF
+0
+.VnTimeH Italic
+C:\Windows\fonts/VHTIMEI.TTF
+0
+.VnTimeH Italic
+C:\Windows\fonts/VHTIMEI_0.TTF
+0
+.VnTimeH
+C:\Windows\fonts/VHTIME_0.TTF
+0
+.VnUniverseH Normal
+C:\Windows\fonts/VHUNIV.TTF
+0
+.VnUniverseH Normal
+C:\Windows\fonts/VHUNIV_0.TTF
+0
+.VnVogueH Medium
+C:\Windows\fonts/VHVOGU.TTF
+0
+.VnVogueH Medium
+C:\Windows\fonts/VHVOGU_0.TTF
+0
+Vinhan Bold
+C:\Windows\fonts/VINHAN.TTF
+0
+VNI-Jamai Bold
+C:\Windows\fonts/VJAMAI.TTF
+0
+VNI-Juni Normal
+C:\Windows\fonts/VJUNI.TTF
+0
+VNI-Korin Normal
+C:\Windows\fonts/VKORIN.TTF
+0
+VNI-Korin Bold
+C:\Windows\fonts/VKORINB.TTF
+0
+VNI-Korin Italic
+C:\Windows\fonts/VKORINI.TTF
+0
+VNI-Kun Bold
+C:\Windows\fonts/VKUNB.TTF
+0
+VNI-Kun Bold-Italic
+C:\Windows\fonts/VKUNBI.TTF
+0
+VNI-Kun Bold
+C:\Windows\fonts/VKUNM.TTF
+0
+VNI-Kun Normal
+C:\Windows\fonts/VKUNN.TTF
+0
+VNI-Linus
+C:\Windows\fonts/VLINUSN.TTF
+0
+VNI-Lithos Bold
+C:\Windows\fonts/VLITHOS.TTF
+0
+VNI-Maria Normal
+C:\Windows\fonts/VMARIAGE.TTF
+0
+VNI-Meli Bold
+C:\Windows\fonts/VMELIB.TTF
+0
+VNI-Meli Bold-Italic
+C:\Windows\fonts/VMELIBI.TTF
+0
+VNI-Meli Italic
+C:\Windows\fonts/VMELII.TTF
+0
+VNI-Meli Normal
+C:\Windows\fonts/VMELIN.TTF
+0
+VNI-Murray Bold
+C:\Windows\fonts/VMURRAYB.TTF
+0
+VNI-Murray Normal
+C:\Windows\fonts/VMURRAYN.TTF
+0
+.Vn3DH Normal
+C:\Windows\fonts/VN3D.TTF
+0
+.Vn3DH Normal
+C:\Windows\fonts/VN3D_0.TTF
+0
+.VnBook-Antiqua
+C:\Windows\fonts/VNANTIQ.TTF
+0
+.VnBook-Antiqua Bold
+C:\Windows\fonts/VNANTIQB.TTF
+0
+.VnBook-Antiqua Bold
+C:\Windows\fonts/VNANTIQB_0.TTF
+0
+.VnBook-Antiqua
+C:\Windows\fonts/VNANTIQ_0.TTF
+0
+.VnArabia
+C:\Windows\fonts/VNARABIA.TTF
+0
+.VnArabia
+C:\Windows\fonts/VNARABIA_0.TTF
+0
+.VnArial Bold Italic
+C:\Windows\fonts/VNARIABI.TTF
+0
+.VnArial Bold Italic
+C:\Windows\fonts/VNARIABI_0.TTF
+0
+.VnArial
+C:\Windows\fonts/VNARIAL.TTF
+0
+.VnArial Bold
+C:\Windows\fonts/VNARIALB.TTF
+0
+.VnArial Bold
+C:\Windows\fonts/VNARIALB_0.TTF
+0
+.VnArial Italic
+C:\Windows\fonts/VNARIALI.TTF
+0
+.VnArial Italic
+C:\Windows\fonts/VNARIALI_0.TTF
+0
+.VnArial Narrow
+C:\Windows\fonts/VNARIALN.TTF
+0
+.VnArial Narrow
+C:\Windows\fonts/VNARIALN_0.TTF
+0
+.VnArial
+C:\Windows\fonts/VNARIAL_0.TTF
+0
+.VnArial Narrow Bold
+C:\Windows\fonts/VNARIANB.TTF
+0
+.VnArial Narrow Bold
+C:\Windows\fonts/VNARIANB_0.TTF
+0
+.VnArial Narrow Italic
+C:\Windows\fonts/VNARIANI.TTF
+0
+.VnArial Narrow Italic
+C:\Windows\fonts/VNARIANI_0.TTF
+0
+.VnAristote Medium
+C:\Windows\fonts/VNARIS.TTF
+0
+.VnAristote Medium
+C:\Windows\fonts/VNARIS_0.TTF
+0
+.VnAvant
+C:\Windows\fonts/VNAVAN.TTF
+0
+.VnAvant Bold
+C:\Windows\fonts/VNAVANB.TTF
+0
+.VnAvant Bold Italic
+C:\Windows\fonts/VNAVANBI.TTF
+0
+.VnAvant Bold Italic
+C:\Windows\fonts/VNAVANBI_0.TTF
+0
+.VnAvant Bold
+C:\Windows\fonts/VNAVANB_0.TTF
+0
+.VnAvant Italic
+C:\Windows\fonts/VNAVANI.TTF
+0
+.VnAvant Italic
+C:\Windows\fonts/VNAVANI_0.TTF
+0
+.VnAvant
+C:\Windows\fonts/VNAVAN_0.TTF
+0
+.VnBahamasB Bold
+C:\Windows\fonts/VNBAHAB.TTF
+0
+.VnBahamasB Bold
+C:\Windows\fonts/VNBAHAB_0.TTF
+0
+.VnBlack
+C:\Windows\fonts/VNBLACK.TTF
+0
+.VnBlack
+C:\Windows\fonts/VNBLACK_0.TTF
+0
+.VnBodoni
+C:\Windows\fonts/VNBODO.TTF
+0
+.VnBodoni
+C:\Windows\fonts/VNBODO_0.TTF
+0
+.VnCentury Schoolbook Bold
+C:\Windows\fonts/VNCENTB.TTF
+0
+.VnCentury Schoolbook Bold Italic
+C:\Windows\fonts/VNCENTBI.TTF
+0
+.VnCentury Schoolbook Bold Italic
+C:\Windows\fonts/VNCENTBI_0.TTF
+0
+.VnCentury Schoolbook Bold
+C:\Windows\fonts/VNCENTB_0.TTF
+0
+.VnCentury Schoolbook Italic
+C:\Windows\fonts/VNCENTI.TTF
+0
+.VnCentury Schoolbook Italic
+C:\Windows\fonts/VNCENTI_0.TTF
+0
+.VnCentury Schoolbook
+C:\Windows\fonts/VNCENTN.TTF
+0
+.VnCentury Schoolbook
+C:\Windows\fonts/VNCENTN_0.TTF
+0
+.VnClarendon Normal
+C:\Windows\fonts/VNCLARE.TTF
+0
+.VnClarendon Normal
+C:\Windows\fonts/VNCLARE_0.TTF
+0
+.VnCommercial Script Italic
+C:\Windows\fonts/VNCOMSI.TTF
+0
+.VnCommercial Script Italic
+C:\Windows\fonts/VNCOMSI_0.TTF
+0
+.VnCooper Medium
+C:\Windows\fonts/VNCOOP.TTF
+0
+.VnCooper Medium
+C:\Windows\fonts/VNCOOP_0.TTF
+0
+.VnMonotype corsiva Italic
+C:\Windows\fonts/VNCORSI.TTF
+0
+.VnMonotype corsiva Italic
+C:\Windows\fonts/VNCORSI_0.TTF
+0
+.VnCourier New
+C:\Windows\fonts/VNCOUR.TTF
+0
+.VnCourier Normal
+C:\Windows\fonts/VNCOUR2.TTF
+0
+.VnCourier Normal
+C:\Windows\fonts/VNCOUR2_0.TTF
+0
+.VnCourier New Bold
+C:\Windows\fonts/VNCOURB.TTF
+0
+.VnCourier New Bold Italic
+C:\Windows\fonts/VNCOURBI.TTF
+0
+.VnCourier New Bold Italic
+C:\Windows\fonts/VNCOURBI_0.TTF
+0
+.VnCourier New Bold
+C:\Windows\fonts/VNCOURB_0.TTF
+0
+.VnCourier New Italic
+C:\Windows\fonts/VNCOURI.TTF
+0
+.VnCourier New Italic
+C:\Windows\fonts/VNCOURI_0.TTF
+0
+.VnCourier New
+C:\Windows\fonts/VNCOUR_0.TTF
+0
+.VnExotic Normal
+C:\Windows\fonts/VNEXOTIC.TTF
+0
+.VnExotic Normal
+C:\Windows\fonts/VNEXOTIC_0.TTF
+0
+.VnFree Medium
+C:\Windows\fonts/VNFREE.TTF
+0
+.VnFree Medium
+C:\Windows\fonts/VNFREE_0.TTF
+0
+.VnGothic Normal
+C:\Windows\fonts/VNGOTHIC.TTF
+0
+.VnGothic Normal
+C:\Windows\fonts/VNGOTHIC_0.TTF
+0
+VNI-Harrington
+C:\Windows\fonts/VNHARR.TTF
+0
+.VnHelvetIns Medium
+C:\Windows\fonts/VNHELVS.TTF
+0
+.VnHelvetIns Medium
+C:\Windows\fonts/VNHELVS_0.TTF
+0
+VNI 06 Springtime Bold
+C:\Windows\fonts/VNI 06 Springtime.ttf
+0
+VNI 08 Springtime2 BoldOblique
+C:\Windows\fonts/VNI 08 Springtime2.ttf
+0
+VNI 09 Baroque 
+C:\Windows\fonts/VNI 09 Baroque.ttf
+0
+VNI 15 Chops Normal
+C:\Windows\fonts/VNI 15 Chops Normal.ttf
+0
+Vni 17 Sandy Normal
+C:\Windows\fonts/VNI 17 Sandy.ttf
+0
+VNI 22 JackieO
+C:\Windows\fonts/VNI 22 JackieO.ttf
+0
+VNI 24 Love
+C:\Windows\fonts/VNI 24 Love.ttf
+0
+VNI 26 Saliere
+C:\Windows\fonts/VNI 26 Saliere.ttf
+0
+VNI 27 Bendigo   Plain
+C:\Windows\fonts/VNI 27 Bendigo.ttf
+0
+VNI 28 Zirkon
+C:\Windows\fonts/VNI 28 Zirkon.ttf
+0
+Vni 12 Alex
+C:\Windows\fonts/VNI-Alex.ttf
+0
+Vni 14 AlexBrush
+C:\Windows\fonts/VNI-AlexBrush.ttf
+0
+Vni 25 Ambiance BT Swash
+C:\Windows\fonts/VNI-AmbianceBTSwash.ttf
+0
+Vni 13 Annabelle
+C:\Windows\fonts/VNI-Annabelle.ttf
+0
+VNI-Baybuom Normal
+C:\Windows\fonts/VNI-Baybuom.ttf
+0
+VNI 27 Bendigo   Plain
+C:\Windows\fonts/VNI-Bendigo.ttf
+0
+VNI-Briquet  Normal
+C:\Windows\fonts/VNI-Briquet.ttf
+0
+Vni 29 BrushMe
+C:\Windows\fonts/VNI-BrushMe.ttf
+0
+VNI-Butlong
+C:\Windows\fonts/VNI-Butlong.ttf
+0
+VNI 15 Chops Normal
+C:\Windows\fonts/VNI-Chops Normal.ttf
+0
+VNI-Disney Normal
+C:\Windows\fonts/VNI-Disney.ttf
+0
+VNI-Diudang
+C:\Windows\fonts/VNI-Diudang.ttf
+0
+VNI-Helve-Condense Bold
+C:\Windows\fonts/VNI-HelveB.TTF
+0
+VNI-Helve-Condense Bold-Italic
+C:\Windows\fonts/VNI-HelveBI.TTF
+0
+VNI-Helve-Condense Italic
+C:\Windows\fonts/VNI-HelveI.TTF
+0
+VNI-Hobo Normal
+C:\Windows\fonts/VNI-Hobo.TTF
+0
+VNI 22 JackieO
+C:\Windows\fonts/VNI-JackieO.ttf
+0
+VNI-Jamai Bold
+C:\Windows\fonts/VNI-Jamai.TTF
+0
+VNI-Korin Normal
+C:\Windows\fonts/VNI-Korin.TTF
+0
+VNI-Korin Bold
+C:\Windows\fonts/VNI-KorinB.TTF
+0
+VNI-Linus
+C:\Windows\fonts/VNI-Linus.TTF
+0
+VNI-Lithos Bold
+C:\Windows\fonts/VNI-Lithos.TTF
+0
+VNI 24 Love
+C:\Windows\fonts/VNI-Love.ttf
+0
+Vni 16 Machina
+C:\Windows\fonts/VNI-Machina.ttf
+0
+Vni 18 Mandalay
+C:\Windows\fonts/VNI-Mandalay.ttf
+0
+VNI-Maria Normal
+C:\Windows\fonts/VNI-Maria.TTF
+0
+VNI-Matisse
+C:\Windows\fonts/VNI-Matisse.ttf
+0
+VNI-Netbut
+C:\Windows\fonts/VNI-Netbut.ttf
+0
+VNI-Nhatban
+C:\Windows\fonts/VNI-Nhatban.ttf
+0
+VNI-OngDoHL
+C:\Windows\fonts/VNI-OngdoHL.ttf
+0
+Vni 23 Qwigley
+C:\Windows\fonts/VNI-Qwigley.ttf
+0
+VNI 26 Saliere
+C:\Windows\fonts/VNI-Saliere.ttf
+0
+Vni 17 Sandy Normal
+C:\Windows\fonts/VNI-Sandy.ttf
+0
+Vni 21 Scrap Cursive
+C:\Windows\fonts/VNI-Scrap Cursive.ttf
+0
+VNI-Script Italic
+C:\Windows\fonts/VNI-Script.TTF
+0
+Vni 30 Shishoni Brush
+C:\Windows\fonts/VNI-ShishoniBrush.ttf
+0
+VNI-Silver Normal
+C:\Windows\fonts/VNI-Silver.TTF
+0
+VNI-Slogan Normal
+C:\Windows\fonts/VNI-Slogan.ttf
+0
+VNI-Souvir Bold
+C:\Windows\fonts/VNI-Souvir.TTF
+0
+Vni 11 Springtime2 BoldOblique
+C:\Windows\fonts/VNI-Springtime.ttf
+0
+VNI-Thanhcao
+C:\Windows\fonts/VNI-Thanhcao.TTF
+0
+VNI-Thufapfan Normal
+C:\Windows\fonts/VNI-Thufapfan.ttf
+0
+VNI-HLThuphap
+C:\Windows\fonts/VNI-Thuphap.ttf
+0
+VNI-Thufap1
+C:\Windows\fonts/VNI-Thuphap1.ttf
+0
+VNI-Thufap2  Normal
+C:\Windows\fonts/VNI-Thuphap2.ttf
+0
+VNI-Thufap3
+C:\Windows\fonts/VNI-Thuphap3.ttf
+0
+VNI-Top Normal
+C:\Windows\fonts/VNI-Top.TTF
+0
+VNI-Truck
+C:\Windows\fonts/VNI-Truck.ttf
+0
+VNI-Trung Kien Normal
+C:\Windows\fonts/VNI-Trung Kien.TTF
+0
+VNI-Tubes Normal
+C:\Windows\fonts/VNI-Tubes.TTF
+0
+VNI-Univer Normal
+C:\Windows\fonts/VNI-Univer.TTF
+0
+Vni 20 University  Normal
+C:\Windows\fonts/VNI-University.ttf
+0
+VNI-Viettay Normal
+C:\Windows\fonts/VNI-Viettay.ttf
+0
+VNI-Vivi
+C:\Windows\fonts/VNI-Vivi.TTF
+0
+Vni 19 Walt Disney 
+C:\Windows\fonts/VNI-Walt Disney.ttf
+0
+VNI-Whimsy
+C:\Windows\fonts/VNI-Whimsy.ttf
+0
+VNI-Yahoo
+C:\Windows\fonts/VNI-Yahoo.ttf
+0
+VNI-Zap Normal
+C:\Windows\fonts/VNI-Zap.TTF
+0
+VNI 28 Zirkon
+C:\Windows\fonts/VNI-Zirkon.ttf
+0
+VNI Cambodia
+C:\Windows\fonts/VNICAMBO.TTF
+0
+VNI-DOS Sample Font  Normal
+C:\Windows\fonts/VNIDOS.TTF
+0
+VNI Greece
+C:\Windows\fonts/VNIGREEC.TTF
+0
+VNI Laos
+C:\Windows\fonts/VNILAOS.TTF
+0
+VNI-Internet Mail Normal
+C:\Windows\fonts/VNINET.TTF
+0
+VNI Russia
+C:\Windows\fonts/VNIRUSSI.TTF
+0
+VNI-WIN Sample Font Normal
+C:\Windows\fonts/VNIWIN.TTF
+0
+.VnKoala
+C:\Windows\fonts/VNKOALA.TTF
+0
+.VnKoala
+C:\Windows\fonts/VNKOALA_0.TTF
+0
+.VnLincoln
+C:\Windows\fonts/VNLINCOL.TTF
+0
+.VnLincoln
+C:\Windows\fonts/VNLINCOL_0.TTF
+0
+.VnLinus
+C:\Windows\fonts/VNLINUS.TTF
+0
+.VnLinus
+C:\Windows\fonts/VNLINUS_0.TTF
+0
+.VnLucida sans
+C:\Windows\fonts/VNLUCIDA.TTF
+0
+.VnLucida sans
+C:\Windows\fonts/VNLUCIDA_0.TTF
+0
+.VnMemorandum
+C:\Windows\fonts/VNMEMO.TTF
+0
+.VnMemorandum
+C:\Windows\fonts/VNMEMO_0.TTF
+0
+.VnMystical
+C:\Windows\fonts/VNMUSTI.TTF
+0
+.VnMystical
+C:\Windows\fonts/VNMUSTI_0.TTF
+0
+.VnPark Medium
+C:\Windows\fonts/VNPARK.TTF
+0
+.VnPark Medium
+C:\Windows\fonts/VNPARK_0.TTF
+0
+.VnPresent Medium
+C:\Windows\fonts/VNPRES.TTF
+0
+.VnPresent Medium
+C:\Windows\fonts/VNPRES_0.TTF
+0
+.VnRevue Medium
+C:\Windows\fonts/VNREVU.TTF
+0
+.VnRevue Medium
+C:\Windows\fonts/VNREVU_0.TTF
+0
+.VnShelley Allegro
+C:\Windows\fonts/VNSHELL.TTF
+0
+.VnShelley Allegro
+C:\Windows\fonts/VNSHELL_0.TTF
+0
+.VnSouthern Bold
+C:\Windows\fonts/VNSOUTHB.TTF
+0
+.VnSouthern Bold
+C:\Windows\fonts/VNSOUTHB_0.TTF
+0
+.VnSouthern Bold Italic
+C:\Windows\fonts/VNSOUTHD.TTF
+0
+.VnSouthern Bold Italic
+C:\Windows\fonts/VNSOUTHD_0.TTF
+0
+.VnSouthern Italic
+C:\Windows\fonts/VNSOUTHI.TTF
+0
+.VnSouthern Italic
+C:\Windows\fonts/VNSOUTHI_0.TTF
+0
+.VnSouthern
+C:\Windows\fonts/VNSOUTHN.TTF
+0
+.VnSouthern
+C:\Windows\fonts/VNSOUTHN_0.TTF
+0
+.VnStamp Normal
+C:\Windows\fonts/VNSTAMP.TTF
+0
+.VnStamp Normal
+C:\Windows\fonts/VNSTAMP_0.TTF
+0
+.VnTeknical
+C:\Windows\fonts/VNTEKN.TTF
+0
+.VnTeknical
+C:\Windows\fonts/VNTEKN_0.TTF
+0
+.VnTifani Heavy Normal
+C:\Windows\fonts/VNTIFH.TTF
+0
+.VnTifani Heavy Normal
+C:\Windows\fonts/VNTIFH_0.TTF
+0
+.VnTime
+C:\Windows\fonts/VNTIME.TTF
+0
+.VnTime Bold
+C:\Windows\fonts/VNTIMEB.TTF
+0
+.VnTime Bold Italic
+C:\Windows\fonts/VNTIMEBI.TTF
+0
+.VnTime Bold Italic
+C:\Windows\fonts/VNTIMEBI_0.TTF
+0
+.VnTime Bold
+C:\Windows\fonts/VNTIMEB_0.TTF
+0
+.VnTime Italic
+C:\Windows\fonts/VNTIMEI.TTF
+0
+.VnTime Italic
+C:\Windows\fonts/VNTIMEI_0.TTF
+0
+.VnTime
+C:\Windows\fonts/VNTIME_0.TTF
+0
+.VnUniverse Normal
+C:\Windows\fonts/VNUNIV.TTF
+0
+.VnUniverse Normal
+C:\Windows\fonts/VNUNIV_0.TTF
+0
+.VnVogue Medium
+C:\Windows\fonts/VNVOGU.TTF
+0
+.VnVogue Medium
+C:\Windows\fonts/VNVOGU_0.TTF
+0
+VNI-Palatin Bold-Italic
+C:\Windows\fonts/VPALABI.TTF
+0
+VNI-Palatin Italic
+C:\Windows\fonts/VPALATI.TTF
+0
+VNI-Palatin Bold
+C:\Windows\fonts/VPALATIB.TTF
+0
+VNI-Palatin Normal
+C:\Windows\fonts/VPALATIN.TTF
+0
+VNI-Park Normal
+C:\Windows\fonts/VPARK.TTF
+0
+VNI-Present Normal
+C:\Windows\fonts/VPRESENT.TTF
+0
+VNI-Revue Bold
+C:\Windows\fonts/VREVUE.TTF
+0
+VNI-Script Italic
+C:\Windows\fonts/VSCRIPT.TTF
+0
+VNI-Souvir Bold
+C:\Windows\fonts/VSOUVB.TTF
+0
+VNI-Souvir Bold-Italic
+C:\Windows\fonts/VSOUVBI.TTF
+0
+VNI-Swiss-Condense Bold
+C:\Windows\fonts/VSWISC.TTF
+0
+VNI-Swiss-Condense Normal
+C:\Windows\fonts/VSWISEC.TTF
+0
+VNI-Tekon Italic
+C:\Windows\fonts/VTEKTI.TTF
+0
+VNI-Tekon Normal
+C:\Windows\fonts/VTEKTN.TTF
+0
+VNI-Times Bold
+C:\Windows\fonts/VTIMESB.TTF
+0
+VNI-Times Bold-Italic
+C:\Windows\fonts/VTIMESBI.TTF
+0
+VNI-Times Italic
+C:\Windows\fonts/VTIMESI.TTF
+0
+VNI-Times Normal
+C:\Windows\fonts/VTIMESN.TTF
+0
+VNI-Top Normal
+C:\Windows\fonts/VTOPHAT.TTF
+0
+VNI-Tubes Normal
+C:\Windows\fonts/VTUBE.TTF
+0
+VNI-Univer Normal
+C:\Windows\fonts/VUNIVER.TTF
+0
+VNI-Vivi
+C:\Windows\fonts/VVIVI.TTF
+0
+VNI-Zap Normal
+C:\Windows\fonts/VZAP.TTF
+0
+VNI-HLThuphap
+C:\Windows\fonts/Vnhltfap.ttf
+0
+Vni 01 LinotypeZapfino one
+C:\Windows\fonts/Vni 01 LinotypeZapfino one.ttf
+0
+Vni 02 LinotypeZapfino two
+C:\Windows\fonts/Vni 02 LinotypeZapfino two.ttf
+0
+Vni 03 LinotypeZapfino Three
+C:\Windows\fonts/Vni 03 LinotypeZapfino Three.ttf
+0
+Vni 04 LinotypeZapfino four
+C:\Windows\fonts/Vni 04 LinotypeZapfino four.ttf
+0
+Vni 05 SpringtimeFlourish
+C:\Windows\fonts/Vni 05 SpringtimeFlourish.ttf
+0
+Vni 07 WaterBrushROB  Normal
+C:\Windows\fonts/Vni 07 WaterBrushROB.ttf
+0
+Vni 10 Swan Song
+C:\Windows\fonts/Vni 10 Swan Song.ttf
+0
+Vni 11 Springtime2 BoldOblique
+C:\Windows\fonts/Vni 11 Springtime2.ttf
+0
+Vni 12 Alex
+C:\Windows\fonts/Vni 12 Alex.ttf
+0
+Vni 13 Annabelle
+C:\Windows\fonts/Vni 13 Annabelle.ttf
+0
+Vni 14 AlexBrush
+C:\Windows\fonts/Vni 14 AlexBrush.ttf
+0
+Vni 16 Machina
+C:\Windows\fonts/Vni 16 Machina.ttf
+0
+Vni 18 Mandalay
+C:\Windows\fonts/Vni 18 Mandalay.ttf
+0
+Vni 19 Walt Disney 
+C:\Windows\fonts/Vni 19 Walt Disney.ttf
+0
+Vni 20 University  Normal
+C:\Windows\fonts/Vni 20 University.ttf
+0
+Vni 21 Scrap Cursive
+C:\Windows\fonts/Vni 21 Scrap Cursive.ttf
+0
+Vni 23 Qwigley
+C:\Windows\fonts/Vni 23 Qwigley.ttf
+0
+Vni 25 Ambiance BT Swash
+C:\Windows\fonts/Vni 25 Ambiance BT Swash.ttf
+0
+Vni 29 BrushMe
+C:\Windows\fonts/Vni 29 BrushMe.ttf
+0
+Vni 30 Shishoni Brush
+C:\Windows\fonts/Vni 30 Shishoni Brush.ttf
+0
+VNI-Thufap1
+C:\Windows\fonts/Vntfap01.ttf
+0
+VNI-Thufap2  Normal
+C:\Windows\fonts/Vnthfap2.TTF
+0
+VNI-Thufap3
+C:\Windows\fonts/Vnthfap3.TTF
+0
+VNI-Thufapfan Normal
+C:\Windows\fonts/Vnthfapf.TTF
+0
+Yu Gothic Bold
+C:\Windows\fonts/YuGothB.ttc
+0
+Yu Gothic UI Bold
+C:\Windows\fonts/YuGothB.ttc
+1
+Yu Gothic UI Semibold
+C:\Windows\fonts/YuGothB.ttc
+2
+Yu Gothic Light
+C:\Windows\fonts/YuGothL.ttc
+0
+Yu Gothic UI Light
+C:\Windows\fonts/YuGothL.ttc
+1
+Yu Gothic Medium
+C:\Windows\fonts/YuGothM.ttc
+0
+Yu Gothic UI
+C:\Windows\fonts/YuGothM.ttc
+1
+Yu Gothic
+C:\Windows\fonts/YuGothR.ttc
+0
+Yu Gothic UI Semilight
+C:\Windows\fonts/YuGothR.ttc
+1
+Terminal [app775]
+C:\Windows\fonts/app775.fon
+0
+Terminal [app850]
+C:\Windows\fonts/app850.fon
+0
+Terminal [app852]
+C:\Windows\fonts/app852.fon
+0
+Terminal [app855]
+C:\Windows\fonts/app855.fon
+0
+Terminal [app857]
+C:\Windows\fonts/app857.fon
+0
+Terminal [app866]
+C:\Windows\fonts/app866.fon
+0
+Terminal [app932]
+C:\Windows\fonts/app932.fon
+0
+Terminal [app936]
+C:\Windows\fonts/app936.fon
+0
+Terminal [app949]
+C:\Windows\fonts/app949.fon
+0
+Terminal [app950]
+C:\Windows\fonts/app950.fon
+0
+Arial
+C:\Windows\fonts/arial.ttf
+0
+Arial Bold
+C:\Windows\fonts/arialbd.ttf
+0
+Arial Bold Italic
+C:\Windows\fonts/arialbi.ttf
+0
+Arial Italic
+C:\Windows\fonts/ariali.ttf
+0
+Arial Black
+C:\Windows\fonts/ariblk.ttf
+0
+Astron Boy Italic
+C:\Windows\fonts/astron boy italic.ttf
+0
+Astron Boy Video
+C:\Windows\fonts/astron boy video.ttf
+0
+Astron Boy Wonder
+C:\Windows\fonts/astron boy wonder.ttf
+0
+Astron Boy
+C:\Windows\fonts/astron boy.ttf
+0
+8514fix
+C:\Windows\fonts/c8514fix.fon
+0
+Terminal [c8514oem]
+C:\Windows\fonts/c8514oem.fon
+0
+System [c8514sys]
+C:\Windows\fonts/c8514sys.fon
+0
+Calibri
+C:\Windows\fonts/calibri.ttf
+0
+Calibri Bold
+C:\Windows\fonts/calibrib.ttf
+0
+Calibri Italic
+C:\Windows\fonts/calibrii.ttf
+0
+Calibri Light
+C:\Windows\fonts/calibril.ttf
+0
+Calibri Light Italic
+C:\Windows\fonts/calibrili.ttf
+0
+Calibri Bold Italic
+C:\Windows\fonts/calibriz.ttf
+0
+Cambria
+C:\Windows\fonts/cambria.ttc
+0
+Cambria Math
+C:\Windows\fonts/cambria.ttc
+1
+Cambria Bold
+C:\Windows\fonts/cambriab.ttf
+0
+Cambria Italic
+C:\Windows\fonts/cambriai.ttf
+0
+Cambria Bold Italic
+C:\Windows\fonts/cambriaz.ttf
+0
+Terminal [cga40737]
+C:\Windows\fonts/cga40737.fon
+0
+Terminal [cga40850]
+C:\Windows\fonts/cga40850.fon
+0
+Terminal [cga40852]
+C:\Windows\fonts/cga40852.fon
+0
+Terminal [cga40857]
+C:\Windows\fonts/cga40857.fon
+0
+Terminal [cga40866]
+C:\Windows\fonts/cga40866.fon
+0
+Terminal [cga40869]
+C:\Windows\fonts/cga40869.fon
+0
+Terminal [cga40woa]
+C:\Windows\fonts/cga40woa.fon
+0
+Terminal [cga80737]
+C:\Windows\fonts/cga80737.fon
+0
+Terminal [cga80850]
+C:\Windows\fonts/cga80850.fon
+0
+Terminal [cga80852]
+C:\Windows\fonts/cga80852.fon
+0
+Terminal [cga80857]
+C:\Windows\fonts/cga80857.fon
+0
+Terminal [cga80866]
+C:\Windows\fonts/cga80866.fon
+0
+Terminal [cga80869]
+C:\Windows\fonts/cga80869.fon
+0
+Terminal [cga80woa]
+C:\Windows\fonts/cga80woa.fon
+0
+Comic Sans MS
+C:\Windows\fonts/comic.ttf
+0
+Comic Sans MS Bold
+C:\Windows\fonts/comicbd.ttf
+0
+Comic Sans MS Italic
+C:\Windows\fonts/comici.ttf
+0
+Comic Sans MS Bold Italic
+C:\Windows\fonts/comicz.ttf
+0
+Consolas
+C:\Windows\fonts/consola.ttf
+0
+Consolas Bold
+C:\Windows\fonts/consolab.ttf
+0
+Consolas Italic
+C:\Windows\fonts/consolai.ttf
+0
+Consolas Bold Italic
+C:\Windows\fonts/consolaz.ttf
+0
+Constantia
+C:\Windows\fonts/constan.ttf
+0
+Constantia Bold
+C:\Windows\fonts/constanb.ttf
+0
+Constantia Italic
+C:\Windows\fonts/constani.ttf
+0
+Constantia Bold Italic
+C:\Windows\fonts/constanz.ttf
+0
+Corbel
+C:\Windows\fonts/corbel.ttf
+0
+Corbel Bold
+C:\Windows\fonts/corbelb.ttf
+0
+Corbel Italic
+C:\Windows\fonts/corbeli.ttf
+0
+Corbel Bold Italic
+C:\Windows\fonts/corbelz.ttf
+0
+Courier
+C:\Windows\fonts/coue1255.fon
+0
+Courier [coue1256]
+C:\Windows\fonts/coue1256.fon
+0
+Courier [coue1257]
+C:\Windows\fonts/coue1257.fon
+0
+Courier [couf1255]
+C:\Windows\fonts/couf1255.fon
+0
+Courier [couf1256]
+C:\Windows\fonts/couf1256.fon
+0
+Courier [couf1257]
+C:\Windows\fonts/couf1257.fon
+0
+Courier New
+C:\Windows\fonts/cour.ttf
+0
+Courier New Bold
+C:\Windows\fonts/courbd.ttf
+0
+Courier New Bold Italic
+C:\Windows\fonts/courbi.ttf
+0
+Courier [coure]
+C:\Windows\fonts/coure.fon
+0
+Courier [couree]
+C:\Windows\fonts/couree.fon
+0
+Courier [coureg]
+C:\Windows\fonts/coureg.fon
+0
+Courier [courer]
+C:\Windows\fonts/courer.fon
+0
+Courier [couret]
+C:\Windows\fonts/couret.fon
+0
+Courier [courf]
+C:\Windows\fonts/courf.fon
+0
+Courier [courfe]
+C:\Windows\fonts/courfe.fon
+0
+Courier [courfg]
+C:\Windows\fonts/courfg.fon
+0
+Courier [courfr]
+C:\Windows\fonts/courfr.fon
+0
+Courier [courft]
+C:\Windows\fonts/courft.fon
+0
+Courier New Italic
+C:\Windows\fonts/couri.ttf
+0
+Fixedsys [cvgafix]
+C:\Windows\fonts/cvgafix.fon
+0
+System [cvgasys]
+C:\Windows\fonts/cvgasys.fon
+0
+Terminal [dos737]
+C:\Windows\fonts/dos737.fon
+0
+Terminal [dos869]
+C:\Windows\fonts/dos869.fon
+0
+Terminal [dosapp]
+C:\Windows\fonts/dosapp.fon
+0
+Ebrima
+C:\Windows\fonts/ebrima.ttf
+0
+Ebrima Bold
+C:\Windows\fonts/ebrimabd.ttf
+0
+Terminal [ega40737]
+C:\Windows\fonts/ega40737.fon
+0
+Terminal [ega40850]
+C:\Windows\fonts/ega40850.fon
+0
+Terminal [ega40852]
+C:\Windows\fonts/ega40852.fon
+0
+Terminal [ega40857]
+C:\Windows\fonts/ega40857.fon
+0
+Terminal [ega40866]
+C:\Windows\fonts/ega40866.fon
+0
+Terminal [ega40869]
+C:\Windows\fonts/ega40869.fon
+0
+Terminal [ega40woa]
+C:\Windows\fonts/ega40woa.fon
+0
+Terminal [ega80737]
+C:\Windows\fonts/ega80737.fon
+0
+Terminal [ega80850]
+C:\Windows\fonts/ega80850.fon
+0
+Terminal [ega80852]
+C:\Windows\fonts/ega80852.fon
+0
+Terminal [ega80857]
+C:\Windows\fonts/ega80857.fon
+0
+Terminal [ega80866]
+C:\Windows\fonts/ega80866.fon
+0
+Terminal [ega80869]
+C:\Windows\fonts/ega80869.fon
+0
+Terminal [ega80woa]
+C:\Windows\fonts/ega80woa.fon
+0
+Franklin Gothic Medium
+C:\Windows\fonts/framd.ttf
+0
+Franklin Gothic Medium Italic
+C:\Windows\fonts/framdit.ttf
+0
+Gadugi
+C:\Windows\fonts/gadugi.ttf
+0
+Gadugi Bold
+C:\Windows\fonts/gadugib.ttf
+0
+Georgia
+C:\Windows\fonts/georgia.ttf
+0
+Georgia Bold
+C:\Windows\fonts/georgiab.ttf
+0
+Georgia Italic
+C:\Windows\fonts/georgiai.ttf
+0
+Georgia Bold Italic
+C:\Windows\fonts/georgiaz.ttf
+0
+Gulim
+C:\Windows\fonts/gulim.ttc
+0
+GulimChe
+C:\Windows\fonts/gulim.ttc
+1
+Dotum
+C:\Windows\fonts/gulim.ttc
+2
+DotumChe
+C:\Windows\fonts/gulim.ttc
+3
+Fixedsys [h8514fix]
+C:\Windows\fonts/h8514fix.fon
+0
+Terminal [h8514oem]
+C:\Windows\fonts/h8514oem.fon
+0
+System [h8514sys]
+C:\Windows\fonts/h8514sys.fon
+0
+Microsoft Himalaya
+C:\Windows\fonts/himalaya.ttf
+0
+Fixedsys [hvgafix]
+C:\Windows\fonts/hvgafix.fon
+0
+System [hvgasys]
+C:\Windows\fonts/hvgasys.fon
+0
+Impact
+C:\Windows\fonts/impact.ttf
+0
+FixedSys
+C:\Windows\fonts/j8514fix.fon
+0
+Terminal [j8514oem]
+C:\Windows\fonts/j8514oem.fon
+0
+System [j8514sys]
+C:\Windows\fonts/j8514sys.fon
+0
+Javanese Text
+C:\Windows\fonts/javatext.ttf
+0
+Small Fonts
+C:\Windows\fonts/jsmalle.fon
+0
+Small Fonts [jsmallf]
+C:\Windows\fonts/jsmallf.fon
+0
+FixedSys [jvgafix]
+C:\Windows\fonts/jvgafix.fon
+0
+System [jvgasys]
+C:\Windows\fonts/jvgasys.fon
+0
+Lucida Sans Unicode
+C:\Windows\fonts/l_10646.ttf
+0
+Lucida Console
+C:\Windows\fonts/lucon.ttf
+0
+Malgun Gothic
+C:\Windows\fonts/malgun.ttf
+0
+Malgun Gothic Bold
+C:\Windows\fonts/malgunbd.ttf
+0
+Malgun Gothic Semilight
+C:\Windows\fonts/malgunsl.ttf
+0
+Marlett
+C:\Windows\fonts/marlett.ttf
+0
+Microsoft Sans Serif
+C:\Windows\fonts/micross.ttf
+0
+MingLiU
+C:\Windows\fonts/mingliu.ttc
+0
+PMingLiU
+C:\Windows\fonts/mingliu.ttc
+1
+MingLiU_HKSCS
+C:\Windows\fonts/mingliu.ttc
+2
+MingLiU-ExtB
+C:\Windows\fonts/mingliub.ttc
+0
+PMingLiU-ExtB
+C:\Windows\fonts/mingliub.ttc
+1
+MingLiU_HKSCS-ExtB
+C:\Windows\fonts/mingliub.ttc
+2
+Myanmar Text
+C:\Windows\fonts/mmrtext.ttf
+0
+Myanmar Text Bold
+C:\Windows\fonts/mmrtextb.ttf
+0
+Mongolian Baiti
+C:\Windows\fonts/monbaiti.ttf
+0
+MS Gothic
+C:\Windows\fonts/msgothic.ttc
+0
+MS UI Gothic
+C:\Windows\fonts/msgothic.ttc
+1
+MS PGothic
+C:\Windows\fonts/msgothic.ttc
+2
+Microsoft JhengHei
+C:\Windows\fonts/msjh.ttc
+0
+Microsoft JhengHei UI
+C:\Windows\fonts/msjh.ttc
+1
+Microsoft JhengHei Bold
+C:\Windows\fonts/msjhbd.ttc
+0
+Microsoft JhengHei UI Bold
+C:\Windows\fonts/msjhbd.ttc
+1
+Microsoft JhengHei Light
+C:\Windows\fonts/msjhl.ttc
+0
+Microsoft JhengHei UI Light
+C:\Windows\fonts/msjhl.ttc
+1
+Microsoft YaHei
+C:\Windows\fonts/msyh.ttc
+0
+Microsoft YaHei UI
+C:\Windows\fonts/msyh.ttc
+1
+Microsoft YaHei Bold
+C:\Windows\fonts/msyhbd.ttc
+0
+Microsoft YaHei UI Bold
+C:\Windows\fonts/msyhbd.ttc
+1
+Microsoft YaHei Light
+C:\Windows\fonts/msyhl.ttc
+0
+Microsoft YaHei UI Light
+C:\Windows\fonts/msyhl.ttc
+1
+Microsoft Yi Baiti
+C:\Windows\fonts/msyi.ttf
+0
+MV Boli
+C:\Windows\fonts/mvboli.ttf
+0
+Microsoft New Tai Lue
+C:\Windows\fonts/ntailu.ttf
+0
+Microsoft New Tai Lue Bold
+C:\Windows\fonts/ntailub.ttf
+0
+Palatino Linotype
+C:\Windows\fonts/pala.ttf
+0
+Palatino Linotype Bold
+C:\Windows\fonts/palab.ttf
+0
+Palatino Linotype Bold Italic
+C:\Windows\fonts/palabi.ttf
+0
+Palatino Linotype Italic
+C:\Windows\fonts/palai.ttf
+0
+Microsoft PhagsPa
+C:\Windows\fonts/phagspa.ttf
+0
+Microsoft PhagsPa Bold
+C:\Windows\fonts/phagspab.ttf
+0
+Fixedsys [s8514fix]
+C:\Windows\fonts/s8514fix.fon
+0
+Terminal [s8514oem]
+C:\Windows\fonts/s8514oem.fon
+0
+System [s8514sys]
+C:\Windows\fonts/s8514sys.fon
+0
+Segoe MDL2 Assets
+C:\Windows\fonts/segmdl2.ttf
+0
+Segoe Print
+C:\Windows\fonts/segoepr.ttf
+0
+Segoe Print Bold
+C:\Windows\fonts/segoeprb.ttf
+0
+Segoe Script
+C:\Windows\fonts/segoesc.ttf
+0
+Segoe Script Bold
+C:\Windows\fonts/segoescb.ttf
+0
+Segoe UI
+C:\Windows\fonts/segoeui.ttf
+0
+Segoe UI Bold
+C:\Windows\fonts/segoeuib.ttf
+0
+Segoe UI Italic
+C:\Windows\fonts/segoeuii.ttf
+0
+Segoe UI Light
+C:\Windows\fonts/segoeuil.ttf
+0
+Segoe UI Semilight
+C:\Windows\fonts/segoeuisl.ttf
+0
+Segoe UI Bold Italic
+C:\Windows\fonts/segoeuiz.ttf
+0
+Segoe UI Black
+C:\Windows\fonts/seguibl.ttf
+0
+Segoe UI Black Italic
+C:\Windows\fonts/seguibli.ttf
+0
+Segoe UI Emoji
+C:\Windows\fonts/seguiemj.ttf
+0
+Segoe UI Historic
+C:\Windows\fonts/seguihis.ttf
+0
+Segoe UI Light Italic
+C:\Windows\fonts/seguili.ttf
+0
+Segoe UI Semibold
+C:\Windows\fonts/seguisb.ttf
+0
+Segoe UI Semibold Italic
+C:\Windows\fonts/seguisbi.ttf
+0
+Segoe UI Semilight Italic
+C:\Windows\fonts/seguisli.ttf
+0
+Segoe UI Symbol
+C:\Windows\fonts/seguisym.ttf
+0
+MS Serif
+C:\Windows\fonts/sere1255.fon
+0
+MS Serif [sere1256]
+C:\Windows\fonts/sere1256.fon
+0
+MS Serif [sere1257]
+C:\Windows\fonts/sere1257.fon
+0
+MS Serif [serf1255]
+C:\Windows\fonts/serf1255.fon
+0
+MS Serif [serf1256]
+C:\Windows\fonts/serf1256.fon
+0
+MS Serif [serf1257]
+C:\Windows\fonts/serf1257.fon
+0
+MS Serif [serife]
+C:\Windows\fonts/serife.fon
+0
+MS Serif [serifee]
+C:\Windows\fonts/serifee.fon
+0
+MS Serif [serifeg]
+C:\Windows\fonts/serifeg.fon
+0
+MS Serif [serifer]
+C:\Windows\fonts/serifer.fon
+0
+MS Serif [serifet]
+C:\Windows\fonts/serifet.fon
+0
+MS Serif [seriff]
+C:\Windows\fonts/seriff.fon
+0
+MS Serif [seriffe]
+C:\Windows\fonts/seriffe.fon
+0
+MS Serif [seriffg]
+C:\Windows\fonts/seriffg.fon
+0
+MS Serif [seriffr]
+C:\Windows\fonts/seriffr.fon
+0
+MS Serif [serifft]
+C:\Windows\fonts/serifft.fon
+0
+SimSun
+C:\Windows\fonts/simsun.ttc
+0
+NSimSun
+C:\Windows\fonts/simsun.ttc
+1
+SimSun-ExtB
+C:\Windows\fonts/simsunb.ttf
+0
+Small Fonts [smae1255]
+C:\Windows\fonts/smae1255.fon
+0
+Small Fonts [smae1256]
+C:\Windows\fonts/smae1256.fon
+0
+Small Fonts [smae1257]
+C:\Windows\fonts/smae1257.fon
+0
+Small Fonts [smaf1255]
+C:\Windows\fonts/smaf1255.fon
+0
+Small Fonts [smaf1256]
+C:\Windows\fonts/smaf1256.fon
+0
+Small Fonts [smaf1257]
+C:\Windows\fonts/smaf1257.fon
+0
+Small Fonts [smalle]
+C:\Windows\fonts/smalle.fon
+0
+Small Fonts [smallee]
+C:\Windows\fonts/smallee.fon
+0
+Small Fonts [smalleg]
+C:\Windows\fonts/smalleg.fon
+0
+Small Fonts [smaller]
+C:\Windows\fonts/smaller.fon
+0
+Small Fonts [smallet]
+C:\Windows\fonts/smallet.fon
+0
+Small Fonts [smallf]
+C:\Windows\fonts/smallf.fon
+0
+Small Fonts [smallfe]
+C:\Windows\fonts/smallfe.fon
+0
+Small Fonts [smallfg]
+C:\Windows\fonts/smallfg.fon
+0
+Small Fonts [smallfr]
+C:\Windows\fonts/smallfr.fon
+0
+Small Fonts [smallft]
+C:\Windows\fonts/smallft.fon
+0
+MS Sans Serif
+C:\Windows\fonts/ssee1255.fon
+0
+MS Sans Serif [ssee1256]
+C:\Windows\fonts/ssee1256.fon
+0
+MS Sans Serif [ssee1257]
+C:\Windows\fonts/ssee1257.fon
+0
+MS Sans Serif [ssee874]
+C:\Windows\fonts/ssee874.fon
+0
+MS Sans Serif [ssef1255]
+C:\Windows\fonts/ssef1255.fon
+0
+MS Sans Serif [ssef1256]
+C:\Windows\fonts/ssef1256.fon
+0
+MS Sans Serif [ssef1257]
+C:\Windows\fonts/ssef1257.fon
+0
+MS Sans Serif [ssef874]
+C:\Windows\fonts/ssef874.fon
+0
+MS Sans Serif [sserife]
+C:\Windows\fonts/sserife.fon
+0
+MS Sans Serif [sserifee]
+C:\Windows\fonts/sserifee.fon
+0
+MS Sans Serif [sserifeg]
+C:\Windows\fonts/sserifeg.fon
+0
+MS Sans Serif [sserifer]
+C:\Windows\fonts/sserifer.fon
+0
+MS Sans Serif [sserifet]
+C:\Windows\fonts/sserifet.fon
+0
+MS Sans Serif [sseriff]
+C:\Windows\fonts/sseriff.fon
+0
+MS Sans Serif [sseriffe]
+C:\Windows\fonts/sseriffe.fon
+0
+MS Sans Serif [sseriffg]
+C:\Windows\fonts/sseriffg.fon
+0
+MS Sans Serif [sseriffr]
+C:\Windows\fonts/sseriffr.fon
+0
+MS Sans Serif [sserifft]
+C:\Windows\fonts/sserifft.fon
+0
+Fixedsys [svgafix]
+C:\Windows\fonts/svgafix.fon
+0
+System [svgasys]
+C:\Windows\fonts/svgasys.fon
+0
+Sylfaen
+C:\Windows\fonts/sylfaen.ttf
+0
+Symbol
+C:\Windows\fonts/symbol.ttf
+0
+Tahoma
+C:\Windows\fonts/tahoma.ttf
+0
+Tahoma Bold
+C:\Windows\fonts/tahomabd.ttf
+0
+Microsoft Tai Le
+C:\Windows\fonts/taile.ttf
+0
+Microsoft Tai Le Bold
+C:\Windows\fonts/taileb.ttf
+0
+TeamViewer13 Medium
+C:\Windows\fonts/teamviewer13.otf
+0
+Times New Roman
+C:\Windows\fonts/times.ttf
+0
+Times New Roman Bold
+C:\Windows\fonts/timesbd.ttf
+0
+Times New Roman Bold Italic
+C:\Windows\fonts/timesbi.ttf
+0
+Times New Roman Italic
+C:\Windows\fonts/timesi.ttf
+0
+Trebuchet MS
+C:\Windows\fonts/trebuc.ttf
+0
+Trebuchet MS Bold
+C:\Windows\fonts/trebucbd.ttf
+0
+Trebuchet MS Bold Italic
+C:\Windows\fonts/trebucbi.ttf
+0
+Trebuchet MS Italic
+C:\Windows\fonts/trebucit.ttf
+0
+Verdana
+C:\Windows\fonts/verdana.ttf
+0
+Verdana Bold
+C:\Windows\fonts/verdanab.ttf
+0
+Verdana Italic
+C:\Windows\fonts/verdanai.ttf
+0
+Verdana Bold Italic
+C:\Windows\fonts/verdanaz.ttf
+0
+Terminal [vga737]
+C:\Windows\fonts/vga737.fon
+0
+Terminal [vga775]
+C:\Windows\fonts/vga775.fon
+0
+Terminal [vga850]
+C:\Windows\fonts/vga850.fon
+0
+Terminal [vga852]
+C:\Windows\fonts/vga852.fon
+0
+Terminal [vga855]
+C:\Windows\fonts/vga855.fon
+0
+Terminal [vga857]
+C:\Windows\fonts/vga857.fon
+0
+Terminal [vga860]
+C:\Windows\fonts/vga860.fon
+0
+Terminal [vga861]
+C:\Windows\fonts/vga861.fon
+0
+Terminal [vga863]
+C:\Windows\fonts/vga863.fon
+0
+Terminal [vga865]
+C:\Windows\fonts/vga865.fon
+0
+Terminal [vga866]
+C:\Windows\fonts/vga866.fon
+0
+Terminal [vga869]
+C:\Windows\fonts/vga869.fon
+0
+Terminal [vga932]
+C:\Windows\fonts/vga932.fon
+0
+Terminal [vga936]
+C:\Windows\fonts/vga936.fon
+0
+Terminal [vga949]
+C:\Windows\fonts/vga949.fon
+0
+Terminal [vga950]
+C:\Windows\fonts/vga950.fon
+0
+Fixedsys [vgaf1255]
+C:\Windows\fonts/vgaf1255.fon
+0
+Fixedsys [vgaf1256]
+C:\Windows\fonts/vgaf1256.fon
+0
+Fixedsys [vgaf1257]
+C:\Windows\fonts/vgaf1257.fon
+0
+Fixedsys [vgaf874]
+C:\Windows\fonts/vgaf874.fon
+0
+Fixedsys [vgafix]
+C:\Windows\fonts/vgafix.fon
+0
+Fixedsys [vgafixe]
+C:\Windows\fonts/vgafixe.fon
+0
+Fixedsys [vgafixg]
+C:\Windows\fonts/vgafixg.fon
+0
+Fixedsys [vgafixr]
+C:\Windows\fonts/vgafixr.fon
+0
+Fixedsys [vgafixt]
+C:\Windows\fonts/vgafixt.fon
+0
+Terminal [vgaoem]
+C:\Windows\fonts/vgaoem.fon
+0
+System [vgas1255]
+C:\Windows\fonts/vgas1255.fon
+0
+System [vgas1256]
+C:\Windows\fonts/vgas1256.fon
+0
+System [vgas1257]
+C:\Windows\fonts/vgas1257.fon
+0
+System [vgas874]
+C:\Windows\fonts/vgas874.fon
+0
+System [vgasys]
+C:\Windows\fonts/vgasys.fon
+0
+System [vgasyse]
+C:\Windows\fonts/vgasyse.fon
+0
+System [vgasysg]
+C:\Windows\fonts/vgasysg.fon
+0
+System [vgasysr]
+C:\Windows\fonts/vgasysr.fon
+0
+System [vgasyst]
+C:\Windows\fonts/vgasyst.fon
+0
+Webdings
+C:\Windows\fonts/webdings.ttf
+0
+Wingdings
+C:\Windows\fonts/wingding.ttf
+0

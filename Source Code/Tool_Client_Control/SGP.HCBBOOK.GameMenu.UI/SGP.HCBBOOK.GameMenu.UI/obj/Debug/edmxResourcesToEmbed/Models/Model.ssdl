@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MenuGameDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GameItem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NameGame" Type="nvarchar" MaxLength="200" />
+    <Property Name="URLExecute" Type="nvarchar" MaxLength="50" />
+    <Property Name="IconUrL" Type="nvarchar" MaxLength="500" />
+    <Property Name="IcoUrL" Type="nvarchar" MaxLength="500" />
+    <Property Name="IconImage" Type="binary" MaxLength="50" />
+    <Property Name="DateScan" Type="date" />
+    <Property Name="Size" Type="real" />
+    <Property Name="Description" Type="nvarchar" MaxLength="500" />
+    <Property Name="Version" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsGameOnline" Type="bit" Nullable="false" />
+    <Property Name="IsGameHot" Type="bit" Nullable="false" />
+    <Property Name="IsGameChienThuat" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="nvarchar" MaxLength="228" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="228" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="228" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="228" />
+    <Property Name="LogoUrl" Type="nvarchar" MaxLength="228" />
+    <Property Name="Remember" Type="bit" />
+    <Property Name="Address" Type="nvarchar" MaxLength="228" />
+    <Property Name="NumberPhone" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityContainer Name="MenuGameDBModelStoreContainer">
+    <EntitySet Name="GameItem" EntityType="Self.GameItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserInfo" EntityType="Self.UserInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

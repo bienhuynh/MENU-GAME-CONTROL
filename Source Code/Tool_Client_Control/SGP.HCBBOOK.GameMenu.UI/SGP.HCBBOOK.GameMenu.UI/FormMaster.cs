@@ -39,6 +39,13 @@ namespace SGP.HCBBOOK.GameMenu.UI
         public ContainListMenuGame containListMenuGame;
         public ContainGameList containGameList;
         public CantainControlMenu cantainControlMenu;
+        public ContainControlCategoryGame ContainControlCategoryGame;
+
+        public FormMaster()
+        {
+            InitializeComponent();
+        }
+
         public FormMaster(ICallAPIService _callAPIService)
         {
             InitializeComponent();
@@ -54,7 +61,9 @@ namespace SGP.HCBBOOK.GameMenu.UI
             menuUserManage = new MenuUserManage(userService, containUpdateProfile, this);
             menuManageLicence = new MenuManageLicence();
             menuManageListGame = new MenuManageListGame(this.gameMenuService,this.containListMenuGame,this.containScanDiskGame, this);
-            
+
+            this.btnNomalnalScreen.Hide();
+            this.btnNomalnalScreen.Enabled = false;
 
             this.PanelSilderMenu.Controls.Add(this.menuMain);
             this.menuMain.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -102,7 +111,8 @@ namespace SGP.HCBBOOK.GameMenu.UI
 
         private void btn_closeapp_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
+            Environment.Exit(0);
         }
 
         private void HoverMenu(int index)
@@ -336,6 +346,12 @@ namespace SGP.HCBBOOK.GameMenu.UI
                 PanelSilderMenu.Hide();
             }
             onClick[3] = !onClick[3];
+            this.ContainControlCategoryGame = new ContainControlCategoryGame(this.gameMenuService);
+            this.SetHeaderName("Game Controls");
+            this.panel_Body.Controls.Clear();
+            this.panel_Body.Controls.Add(this.ContainControlCategoryGame);
+            this.containScanDiskGame.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ContainControlCategoryGame.Show();
         }
 
         private void btn_menumanageLicence_Click(object sender, EventArgs e)
@@ -458,6 +474,26 @@ namespace SGP.HCBBOOK.GameMenu.UI
                     //HashingAlgorithm = "MD5"
                 };
             }
+        }
+        
+        private void btnFullScreen_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+
+            btnFullScreen.Enabled = false;
+            btnFullScreen.Hide();
+            
+            btnNomalnalScreen.Enabled = true;
+            btnNomalnalScreen.Show();
+        }
+
+        private void btnNomalnalScreen_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Normal;
+            btnFullScreen.Enabled = true;
+            btnFullScreen.Show();
+            btnNomalnalScreen.Enabled = false;
+            btnNomalnalScreen.Hide();
         }
     }
 }

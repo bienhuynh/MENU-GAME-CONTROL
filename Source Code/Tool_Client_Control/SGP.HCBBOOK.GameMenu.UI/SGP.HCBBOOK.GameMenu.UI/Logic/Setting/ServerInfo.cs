@@ -24,5 +24,6 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Setting
         public const string FilHistoryLoginSession = "HistoryLoginSession";
         public const string UserLogin = "UserLogin";
         public const string UserProfile = "UserProfile";
+        internal const string CategorysGame = "CategoryGame";
     }
 }

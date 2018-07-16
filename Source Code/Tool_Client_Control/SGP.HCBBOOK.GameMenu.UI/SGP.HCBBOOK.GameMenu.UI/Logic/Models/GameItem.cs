@@ -21,5 +21,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Models
         public bool IsGameOnline { get; set; }
         public bool IsGameHot { get; set; }
         public bool IsGameChienThuat { get; set; }
+        public bool IsApplication { get; set; }
+        public IEnumerable<CategoryGame> CategoryGames { get; internal set; }
     }
 }

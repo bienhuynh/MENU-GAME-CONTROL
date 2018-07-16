@@ -1,8 +1,8 @@
 ﻿using SGP.HCBBOOK.GameMenu.UI.FormPartial;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Result;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Setting;
-using SGP.HCBBOOK.GameMenu.UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +18,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
     {
         private ICallAPIService callAPIService;
         private IJsonService jsonService;
-        private string pathGame = Directory.GetCurrentDirectory();
+        private string pathGame = ReadPath.ReadDiskSaveData;//Directory.GetCurrentDirectory();
         //private MenuGameDBEntities db;
         public GameMenuService(ICallAPIService _callAPIService)
         {

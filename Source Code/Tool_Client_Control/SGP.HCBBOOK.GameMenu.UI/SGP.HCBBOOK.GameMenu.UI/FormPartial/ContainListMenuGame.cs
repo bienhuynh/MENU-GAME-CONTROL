@@ -16,12 +16,12 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
     public partial class ContainListMenuGame : UserControl
     {
         private IGameMenuService gameMenuService;
-        private IList<GameItem> gameItems;
+        private IList<Logic.Models.GameItem> gameItems;
         private IList<Itemgme> itemgmes;
         private IList<IconGameDisplaySpace> iconGameDisplays;
         public Point pointGameItem;
 
-        public IList<GameItem> GameItems { get => gameItems; set => gameItems = value; }
+        public IList<Logic.Models.GameItem> GameItems { get => gameItems; set => gameItems = value; }
         public IList<Itemgme> Itemgmes { get => itemgmes; set => itemgmes = value; }
 
         public ContainListMenuGame(ICallAPIService _callAPIService)
@@ -66,7 +66,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
             DisplayGame(iconGameDisplays);
         }
 
-        private void SetDataForControlGameItem(IList<GameItem> gameList)
+        private void SetDataForControlGameItem(IList<Logic.Models.GameItem> gameList)
         {
             if (gameList != null)
             {

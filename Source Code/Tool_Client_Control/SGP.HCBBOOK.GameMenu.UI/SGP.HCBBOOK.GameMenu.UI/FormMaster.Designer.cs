@@ -32,12 +32,15 @@
             Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMaster));
             this.panel_header = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.btnNomalnalScreen = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnFullScreen = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_minimum = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_closeapp = new Bunifu.Framework.UI.BunifuImageButton();
             this.timer_menu = new System.Windows.Forms.Timer(this.components);
             this.PanelSilderMenu = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.btn_Logout = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_checkupdate = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_infoSoftWare = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_NumberPhone = new Bunifu.Framework.UI.BunifuImageButton();
@@ -49,12 +52,14 @@
             this.panel_Body = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pnl_Header = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.lbl_nammenu = new System.Windows.Forms.Label();
-            this.btn_Logout = new Bunifu.Framework.UI.BunifuImageButton();
             bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel_header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNomalnalScreen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFullScreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_closeapp)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_Logout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_checkupdate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_infoSoftWare)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_NumberPhone)).BeginInit();
@@ -64,7 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_ManageUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Menu)).BeginInit();
             this.pnl_Header.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_Logout)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuDragControl1
@@ -78,7 +82,9 @@
             // 
             this.panel_header.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_header.BackgroundImage")));
             this.panel_header.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel_header.Controls.Add(this.btnNomalnalScreen);
             this.panel_header.Controls.Add(this.bunifuCustomLabel1);
+            this.panel_header.Controls.Add(this.btnFullScreen);
             this.panel_header.Controls.Add(this.btn_minimum);
             this.panel_header.Controls.Add(this.btn_closeapp);
             this.panel_header.Dock = System.Windows.Forms.DockStyle.Top;
@@ -92,6 +98,20 @@
             this.panel_header.Size = new System.Drawing.Size(1024, 60);
             this.panel_header.TabIndex = 4;
             // 
+            // btnNomalnalScreen
+            // 
+            this.btnNomalnalScreen.BackColor = System.Drawing.Color.Transparent;
+            this.btnNomalnalScreen.Image = ((System.Drawing.Image)(resources.GetObject("btnNomalnalScreen.Image")));
+            this.btnNomalnalScreen.ImageActive = null;
+            this.btnNomalnalScreen.Location = new System.Drawing.Point(880, 12);
+            this.btnNomalnalScreen.Name = "btnNomalnalScreen";
+            this.btnNomalnalScreen.Size = new System.Drawing.Size(40, 34);
+            this.btnNomalnalScreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNomalnalScreen.TabIndex = 3;
+            this.btnNomalnalScreen.TabStop = false;
+            this.btnNomalnalScreen.Zoom = 10;
+            this.btnNomalnalScreen.Click += new System.EventHandler(this.btnNomalnalScreen_Click);
+            // 
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
@@ -103,6 +123,20 @@
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(215, 22);
             this.bunifuCustomLabel1.TabIndex = 2;
             this.bunifuCustomLabel1.Text = "SGP CONTROL MENU";
+            // 
+            // btnFullScreen
+            // 
+            this.btnFullScreen.BackColor = System.Drawing.Color.Transparent;
+            this.btnFullScreen.Image = ((System.Drawing.Image)(resources.GetObject("btnFullScreen.Image")));
+            this.btnFullScreen.ImageActive = null;
+            this.btnFullScreen.Location = new System.Drawing.Point(880, 12);
+            this.btnFullScreen.Name = "btnFullScreen";
+            this.btnFullScreen.Size = new System.Drawing.Size(40, 34);
+            this.btnFullScreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnFullScreen.TabIndex = 1;
+            this.btnFullScreen.TabStop = false;
+            this.btnFullScreen.Zoom = 10;
+            this.btnFullScreen.Click += new System.EventHandler(this.btnFullScreen_Click);
             // 
             // btn_minimum
             // 
@@ -175,6 +209,21 @@
             this.bunifuGradientPanel2.Quality = 10;
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(76, 708);
             this.bunifuGradientPanel2.TabIndex = 5;
+            // 
+            // btn_Logout
+            // 
+            this.btn_Logout.BackColor = System.Drawing.Color.Black;
+            this.btn_Logout.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Logout.Image = ((System.Drawing.Image)(resources.GetObject("btn_Logout.Image")));
+            this.btn_Logout.ImageActive = null;
+            this.btn_Logout.Location = new System.Drawing.Point(0, 558);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.Size = new System.Drawing.Size(76, 70);
+            this.btn_Logout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_Logout.TabIndex = 0;
+            this.btn_Logout.TabStop = false;
+            this.btn_Logout.Zoom = 10;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // btn_checkupdate
             // 
@@ -328,10 +377,11 @@
             this.pnl_Header.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl_Header.Controls.Add(this.lbl_nammenu);
             this.pnl_Header.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl_Header.GradientBottomLeft = System.Drawing.Color.ForestGreen;
-            this.pnl_Header.GradientBottomRight = System.Drawing.Color.MediumAquamarine;
-            this.pnl_Header.GradientTopLeft = System.Drawing.Color.DarkTurquoise;
-            this.pnl_Header.GradientTopRight = System.Drawing.Color.Fuchsia;
+            this.pnl_Header.ForeColor = System.Drawing.SystemColors.Control;
+            this.pnl_Header.GradientBottomLeft = System.Drawing.Color.Black;
+            this.pnl_Header.GradientBottomRight = System.Drawing.Color.Black;
+            this.pnl_Header.GradientTopLeft = System.Drawing.Color.Black;
+            this.pnl_Header.GradientTopRight = System.Drawing.Color.Black;
             this.pnl_Header.Location = new System.Drawing.Point(326, 60);
             this.pnl_Header.Name = "pnl_Header";
             this.pnl_Header.Quality = 10;
@@ -346,24 +396,9 @@
             this.lbl_nammenu.ForeColor = System.Drawing.Color.White;
             this.lbl_nammenu.Location = new System.Drawing.Point(7, 6);
             this.lbl_nammenu.Name = "lbl_nammenu";
-            this.lbl_nammenu.Size = new System.Drawing.Size(97, 21);
+            this.lbl_nammenu.Size = new System.Drawing.Size(56, 21);
             this.lbl_nammenu.TabIndex = 0;
-            this.lbl_nammenu.Text = "nameMenu";
-            // 
-            // btn_Logout
-            // 
-            this.btn_Logout.BackColor = System.Drawing.Color.Black;
-            this.btn_Logout.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Logout.Image = ((System.Drawing.Image)(resources.GetObject("btn_Logout.Image")));
-            this.btn_Logout.ImageActive = null;
-            this.btn_Logout.Location = new System.Drawing.Point(0, 558);
-            this.btn_Logout.Name = "btn_Logout";
-            this.btn_Logout.Size = new System.Drawing.Size(76, 70);
-            this.btn_Logout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_Logout.TabIndex = 0;
-            this.btn_Logout.TabStop = false;
-            this.btn_Logout.Zoom = 10;
-            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
+            this.lbl_nammenu.Text = "Home";
             // 
             // FormMaster
             // 
@@ -381,9 +416,12 @@
             this.Text = "FormMaster";
             this.panel_header.ResumeLayout(false);
             this.panel_header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNomalnalScreen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFullScreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_closeapp)).EndInit();
             this.bunifuGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btn_Logout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_checkupdate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_infoSoftWare)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_NumberPhone)).EndInit();
@@ -394,7 +432,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_Menu)).EndInit();
             this.pnl_Header.ResumeLayout(false);
             this.pnl_Header.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_Logout)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -421,5 +458,7 @@
         private Bunifu.Framework.UI.BunifuGradientPanel pnl_Header;
         private System.Windows.Forms.Label lbl_nammenu;
         private Bunifu.Framework.UI.BunifuImageButton btn_Logout;
+        private Bunifu.Framework.UI.BunifuImageButton btnFullScreen;
+        private Bunifu.Framework.UI.BunifuImageButton btnNomalnalScreen;
     }
 }

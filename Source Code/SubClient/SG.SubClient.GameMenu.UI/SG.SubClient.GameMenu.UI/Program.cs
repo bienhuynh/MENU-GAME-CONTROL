@@ -38,7 +38,7 @@ namespace SG.SubClient.GameMenu.UI
                 }
                 //_tcpClientConnection.FormWork(formMaster);
                 _tcpClientConnection.Connect();
-                _tcpClientConnection.SendData(ClauseTCP.GetGame);
+                //_tcpClientConnection.SendData(ClauseTCP.GetGame);
             }
             catch(Exception ec)
             {
@@ -51,9 +51,10 @@ namespace SG.SubClient.GameMenu.UI
             
             //FormMaster formMaster = new FormMaster(_tcpClientConnection);
             //formMaster.LoadIconGame();
-            HomeMain form = new HomeMain(_tcpClientConnection);
-            form.LoadIconGame();
-            Application.Run(form);
+            //HomeMain form = new HomeMain(_tcpClientConnection);
+            //form.LoadIconGame();
+
+            Application.Run(new Laucher(_tcpClientConnection));
         }
     }
 }

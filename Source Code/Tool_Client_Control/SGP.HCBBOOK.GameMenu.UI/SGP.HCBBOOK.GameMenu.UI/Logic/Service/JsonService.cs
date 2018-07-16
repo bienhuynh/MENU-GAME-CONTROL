@@ -1,5 +1,5 @@
 ﻿using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
-using SGP.HCBBOOK.GameMenu.UI.Models;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -18,8 +18,8 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             //System.IO.IsolatedStorage.IsolatedStorageFile local =
             //    IsolatedStorageFile.GetStore(IsolatedStorageScope.User | IsolatedStorageScope.Domain | IsolatedStorageScope.Assembly, null, null);
 
-            if (!Directory.Exists(String.Format("{0}SGP\\Data", Path)))
-                Directory.CreateDirectory(String.Format("{0}SGP\\Data", Path));
+            if (!Directory.Exists(String.Format("{0}\\SGP\\Data", Path)))
+                Directory.CreateDirectory(String.Format("{0}\\SGP\\Data", Path));
 
             //using (var isoFileStream =
             //        new System.IO.IsolatedStorage.IsolatedStorageFileStream(
@@ -33,7 +33,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             //    }
             //}
 
-            using (var isoFileWriter = new System.IO.StreamWriter(String.Format("{0}SGP\\Data\\{1}.sgp", Path, fileName))) 
+            using (var isoFileWriter = new System.IO.StreamWriter(String.Format("{0}\\SGP\\Data\\{1}.sgp", Path, fileName))) 
             {
                 await isoFileWriter.WriteAsync(data);
             }
@@ -41,7 +41,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
 
         public Task<string> ReadFileAync(string Path, string fileName)
         {
-            string data = System.IO.File.ReadAllText(String.Format("{0}SGP\\Data\\{1}.sgp",Path, fileName));
+            string data = System.IO.File.ReadAllText(String.Format("{0}\\SGP\\Data\\{1}.sgp",Path, fileName));
             return Task.FromResult(data);
         }
 
@@ -57,8 +57,8 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             //System.IO.IsolatedStorage.IsolatedStorageFile local =
             //    IsolatedStorageFile.GetStore(IsolatedStorageScope.User | IsolatedStorageScope.Domain | IsolatedStorageScope.Assembly, null, null);
 
-            if (!Directory.Exists(String.Format("{0}SGP\\Data",Path)))
-                Directory.CreateDirectory(String.Format("{0}SGP\\Data",Path));
+            if (!Directory.Exists(String.Format("{0}\\SGP\\Data",Path)))
+                Directory.CreateDirectory(String.Format("{0}\\SGP\\Data",Path));
 
             //using (var isoFileStream =
             //        new System.IO.IsolatedStorage.IsolatedStorageFileStream(
@@ -72,7 +72,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             //    }
             //}
 
-            using (var isoFileWriter = new System.IO.StreamWriter(String.Format("{0}SGP\\Data\\{1}.sgp", Path, fileName)))
+            using (var isoFileWriter = new System.IO.StreamWriter(String.Format("{0}\\SGP\\Data\\{1}.sgp", Path, fileName)))
             {
                 isoFileWriter.Write(data);
             }
@@ -89,7 +89,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
         {
             try
             {
-                string data = System.IO.File.ReadAllText(String.Format("{0}SGP\\Data\\{1}.sgp", Path, fileName));
+                string data = System.IO.File.ReadAllText(String.Format("{0}\\SGP\\Data\\{1}.sgp", Path, fileName));
                 return data;
             }
             catch(Exception ex)

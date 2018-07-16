@@ -53,12 +53,29 @@
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\Release\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Net" />
@@ -94,6 +111,12 @@
     <Compile Include="LaunchForm\HomeMain.Designer.cs">
       <DependentUpon>HomeMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="LaunchForm\Laucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm\Laucher.Designer.cs">
+      <DependentUpon>Laucher.cs</DependentUpon>
+    </Compile>
     <Compile Include="LaunchForm\SettingGlobal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +139,12 @@
     <Compile Include="Models\GameItem.cs" />
     <Compile Include="Models\ResultBasic.cs" />
     <Compile Include="Models\SettingGlobalModel.cs" />
+    <Compile Include="PartialForm\Icon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PartialForm\Icon.Designer.cs">
+      <DependentUpon>Icon.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartialForm\IconGameDisplay.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -140,8 +169,14 @@
     <EmbeddedResource Include="LaunchForm\HomeMain.resx">
       <DependentUpon>HomeMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm\Laucher.resx">
+      <DependentUpon>Laucher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LaunchForm\SettingGlobal.resx">
       <DependentUpon>SettingGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartialForm\Icon.resx">
+      <DependentUpon>Icon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartialForm\IconGameDisplay.resx">
       <DependentUpon>IconGameDisplay.cs</DependentUpon>
@@ -149,6 +184,7 @@
     <EmbeddedResource Include="PartialForm\IconGameDisplaySpace.resx">
       <DependentUpon>IconGameDisplaySpace.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

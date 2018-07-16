@@ -21,5 +21,6 @@ namespace SG.SubClient.GameMenu.UI.Models
         public bool IsGameOnline { get; set; }
         public bool IsGameHot { get; set; }
         public bool IsGameChienThuat { get; set; }
+        public bool IsApplication { get; set; }
     }
 }
