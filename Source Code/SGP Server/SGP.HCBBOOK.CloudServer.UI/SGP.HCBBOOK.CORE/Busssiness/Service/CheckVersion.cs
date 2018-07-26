@@ -53,7 +53,7 @@ namespace SGP.HCBBOOK.CORE.Busssiness.Service
         {
             try
             {
-                foreach(var item in db.VersionHistory)
+                foreach(var item in db.VersionHistory.Where(m=>m.SoftName == checkVersionInfoModel.Softname))
                 {
                     item.IsUpdateAvailable = false;
                 }

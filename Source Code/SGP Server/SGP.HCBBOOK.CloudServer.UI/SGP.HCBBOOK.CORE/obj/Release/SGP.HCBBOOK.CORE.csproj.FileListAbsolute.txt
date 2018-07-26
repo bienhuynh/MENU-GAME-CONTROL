@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\SGP.HCBBOOK.CORE.dll.config
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\SGP.HCBBOOK.CORE.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\SGP.HCBBOOK.CORE.pdb
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\EntityFramework.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\EntityFramework.xml
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\obj\Release\SGP.HCBBOOK.CORE.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\obj\Release\SGP.HCBBOOK.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\obj\Release\SGP.HCBBOOK.CORE.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\obj\Release\SGP.HCBBOOK.CORE.dll
+C:\Users\Administrator\Desktop\SGPMNG\MENU-GAME-CONTROL\Source Code\SGP Server\SGP.HCBBOOK.CloudServer.UI\SGP.HCBBOOK.CORE\obj\Release\SGP.HCBBOOK.CORE.pdb

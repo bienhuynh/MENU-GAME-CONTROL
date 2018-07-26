@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GAME_MENU_CONTROLModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Date" Type="date" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ComputerMasterClient">
+    <Key>
+      <PropertyRef Name="MAC" />
+    </Key>
+    <Property Name="MAC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="NameComputer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IP" Type="nvarchar" MaxLength="20" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="IsDisable" Type="bit" />
+    <Property Name="DateJoin" Type="date" />
+    <Property Name="SystemOperator" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ComputerSubClient">
+    <Key>
+      <PropertyRef Name="MAC" />
+    </Key>
+    <Property Name="MAC" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="MacIdMaster" Type="nvarchar" MaxLength="50" />
+    <Property Name="NameComputer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IP" Type="nvarchar" MaxLength="128" />
+    <Property Name="DateJoin" Type="date" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="IsDisable" Type="bit" />
+  </EntityType>
+  <EntityType Name="HistoryLoginSession">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TimeStartLogin" Type="datetime" />
+    <Property Name="IPAddress" Type="nvarchar" MaxLength="128" />
+    <Property Name="MacAddress" Type="nvarchar" MaxLength="128" />
+    <Property Name="NameMachine" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Licence">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="LicenceKey" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="NumberDevicesLiveActive" Type="int" Nullable="false" />
+    <Property Name="MaxNumberDevices" Type="int" Nullable="false" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="DateCreate" Type="date" />
+    <Property Name="UserIdCreate" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="List_Game_Disk">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="NameGame" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="URLExecute" Type="nvarchar" MaxLength="556" />
+    <Property Name="IconUrL" Type="nvarchar" MaxLength="256" />
+    <Property Name="IcoUrl" Type="nvarchar" MaxLength="256" />
+    <Property Name="IconImage" Type="image" />
+    <Property Name="DateScan" Type="date" />
+    <Property Name="Size" Type="float" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Version" Type="nchar" MaxLength="10" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="IsGameOnline" Type="bit" />
+    <Property Name="IsGameChienThuat" Type="bit" />
+  </EntityType>
+  <EntityType Name="Menu_Type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="User_Control_Menu">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="GameId" />
+      <PropertyRef Name="MenuId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="GameId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="MenuId" Type="int" Nullable="false" />
+    <Property Name="IsHidden" Type="bit" />
+  </EntityType>
+  <EntityType Name="User_Game_Owner">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="GameId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="GameId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="IsShowOnMenu" Type="bit" Nullable="false" />
+    <Property Name="IsRemoveOnDisk" Type="bit" Nullable="false" />
+    <Property Name="IsGameHot" Type="bit" />
+    <Property Name="URLDiskGame" Type="nvarchar" MaxLength="256" />
+    <Property Name="IconUrlCustom" Type="nvarchar" MaxLength="256" />
+    <Property Name="IcoUrlCustom" Type="nvarchar" MaxLength="256" />
+    <Property Name="SumNumberPlay" Type="int" />
+    <Property Name="NumberPlayInDay" Type="int" />
+  </EntityType>
+  <EntityType Name="User_Licence">
+    <Key>
+      <PropertyRef Name="Userid" />
+      <PropertyRef Name="LicenceId" />
+    </Key>
+    <Property Name="Userid" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="LicenceId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="DateStart" Type="date" Nullable="false" />
+    <Property Name="DateEnd" Type="date" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="IsLive" Type="bit" />
+    <Property Name="DateInput" Type="date" />
+    <Property Name="MACMasterId" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="128" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="128" />
+    <Property Name="NetName" Type="nvarchar" MaxLength="128" />
+    <Property Name="Address" Type="nvarchar" MaxLength="228" />
+    <Property Name="NumberPhone" Type="nvarchar" MaxLength="20" />
+    <Property Name="DateCreate" Type="date" />
+    <Property Name="IsDelete" Type="bit" />
+    <Property Name="IsDisable" Type="bit" />
+    <Property Name="LogoUrl" Type="nvarchar" MaxLength="228" />
+  </EntityType>
+  <EntityType Name="VersionHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Version" Type="nvarchar" MaxLength="10" />
+    <Property Name="IsUpdateAvailable" Type="bit" />
+    <Property Name="Mandatory" Type="bit" />
+    <Property Name="InstallerArgs" Type="nvarchar" MaxLength="50" />
+    <Property Name="Checksum" Type="nvarchar" MaxLength="500" />
+    <Property Name="HashingAlgorithm" Type="nvarchar" MaxLength="10" />
+    <Property Name="SoftName" Type="nvarchar" MaxLength="20" />
+    <Property Name="DateChange" Type="date" />
+    <Property Name="ChangeLog" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK_ComputerMasterClient_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+    <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ComputerMasterClient">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ComputerSubClient_ComputerMasterClient">
+    <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="0..1" />
+    <End Role="ComputerSubClient" Type="Self.ComputerSubClient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ComputerMasterClient">
+        <PropertyRef Name="MAC" />
+      </Principal>
+      <Dependent Role="ComputerSubClient">
+        <PropertyRef Name="MacIdMaster" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryLoginSession_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="HistoryLoginSession" Type="Self.HistoryLoginSession" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="HistoryLoginSession">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Licence_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+    <End Role="Licence" Type="Self.Licence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Licence">
+        <PropertyRef Name="UserIdCreate" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Control_Menu_Menu_Type">
+    <End Role="Menu_Type" Type="Self.Menu_Type" Multiplicity="1" />
+    <End Role="User_Control_Menu" Type="Self.User_Control_Menu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu_Type">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User_Control_Menu">
+        <PropertyRef Name="MenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Game_Owner_List_Game_Disk">
+    <End Role="List_Game_Disk" Type="Self.List_Game_Disk" Multiplicity="1" />
+    <End Role="User_Game_Owner" Type="Self.User_Game_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="List_Game_Disk">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User_Game_Owner">
+        <PropertyRef Name="GameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Game_Owner_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="User_Game_Owner" Type="Self.User_Game_Owner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="User_Game_Owner">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Licence_ComputerMasterClient">
+    <End Role="ComputerMasterClient" Type="Self.ComputerMasterClient" Multiplicity="0..1" />
+    <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ComputerMasterClient">
+        <PropertyRef Name="MAC" />
+      </Principal>
+      <Dependent Role="User_Licence">
+        <PropertyRef Name="MACMasterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Licence_Licence">
+    <End Role="Licence" Type="Self.Licence" Multiplicity="1" />
+    <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Licence">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User_Licence">
+        <PropertyRef Name="LicenceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Licence_UserProfile">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="User_Licence" Type="Self.User_Licence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="User_Licence">
+        <PropertyRef Name="Userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GAME_MENU_CONTROLModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComputerMasterClient" EntityType="Self.ComputerMasterClient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComputerSubClient" EntityType="Self.ComputerSubClient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoryLoginSession" EntityType="Self.HistoryLoginSession" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Licence" EntityType="Self.Licence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="List_Game_Disk" EntityType="Self.List_Game_Disk" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu_Type" EntityType="Self.Menu_Type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User_Control_Menu" EntityType="Self.User_Control_Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User_Game_Owner" EntityType="Self.User_Game_Owner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User_Licence" EntityType="Self.User_Licence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VersionHistory" EntityType="Self.VersionHistory" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ComputerMasterClient_UserProfile" Association="Self.FK_ComputerMasterClient_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ComputerSubClient_ComputerMasterClient" Association="Self.FK_ComputerSubClient_ComputerMasterClient">
+      <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+      <End Role="ComputerSubClient" EntitySet="ComputerSubClient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryLoginSession_UserProfile" Association="Self.FK_HistoryLoginSession_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="HistoryLoginSession" EntitySet="HistoryLoginSession" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Licence_UserProfile" Association="Self.FK_Licence_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Licence" EntitySet="Licence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Control_Menu_Menu_Type" Association="Self.FK_User_Control_Menu_Menu_Type">
+      <End Role="Menu_Type" EntitySet="Menu_Type" />
+      <End Role="User_Control_Menu" EntitySet="User_Control_Menu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Game_Owner_List_Game_Disk" Association="Self.FK_User_Game_Owner_List_Game_Disk">
+      <End Role="List_Game_Disk" EntitySet="List_Game_Disk" />
+      <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Game_Owner_UserProfile" Association="Self.FK_User_Game_Owner_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="User_Game_Owner" EntitySet="User_Game_Owner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Licence_ComputerMasterClient" Association="Self.FK_User_Licence_ComputerMasterClient">
+      <End Role="ComputerMasterClient" EntitySet="ComputerMasterClient" />
+      <End Role="User_Licence" EntitySet="User_Licence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Licence_Licence" Association="Self.FK_User_Licence_Licence">
+      <End Role="Licence" EntitySet="Licence" />
+      <End Role="User_Licence" EntitySet="User_Licence" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Licence_UserProfile" Association="Self.FK_User_Licence_UserProfile">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="User_Licence" EntitySet="User_Licence" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
