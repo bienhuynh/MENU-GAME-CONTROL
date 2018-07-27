@@ -11,6 +11,9 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -22,12 +25,10 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,6 +51,18 @@
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>SGP.HCBBOOK.GameMenu.UI.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>266C05A43D93902FB20F4DFF3B08D32A84878A90</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SGP.HCBBOOK.GameMenu.UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoUpdater.NET, Version=1.4.9.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
@@ -266,6 +279,12 @@
     <Compile Include="FrmAbout.Designer.cs">
       <DependentUpon>FrmAbout.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAddGameIntoCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddGameIntoCategory.Designer.cs">
+      <DependentUpon>FrmAddGameIntoCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBrowsering.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +293,12 @@
     </Compile>
     <Compile Include="HCBBOOK.DesignItem\hcbbookButton.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HCBBOOK.DesignItem\Icon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HCBBOOK.DesignItem\Icon.Designer.cs">
+      <DependentUpon>Icon.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeMain.cs">
       <SubType>Form</SubType>
@@ -295,10 +320,11 @@
     <Compile Include="Logic\Models\HistoryLoginSessionModel.cs" />
     <Compile Include="Logic\Models\UserProfileModel.cs" />
     <Compile Include="Logic\Result\ResultBasic.cs" />
-    <Compile Include="Logic\Service\CallAPIService.cs" />
+    <Compile Include="SGP\CallAPIService.cs" />
     <Compile Include="Logic\Service\CategoryService.cs" />
     <Compile Include="Logic\Service\DirectorySize.cs" />
     <Compile Include="Logic\Service\EncodingForBase64.cs" />
+    <Compile Include="Logic\Service\FTClientCode.cs" />
     <Compile Include="Logic\Service\GameMenuService.cs" />
     <Compile Include="Logic\Service\GetAddressPhysicallService.cs" />
     <Compile Include="Logic\Service\HostService.cs" />
@@ -420,6 +446,9 @@
     <EmbeddedResource Include="FrmAbout.resx">
       <DependentUpon>FrmAbout.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddGameIntoCategory.resx">
+      <DependentUpon>FrmAddGameIntoCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBrowsering.resx">
       <DependentUpon>FrmBrowsering.cs</DependentUpon>
     </EmbeddedResource>
@@ -465,6 +494,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SGP.HCBBOOK.GameMenu.UI_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

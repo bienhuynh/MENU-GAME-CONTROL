@@ -22,7 +22,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
         //private MenuGameDBEntities db;
         public GameMenuService(ICallAPIService _callAPIService)
         {
-           this.callAPIService = _callAPIService;
+            this.callAPIService = _callAPIService;
             jsonService = new JsonService();
             //db = new MenuGameDBEntities();
         }

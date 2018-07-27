@@ -96,11 +96,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                         Size = size,
                         URLExecute = openFileDialog1.FileName,
                         Version = "1.0",
-                        IcoUrL = urlIcon,
-                        IsGameChienThuat = false,
-                        IsGameHot = true,
-                        IsGameOnline = false,
-                        IsApplication = false
+                        IcoUrL = urlIcon
                     };
 
                     progressBar1.Value = 90;

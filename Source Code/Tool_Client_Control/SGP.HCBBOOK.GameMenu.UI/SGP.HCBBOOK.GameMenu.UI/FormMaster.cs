@@ -337,15 +337,15 @@ namespace SGP.HCBBOOK.GameMenu.UI
 
         private void btn_menuListGame_Click(object sender, EventArgs e)
         {
-            if (!onClick[3])
-            {
-                HoverMenu(3);
-            }
-            else
-            {
-                PanelSilderMenu.Hide();
-            }
-            onClick[3] = !onClick[3];
+            //if (!onClick[3])
+            //{
+            //    HoverMenu(3);
+            //}
+            //else
+            //{
+            //    PanelSilderMenu.Hide();
+            //}
+            //onClick[3] = !onClick[3];
             this.ContainControlCategoryGame = new ContainControlCategoryGame(this.gameMenuService);
             this.SetHeaderName("Game Controls");
             this.panel_Body.Controls.Clear();

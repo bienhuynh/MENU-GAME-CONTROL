@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MenuGameDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MenuGameDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserInfo" EntityType="MenuGameDBModel.UserInfo" />
+    <EntitySet Name="GameItem" EntityType="MenuGameDBModel.GameItem" />
+  </EntityContainer>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="LogoUrl" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="Remember" Type="Boolean" />
+    <Property Name="Address" Type="String" MaxLength="228" FixedLength="false" Unicode="true" />
+    <Property Name="NumberPhone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="GameItem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NameGame" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="URLExecute" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IconUrL" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IcoUrL" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IconImage" Type="Binary" MaxLength="50" FixedLength="true" />
+    <Property Name="DateScan" Type="DateTime" Precision="0" />
+    <Property Name="Size" Type="Single" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Version" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsGameOnline" Type="Boolean" Nullable="false" />
+    <Property Name="IsGameHot" Type="Boolean" Nullable="false" />
+    <Property Name="IsGameChienThuat" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

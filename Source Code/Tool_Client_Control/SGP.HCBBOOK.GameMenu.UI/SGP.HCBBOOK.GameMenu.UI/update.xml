@@ -4,5 +4,5 @@
   <RemoteConfigUri>http://124.158.13.36/checkversion/update.xml</RemoteConfigUri>
   <SecurityToken>D68EF3A7-E787-4CC4-B020-878BA649B4CD</SecurityToken>
   <BaseUri>http://124.158.13.36/Download/SGPMGCNewVersion/</BaseUri>
-  <Payload>SGPMGCv1.0.zip</Payload>
+  <Payload>updatesoft.zip</Payload>
 </Manifest>

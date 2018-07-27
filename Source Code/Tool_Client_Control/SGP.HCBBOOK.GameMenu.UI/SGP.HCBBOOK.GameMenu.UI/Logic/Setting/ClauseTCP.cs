@@ -20,5 +20,7 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Setting
         /// xac nhan may tram va ket noi voi voi may chu
         /// </summary>
         public const string Authenticate = "Authenticate";
+
+        public static string DownloadFile = "DownloadFile";
     }
 }

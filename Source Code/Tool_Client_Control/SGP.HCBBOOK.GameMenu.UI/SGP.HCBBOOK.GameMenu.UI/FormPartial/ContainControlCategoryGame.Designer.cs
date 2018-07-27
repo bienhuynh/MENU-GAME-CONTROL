@@ -39,7 +39,7 @@
             this.barButtonItemDeleteCategory = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItemModifiedCategory = new DevExpress.XtraBars.BarButtonItem();
             this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
-            this.ribbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPage_CategoryGames = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroupNavigation = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
@@ -54,6 +54,16 @@
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.ribbonPage_ListGames = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager)).BeginInit();
@@ -83,13 +93,21 @@
             this.barButtonItemAddCategory,
             this.barButtonItemDeleteCategory,
             this.barButtonItemModifiedCategory,
-            this.barEditItem1});
+            this.barEditItem1,
+            this.barButtonItem1,
+            this.barButtonItem2,
+            this.barButtonItem3,
+            this.barButtonItem4,
+            this.barButtonItem5,
+            this.barButtonItem6,
+            this.barButtonItem7});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 54;
+            this.ribbonControl.MaxItemId = 61;
             this.ribbonControl.MdiMergeStyle = DevExpress.XtraBars.Ribbon.RibbonMdiMergeStyle.Always;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage});
+            this.ribbonPage_CategoryGames,
+            this.ribbonPage_ListGames});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.Size = new System.Drawing.Size(800, 116);
@@ -117,7 +135,7 @@
             // 
             // barButtonItemAddCategory
             // 
-            this.barButtonItemAddCategory.Caption = "Thêm Category";
+            this.barButtonItemAddCategory.Caption = "Thêm game vào danh mục";
             this.barButtonItemAddCategory.Id = 48;
             this.barButtonItemAddCategory.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemAddCategory.ImageOptions.Image")));
             this.barButtonItemAddCategory.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemAddCategory.ImageOptions.LargeImage")));
@@ -128,7 +146,7 @@
             // 
             // barButtonItemDeleteCategory
             // 
-            this.barButtonItemDeleteCategory.Caption = "Xóa Category";
+            this.barButtonItemDeleteCategory.Caption = "Xóa Danh mục";
             this.barButtonItemDeleteCategory.Id = 49;
             this.barButtonItemDeleteCategory.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemDeleteCategory.ImageOptions.Image")));
             this.barButtonItemDeleteCategory.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemDeleteCategory.ImageOptions.LargeImage")));
@@ -154,13 +172,14 @@
             this.barEditItem1.Id = 52;
             this.barEditItem1.Name = "barEditItem1";
             // 
-            // ribbonPage
+            // ribbonPage_CategoryGames
             // 
-            this.ribbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPage_CategoryGames.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroupNavigation,
+            this.ribbonPageGroup2,
             this.ribbonPageGroup});
-            this.ribbonPage.Name = "ribbonPage";
-            this.ribbonPage.Text = "Danh mục game";
+            this.ribbonPage_CategoryGames.Name = "ribbonPage_CategoryGames";
+            this.ribbonPage_CategoryGames.Text = "Danh mục game";
             // 
             // ribbonPageGroupNavigation
             // 
@@ -168,7 +187,7 @@
             this.ribbonPageGroupNavigation.ItemLinks.Add(this.barButtonItemDeleteCategory);
             this.ribbonPageGroupNavigation.ItemLinks.Add(this.barButtonItemModifiedCategory);
             this.ribbonPageGroupNavigation.Name = "ribbonPageGroupNavigation";
-            this.ribbonPageGroupNavigation.Text = "Module";
+            this.ribbonPageGroupNavigation.Text = "Quản lý Danh mục game";
             // 
             // ribbonPageGroup
             // 
@@ -289,6 +308,86 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // ribbonPage_ListGames
+            // 
+            this.ribbonPage_ListGames.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup1});
+            this.ribbonPage_ListGames.Name = "ribbonPage_ListGames";
+            this.ribbonPage_ListGames.Text = "Dánh sách game";
+            // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem4);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.Text = "Menu";
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Tất Cả";
+            this.barButtonItem1.Id = 54;
+            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "Xóa Game";
+            this.barButtonItem2.Id = 55;
+            this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
+            this.barButtonItem2.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "Thêm game";
+            this.barButtonItem3.Id = 56;
+            this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
+            this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.barButtonItem3.Name = "barButtonItem3";
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "Chỉnh sửa";
+            this.barButtonItem4.Id = 57;
+            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItem4.Name = "barButtonItem4";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem5);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "Quản lý game";
+            // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "Thêm Game";
+            this.barButtonItem5.Id = 58;
+            this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
+            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "Chỉnh sửa";
+            this.barButtonItem6.Id = 59;
+            this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
+            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.barButtonItem6.Name = "barButtonItem6";
+            // 
+            // barButtonItem7
+            // 
+            this.barButtonItem7.Caption = "Xóa game";
+            this.barButtonItem7.Id = 60;
+            this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
+            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.barButtonItem7.Name = "barButtonItem7";
+            // 
             // ContainControlCategoryGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -317,7 +416,7 @@
 
         #endregion
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage_CategoryGames;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraBars.SkinRibbonGalleryBarItem skinRibbonGalleryBarItem;
@@ -340,5 +439,15 @@
         private System.Windows.Forms.TextBox txtSearch;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage_ListGames;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
     }
 }

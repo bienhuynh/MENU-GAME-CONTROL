@@ -14,6 +14,8 @@ using DevExpress.XtraBars.Docking2010.Views;
 using SGP.HCBBOOK.GameMenu.UI.Logic.IService;
 using SGP.HCBBOOK.GameMenu.UI.Logic.Service;
 using Bunifu.Framework.UI;
+using System.IO;
+using SGP.HCBBOOK.GameMenu.UI.Logic.Models;
 
 namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
 {
@@ -126,19 +128,71 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
             return SetGames(text, gameitems, result);
         }
 
+        private void SetDataForControlGameItem(IEnumerable<GameItem> games, XtraUserControl panel)
+        {
+            if (games == null) return;
+
+            int i = 0, j = 0;
+            panel.Width = 700;
+            foreach (var item in games)
+            {
+                int x = 28 + 90 * i++;
+                int y = 9 + 90 * j;
+                Image image = byteArrayToImage(item.IconImage);
+                if (x < panel.Width - 90)
+                {
+                    var gameitem = new HCBBOOK.DesignItem.Icon(new Point(x, y), image, new Size(70, 70));
+                    gameitem.Click += new System.EventHandler(this.btn_gameicon_Click);
+                    gameitem.idGame = item.Id;
+                    panel.Controls.Add(gameitem);
+                }
+                else
+                {
+                    j++;
+                    i = 0;
+                }
+            }
+        }
+
+        private void btn_gameicon_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        public Image byteArrayToImage(byte[] bytesArr)
+        {
+            try
+            {
+                MemoryStream memstr = new MemoryStream(bytesArr);
+                Image img = Image.FromStream(memstr);
+                return img;
+            }
+            catch (Exception ex)
+            { }
+            return null;
+        }
+
+        public byte[] imageToByteArray(System.Drawing.Image imageIn)
+        {
+            if (imageIn == null) return null;
+            MemoryStream ms = new MemoryStream();
+            imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+            return ms.ToArray();
+        }
         XtraUserControl SetGames(string text,IList<Logic.Models.GameItem> gameitems, XtraUserControl xtraUserControl)
         {
             XtraUserControl result = xtraUserControl;
             Point point = new Point(5, 5);
             Size size = new Size(80, 84);
-            int index = 1;
-            int line = 1;
+            //int index = 1;
+            //int line = 1;
             //int itemPerline = (int)(result.Width / (size.Width + 5));
-            int itemPerline = 4;
+            //int itemPerline = 4;
             if (gameitems != null)
             {
                 if (gameitems.Count() > 0)
                 {
+                    IList<GameItem> listg = new List<GameItem>();
                     foreach (var item in gameitems)
                     {
                         if (item.CategoryGames != null)
@@ -147,53 +201,21 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
                             {
                                 if (cate.CategoryName == text)
                                 {
-                                    point.X = 5 * index + size.Width * (index - 1);
-                                    point.Y = 5 * index + size.Height * (line - 1);
-                                    var buttont = GetBunifuTileButton(point, size, item.NameGame, item.IconUrL);
-                                    buttont.Parent = result;
-                                    buttont.Show();
-
-                                    if (index == itemPerline)
-                                    {
-                                        line++;
-                                        index = 1;
-                                    }
-                                    index++;
+                                    listg.Add(item);
                                     break;
                                 }
                             }
                         }
                         else if (text == "All Games")
                         {
-                            point.X = 5 * index + size.Width * (index - 1);
-                            point.Y = 5 * index + size.Height * (line - 1);
-                            var buttont = GetBunifuTileButton(point, size, item.NameGame, item.IconUrL);
-                            buttont.Parent = result;
-                            buttont.Show();
-
-                            if (index == itemPerline)
-                            {
-                                line++;
-                                index = 1;
-                            }
-                            index++;
+                            listg.Add(item);
                         }
                         else if(text == searchName)
                         {
-                            point.X = 5 * index + size.Width * (index - 1);
-                            point.Y = 5 * index + size.Height * (line - 1);
-                            var buttont = GetBunifuTileButton(point, size, item.NameGame, item.IconUrL);
-                            buttont.Parent = result;
-                            buttont.Show();
-
-                            if (index == itemPerline)
-                            {
-                                line++;
-                                index = 1;
-                            }
-                            index++;
+                            listg.Add(item);
                         }
                     }
+                    SetDataForControlGameItem(listg, result);
                 }
                 else
                 {
@@ -380,8 +402,8 @@ namespace SGP.HCBBOOK.GameMenu.UI.FormPartial
 
         private void barButtonItemAddCategory_ItemClick(object sender, ItemClickEventArgs e)
         {
-            AddCategory addCategory = new AddCategory();
-            addCategory.Show();
+            FrmAddGameIntoCategory frmAddGameIntoCategory = new FrmAddGameIntoCategory(gameMenuService);
+            frmAddGameIntoCategory.Show();
         }
 
 

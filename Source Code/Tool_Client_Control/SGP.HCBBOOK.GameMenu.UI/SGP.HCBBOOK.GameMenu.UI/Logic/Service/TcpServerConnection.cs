@@ -122,6 +122,10 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Service
             {
 
             }
+            else if(ClauseTCP.DownloadFile == clause)
+            {
+                FTClientCode.SendFile(String.Format("{0}\\SGP\\Data\\{1}.sgp", ReadPath.ReadDiskSaveData, DataFile.FileListGame));
+            }
         }
         public void SendDataToClient(TcpClient tcpClient, string message)
         {

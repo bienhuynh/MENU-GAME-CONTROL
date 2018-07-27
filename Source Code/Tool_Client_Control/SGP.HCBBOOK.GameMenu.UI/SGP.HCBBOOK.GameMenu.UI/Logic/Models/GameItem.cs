@@ -18,10 +18,6 @@ namespace SGP.HCBBOOK.GameMenu.UI.Logic.Models
         public Nullable<float> Size { get; set; }
         public string Description { get; set; }
         public string Version { get; set; }
-        public bool IsGameOnline { get; set; }
-        public bool IsGameHot { get; set; }
-        public bool IsGameChienThuat { get; set; }
-        public bool IsApplication { get; set; }
-        public IEnumerable<CategoryGame> CategoryGames { get; internal set; }
+        public IList<CategoryGame> CategoryGames { get; set; }
     }
 }
